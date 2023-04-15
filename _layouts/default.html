@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Amy Gottung</title>
+    <link rel="stylesheet" href='{{ "/assets/css/styles.css" | relative_url }}'>
+  </head>
+  <body>
+    <div class="big-container">
+      <div class="content">
+        <nav class="first">
+          <h1>
+            <a href="/">Amy Gottung</a>
+          </h1>
+          <div id='contact'>
+            amy.gottung@gmail.com
+          </div>
+          {% include nav.html %}
+        </nav>
+        <div class="second">
+          {{ content }}
+        </div>
+      </div>
+      <footer>
+        &copy; Amy Gottung 2023
+      </footer>
+    </div>
+  </body>
+</html>

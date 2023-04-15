@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<section class="fixed-top">
+  <div class="level">
+    <div class="level-left tags-bar">
+      <div>
+        <h5>#creative</h5>
+      </div>
+      {% for tag in site.tags %}
+        <div>
+          <h6>#{{ tag[0] }}</h6>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="main">
+  {% for work in site.categories.creative %}
+  <div class="mb-6">
+    <h2><a href="{{ work.url | relative_url }}">{{ work.title }}</a></h2>
+    <h4>
+      Client: {{ work.client }}
+    </h4>
+    <div>
+      {% for tag in work.tags %}
+        <span class="mr-2">#{{ tag }}</span>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
