@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: work-item
 title:  "A More Beautiful Journey"
 client: "Intersection Festival, City of Toronto"
 role: "Co-creator, Creative Producer"

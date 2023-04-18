@@ -27,10 +27,20 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:categories/:title
 
+collections:
+  works:
+    output: true
+    permalink: /:title
+
 defaults:
   - scope:
       path: ""
       type: "posts"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "works"
     values:
       layout: "default"
   - scope:

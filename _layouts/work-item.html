@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<section class="fixed-top">
+  <h4 class="m-0">{{ page.title }}</h4>
+</section>
+<section class="main">
+  <div class="mr-2 image">
+    <a href="{{ work.url | relative_url }}">
+    {% if page.thumbnail %}
+      <img src="https://placehold.co/1024x768">
+    {% else %}
+      <img src="https://placehold.co/1024x768">
+    {% endif %}
+    </a>
+  </div>
+  <div>
+    {{ content }}
+  </div>
+
+</section>

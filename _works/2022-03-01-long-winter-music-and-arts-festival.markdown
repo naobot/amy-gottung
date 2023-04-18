@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: work-item
 title:  "Long Winter Music and Arts Festival"
 client: "Long Winter Music and Arts Festival"
 client_link: "(url to client - optional)"

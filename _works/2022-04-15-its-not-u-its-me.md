@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: work-item
 title:  "It's Not U It's Me"
 client_link: "(url to client - optional)"
 where: "(location - optional)"

@@ -3,9 +3,9 @@ layout: default
 ---
 
 {% if layout.category_type == 'creative' %}
-  {% assign works = site.categories.creative %}
+  {% assign works = site.works | where: "categories", "creative" %}
 {% elsif layout.category_type == 'consulting' %}
-  {% assign works = site.categories.consulting %}
+  {% assign works = site.works | where: "categories", "consulting" %}
 {% endif %}
 
 {% assign all_tags = works | map: "tags" %}
