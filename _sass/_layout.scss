@@ -33,8 +33,8 @@ nav {
   }
   .second {
     // border: 1px #c29ca2 solid;
-    padding: 0.6rem;
-    margin: 0 2em;
+    // padding: 0.6rem;
+    margin: 0 0 0 2em;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -55,8 +55,27 @@ nav {
     margin-right: 1rem;
   }
 }
+.work-item {
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+  .image {
+    /**/
+  }
+  .description {
+    width: 25%;
+    min-width: 200px;
+    max-width: 420px;
+  }
+}
 
 footer {
-  padding: 0.2rem;
-  align-self: flex-end;
+  padding: 0.5rem;
+  position: fixed;
+  width: 100vw;
+  z-index: 20;
+  background: none;
+  bottom: 0;
+  text-align: right;
+  // align-self: flex-end;
 }

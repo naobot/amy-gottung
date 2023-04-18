@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+{% if layout.category_type == 'creative' %}
+  {% assign works = site.categories.creative %}
+{% elsif layout.category_type == 'consulting' %}
+  {% assign works = site.categories.consulting %}
+{% endif %}
+
+{% assign all_tags = works | map: "tags" %}
+{% assign tags = all_tags | uniq %}
+
+<section class="fixed-top">
+  <div class="level">
+    <div class="level-left tags-bar">
+      <div>
+        <h4 class="m-0">
+          <a href="#" onClick="filterTag()">
+            #{{ layout.category_type }}
+          </a>
+        </h4>
+      </div>
+      {% for tag in tags %}
+        <div>
+          <h6 class="m-0 {{ tag }}">
+            <a href="#{{ tag }}" onClick="filterTag('{{tag}}')">
+              #{{ tag }}
+            </a>
+          </h6>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="main">
+  {% for work in works %}
+  <div class="work-item is-flex is-flex-direction-row is-align-items-stretch {{ work.tags | join: ' ' }}">
+    <div class="mr-2 image">
+      <a href="{{ work.url | relative_url }}">
+      {% if work.thumbnail %}
+        <img src="https://placehold.co/1024x768">
+      {% else %}
+        <img src="https://placehold.co/1024x768">
+      {% endif %}
+      </a>
+    </div>
+    <div class="mx-1 description">
+      <h4><a href="{{ work.url | relative_url }}">{{ work.title }}</a></h4>
+      <h6>
+        {% if work.client_url %}
+          <a href="{{ work.client_url }}">{{ work.client }}</a>
+        {% else %}
+          {{ work.client }}
+        {% endif %}
+
+      </h6>
+      <div>
+        {% for tag in work.tags %}
+          <span class="mr-2">
+            <a href="#{{ tag }}" onClick="filterTag('{{tag}}')">
+              #{{ tag }}
+            </a>
+          </span>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+{% include filter_tag_script.html %}

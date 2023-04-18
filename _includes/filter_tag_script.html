@@ -1,0 +1,29 @@
+<script>
+  function filterTag(tag) {
+    const allWorkItems = document.getElementsByClassName('work-item');
+    const visibleWorkItems = tag ? document.getElementsByClassName(`work-item ${tag}`) : allWorkItems;
+    if (allWorkItems.length !== visibleWorkItems.length) {
+      for (const elem of allWorkItems) {
+        elem.classList.remove('is-flex');
+        elem.classList.add('is-hidden');
+      }
+    }
+    // show only matched tag works
+    for (const elem of visibleWorkItems) {
+      elem.classList.remove('is-hidden');
+      elem.classList.add('is-flex');
+    }
+    // reset tag highlights
+    const allTags = document.querySelectorAll('.tags-bar h6');
+    for (const elem of allTags) {
+      elem.classList.remove('current');
+    }
+    // highlight currently selected tag
+    if (tag) {
+      const currentTag = document.querySelector(`.tags-bar h6.${tag}`);
+      currentTag.classList.add('current');
+    }
+  }
+  var hash = window.location.hash.substr(1);
+  filterTag(hash);
+</script>

@@ -1,0 +1,8 @@
+.tags-bar {
+  h6.current a {
+    color: #000;
+    &:hover {
+      cursor: default;
+    }
+  }
+}
