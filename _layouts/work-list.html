@@ -51,12 +51,11 @@ layout: default
     <div class="mx-1 description">
       <h4><a href="{{ work.url | relative_url }}">{{ work.title }}</a></h4>
       <h6>
-        {% if work.client_url %}
+        {% if work.client_link %}
           <a href="{{ work.client_url }}">{{ work.client }}</a>
         {% else %}
           {{ work.client }}
         {% endif %}
-
       </h6>
       <div>
         {% for tag in work.tags %}

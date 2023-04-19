@@ -27,9 +27,11 @@ layout: default
     <div>
       <strong>Client:</strong> {% if page.client_link %}<a href="{{ page.client_link | relative_url }}" target="_blank">{{ page.client }}</a>{% else %}{{ page.client }}{% endif %}
     </div>
+    {% if page.role %}
     <div>
       <strong>Role:</strong> {{ page.role }}
     </div>
+    {% endif %}
     {% if page.partners %}
     <div>
       <strong>Partners:</strong> {{ page.partners }}
