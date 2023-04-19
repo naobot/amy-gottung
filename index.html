@@ -4,7 +4,9 @@ layout: home
 
 {% for item in site.data.featured.items %}
   {% assign work = site.works | where: "title", item.work_title | first %}
-  <h4>{{ work.title }}</h4>
+  <h4>
+    <a href="{{ work.url | relative_url }}">{{ work.title }}</a>
+  </h4>
 {% endfor %}
 
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" type="text/javascript"></script>
