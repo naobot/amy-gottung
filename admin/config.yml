@@ -26,7 +26,7 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'work-item' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Client', name: 'client', widget: 'string', required: false }
-      - { label: 'Client Link', name: 'client_link', widget: 'string', required: false, pattern: ['http:\/\/[\w\d]+\.[\w\d]+\.?[\w\d]*\/?.*', 'Must be a valid URL (begins with http://)'] }
+      - { label: 'Client Link', name: 'client_link', widget: 'string', required: false, pattern: ['https?:\/\/[\w\d]+\.[\w\d]+\.?[\w\d]*\/?.*', 'Must be a valid URL (begins with http://)'] }
       - { label: 'Role', name: 'role', widget: 'string', required: false }
       - { label: 'When', name: 'when', widget: 'string', required: false }
       - { label: 'Where', name: 'where', widget: 'markdown', minimal: true, buttons: ['link'], editor_components: [], required: false }

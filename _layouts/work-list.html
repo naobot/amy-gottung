@@ -50,7 +50,7 @@ layout: default
     </div>
     <div class="mx-1 description">
       <h4><a href="{{ work.url | relative_url }}">{{ work.title }}</a></h4>
-      {% if work.client and layout.category_type == 'creative' and work.client != work.title %}
+      {% if work.client and work.client != work.title %}
       <h6>
         {% if work.client_link %}
           <a href="{{ work.client_url }}">{{ work.client }}</a>
