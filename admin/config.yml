@@ -3,6 +3,20 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
 collections:
+  - name: 'home'
+    label: 'Home'
+    editor:
+      preview: false
+    files:
+      - label: 'Featured Works'
+        name: 'featured'
+        file: '_data/featured.yml'
+        fields:
+          - label: 'Currently Featured Works'
+            name: 'items'
+            widget: 'list'
+            fields:
+              - { label: Work, name: work_title, widget: 'relation', collection: 'works', search_fields: ['title'], value_field: 'title', display_fields: ['title'] }
   - name: 'blog'
     label: 'Blog'
     folder: '_posts/'
@@ -37,13 +51,3 @@ collections:
       - { label: "Category", name: "categories", widget: "select", options: ["creative", "consulting", "speaking"] }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Main Image", name: "thumbnail", widget: "image", allow_multiple: false }
-    files:
-      - label: 'Featured Works'
-        name: 'featured'
-        file: '_data/featured.yml'
-        fields:
-          - label: 'Currently Featured Works'
-            name: 'items'
-            widget: 'list'
-            fields:
-              - { label: Work, name: work_title, widget: 'relation', collection: 'works', search_fields: ['title'], value_field: 'title', display_fields: ['title'] }
