@@ -50,6 +50,7 @@ layout: default
     </div>
     <div class="mx-1 description">
       <h4><a href="{{ work.url | relative_url }}">{{ work.title }}</a></h4>
+      {% layout.category_type == 'creative' %}
       <h6>
         {% if work.client_link %}
           <a href="{{ work.client_url }}">{{ work.client }}</a>
@@ -57,6 +58,7 @@ layout: default
           {{ work.client }}
         {% endif %}
       </h6>
+      {% endif %}
       <div>
         {% for tag in work.tags %}
           <span class="mr-2">
