@@ -1,0 +1,39 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: 'assets/uploads'
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'work'
+    label: 'Work'
+    folder: '_works/'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'work-item' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Client', name: 'client', widget: 'string' }
+      - { label: 'Client Link', name: 'client_link', widget: 'string', required: false, pattern: ['http:\/\/[\w\d]+\.[\w\d]+\.?[\w\d]*\/?.*', 'Must be a valid URL (begins with http://)'] }
+      - { label: 'Role', name: 'role', widget: 'string' }
+      - { label: 'When', name: 'when', widget: 'string' },
+      - { label: 'Where', name: 'where', widget: 'markdown', minimal: true, buttons: ['link'], editor_components: [], required: false }
+      - { label: 'Team', name: 'team', widget: 'markdown', minimal: true, buttons: ['link'], editor_components: [], required: false }
+      - { label: 'Partners', name: 'partners', widget: 'markdown', minimal: true, buttons: ['link'], editor_components: [], required: false }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'body', widget: 'markdown' }
+      - { label: "Category", name: "categories", widget: "select", options: ["creative", "consulting", "speaking"] }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Main Image", name: "thumbnail", widget: "image", allow_multiple: false }
