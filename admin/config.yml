@@ -12,11 +12,8 @@ collections:
         name: 'site_config',
         file: '_data/site_config.yml'
         fields:
-          - label: 'Personal Info'
-            name: 'info'
-            fields:
-              - { label: 'Short Bio', hint: 'This appears on the home page.', widget: 'markdown', name: 'short_bio' }
-              - { label: 'Email', widget: 'string', name: 'email' }
+          - { label: 'Short Bio', hint: 'This appears on the home page.', widget: 'markdown', name: 'short_bio' }
+          - { label: 'Email', widget: 'string', name: 'email' }
       - label: 'Featured Works'
         name: 'featured'
         file: '_data/featured.yml'
