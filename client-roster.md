@@ -1,6 +1,6 @@
 ---
 title: Client Roster
-permalink: /client-roster
+permalink: /clients
 layout: page
 ---
 
