@@ -6,6 +6,8 @@ layout: default
   {% assign works = site.works | where: "categories", "creative" %}
 {% elsif layout.category_type == 'consulting' %}
   {% assign works = site.works | where: "categories", "consulting" %}
+{% elsif layout.category_type == 'speaking' %}
+  {% assign works = site.works | where: "categories", "speaking" %}
 {% endif %}
 
 {% assign all_tags = works | map: "tags" %}
