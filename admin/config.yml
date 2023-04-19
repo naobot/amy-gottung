@@ -14,6 +14,7 @@ collections:
         fields:
           - label: 'Personal Info'
             name: 'info'
+            widget: object
             fields:
             - { label: 'Short Bio', hint: 'This appears on the home page.', widget: 'markdown', name: 'short_bio' }
             - { label: 'Email', widget: 'string', name: 'email' }
