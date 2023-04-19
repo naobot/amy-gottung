@@ -5,7 +5,8 @@ layout: page
 ---
 * [VibeLab](https://vibe-lab.org/)
 * [The Laneway Project](https://www.thelanewayproject.ca/)
-* [Daily Bread](https://www.dailybread.ca/)North York Food Cluster ([North York Commmunity House](https://www.nych.ca/) & friends)
+* [Daily Bread](https://www.dailybread.ca/)
+* North York Food Cluster ([North York Community House](https://www.nych.ca/) & friends)
 * [Halocline Trance](https://haloclinetrance.bandcamp.com/)
 * [Trans Europe Halles](https://teh.net/)
 * [Space of Urgency](https://spaceofurgency.org/)
