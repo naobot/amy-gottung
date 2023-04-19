@@ -3,6 +3,8 @@ layout: home
 short_bio: <b>Amy Gottung</b> is a creative programmer/producer, consultant, and writer based in Canada. Her practice is situated between sectors and disciplines.
 ---
 
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js" type="text/javascript"></script>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum bibendum erat. Donec interdum sollicitudin libero id vestibulum. Morbi posuere iaculis lorem ut fringilla. Aliquam ut mattis felis, et suscipit est. Aenean varius justo non mattis pretium. Vestibulum leo nisi, tempus vitae molestie nec, semper ut nunc. Aenean odio lorem, vulputate euismod aliquam ultricies, mollis sed nisi. Quisque fringilla vitae enim at congue. Quisque accumsan congue ligula, sed sagittis metus. Duis est purus, placerat in mollis et, vestibulum non enim.
 
 Praesent porttitor nulla et ante condimentum molestie. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec sed semper elit, commodo placerat nulla. In lacinia mattis rutrum. Integer condimentum tincidunt faucibus. Curabitur tempus molestie tellus sit amet elementum. Fusce vel mollis orci. Integer auctor turpis vitae imperdiet rutrum.
