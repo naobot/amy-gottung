@@ -4,8 +4,19 @@ layout: default
 
 <section class="fixed-top">
   <div class="level">
-    <div class="level-left">
-      <h4 class="m-0">{{ page.title }}</h4>
+    <div class="level-left tags-bar">
+      <div>
+        <h4 class="m-0">{{ page.title }}</h4>
+      </div>
+      {% for tag in page.tags %}
+        <div>
+          <h6 class="m-0 {{ tag }}">
+            <a href="{{ site.baseurl }}{{ page.categories }}/#{{ tag }}">
+              #{{ tag }}
+            </a>
+          </h6>
+        </div>
+      {% endfor %}
     </div>
     <div class="level-right">
       <a href="{{ site.baseurl }}{{ page.categories }}">Back</a>
@@ -23,22 +34,57 @@ layout: default
     <img src="https://placehold.co/1024x768">
   {% endif %}
   </div>
-  <div class="work-item-desc">
+  <div class="work-item-info">
     {% if work.client %}
     <div>
       <strong>Client:</strong> {% if page.client_link %}<a href="{{ page.client_link | relative_url }}" target="_blank">{{ page.client }}</a>{% else %}{{ page.client }}{% endif %}
     </div>
     {% endif %}
-    {% if page.role %}
+    {% if page.role and page.role != "" %}
     <div>
       <strong>Role:</strong> {{ page.role }}
     </div>
     {% endif %}
-    {% if page.partners %}
+    {% if page.partners and page.partners != "" %}
     <div>
-      <strong>Partners:</strong> {{ page.partners }}
+      <strong>Partners:</strong> <div data-md="{{ page.partners }}" class="convert-md"></div>
     </div>
     {% endif %}
-    {{ content }}
+
+    <div class="description">
+      {{ content }}
+    </div>
+
+    {% assign related_works = "" | split,"" %}
+    {% for work in site.works %}
+      {% for tag in page.tags %}
+        {% if work.tags contains tag and work.title != page.title %}
+          {% assign related_works = related_works | push:work %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    {% assign related = related_works | uniq %}
+    {% unless related == empty %}
+    <div>
+      <strong>
+        Related:
+      </strong>
+      <ul>
+        {% for related_work in related %}
+          <li>
+            <a href="{{ related_work.url | relative_url }}">{{ related_work.title }}</a><br/>
+            {% for tag in related_work.tags %}
+              <small>
+                <a href="{{ site.baseurl }}{{ related_work.categories }}/#{{ tag }}">
+                  #{{ tag }}
+                </a>
+              </small>
+              &nbsp;
+            {% endfor %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endunless %}
   </div>
 </section>
