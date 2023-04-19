@@ -2,6 +2,7 @@
 layout: work-item
 title: Long Winter Music and Arts Festival
 client: Long Winter Music and Arts Festival
+client_link: http://www.torontolongwinter.com/about
 role: Executive Director
 partners: Tea Base Collective, Harbourfront Centre, the Gladstone Hotel, Workman
   Arts, OCAD University, Venus Fest, Bedroomer, Trap Door, Pleasure Dome,
