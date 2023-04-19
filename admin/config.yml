@@ -32,7 +32,14 @@ collections:
         name: 'about'
         file: 'about.markdown'
         fields:
-          - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+          - { label: 'Title', name: 'title', widget: 'hidden', default: 'About' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Clients Page'
+        name: 'client-roster'
+        file: 'client-roster.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'hidden', default: 'Client Roster' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'blog'
