@@ -3,7 +3,7 @@ layout: work-item
 title: It's Not U It's Me
 client: It’s Not U It’s Me
 client_link: http://itsnotuits.me/
-role: Consulting
+role: ""
 date: 2023-04-04 15:25:07 -0400
 categories: consulting
 tags: dance underground
