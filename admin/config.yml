@@ -28,6 +28,11 @@ collections:
             widget: 'list'
             fields:
               - { label: Work, name: work_title, widget: 'relation', collection: 'works', search_fields: ['title'], value_field: 'title', display_fields: ['title'] }
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: false
+    files:
       - label: 'About Page'
         name: 'about'
         file: 'about.markdown'
