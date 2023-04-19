@@ -16,7 +16,7 @@ collections:
             name: 'items'
             widget: 'list'
             fields:
-              - { label: Work, name: work_title, widget: 'relation', collection: 'works', search_fields: ['works.*.title'], value_field: 'works.*.title', display_fields: ['works.*.title'] }
+              - { label: Work, name: work_title, widget: 'relation', collection: 'works', search_fields: ['title'], value_field: 'title', display_fields: ['title'] }
   - name: 'blog'
     label: 'Blog'
     folder: '_posts/'
