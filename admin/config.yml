@@ -3,12 +3,12 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
 collections:
-  - name: 'home'
-    label: 'Home'
+  - name: 'general'
+    label: 'General'
     editor:
       preview: false
     files:
-      - label: 'General Site Info'
+      - label: 'General Settings'
         name: 'site_config'
         file: '_data/site_config.yml'
         fields:
