@@ -19,7 +19,7 @@ categories: creative
 tags:
   - festival
   - conference
-thumbnail: https://freight.cargo.site/w/1512/q/94/i/c75d8b1faeb354812159235711182133630d088df787091ea81d1d9a30357a9d/6R0A6842.jpg
+thumbnail: /assets/uploads/6r0a6842.jpg
 ---
 I﻿nternational DIY music and art Festival, co-presented by Long Winter and La Station.
 
