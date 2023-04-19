@@ -9,7 +9,7 @@ collections:
       preview: false
     files:
       - label: 'General Site Info'
-        name: 'site_config',
+        name: 'site_config'
         file: '_data/site_config.yml'
         fields:
           - { label: 'Short Bio', hint: 'This appears on the home page.', widget: 'markdown', name: 'short_bio' }
