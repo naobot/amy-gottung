@@ -7,7 +7,7 @@ role: Executive Director
 partners: Tea Base Collective, Harbourfront Centre, the Gladstone Hotel, Workman
   Arts, OCAD University, Venus Fest, Bedroomer, Trap Door, Pleasure Dome,
   Trinity Square Video, Lost is Found Collective, The Tranzac, ISO Radio, FSR
-  Radio, True Connection, InterAccess, Club Quarantine, et al. (allow html)
+  Radio, True Connection, InterAccess, Club Quarantine, et al.
 date: 2023-04-04 15:25:07 -0400
 categories: creative
 tags: festival
