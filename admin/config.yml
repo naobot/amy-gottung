@@ -33,7 +33,7 @@ collections:
         file: 'about.markdown'
         fields:
           - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'blog'
     label: 'Blog'
