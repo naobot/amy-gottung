@@ -3,20 +3,38 @@ layout: default
 ---
 
 <section class="fixed-top">
-  <h4 class="m-0">{{ page.title }}</h4>
+  <div class="level">
+    <div class="level-left">
+      <h4 class="m-0">{{ page.title }}</h4>
+    </div>
+    <div class="level-right">
+      <a href="{{ site.baseurl }}{{ page.categories }}">Back</a>
+    </div>
+  </div>
 </section>
 <section class="main">
   <div class="mr-2 image">
-    <a href="{{ work.url | relative_url }}">
-    {% if page.thumbnail %}
-      <img src="https://placehold.co/1024x768">
-    {% else %}
-      <img src="https://placehold.co/1024x768">
-    {% endif %}
-    </a>
+  {% if page.thumbnail and page.thumbnail != '' %}
+      {% capture image_path %}{{ page.thumbnail }}{% endcapture %}
+      {% capture sm_image_path %}{{ image_path | resize: '1600x1600>' }}{% endcapture %}
+      {% capture lq_image_path %}{{ image_path | resize: '100x100>' }}{% endcapture %}
+      {% include lazyload.html image_src=sm_image_path lq_image_src=lq_image_path %}</a>{% else %}{% include lazyload.html image_src=sm_image_path lq_image_src=lq_image_path %}
+  {% else %}
+    <img src="https://placehold.co/1024x768">
+  {% endif %}
   </div>
-  <div>
+  <div class="work-item-desc">
+    <div>
+      <strong>Client:</strong> {{ page.client }}
+    </div>
+    <div>
+      <strong>Role:</strong> {{ page.role }}
+    </div>
+    {% if page.partners %}
+    <div>
+      <strong>Partners:</strong> {{ page.partners }}
+    </div>
+    {% endif %}
     {{ content }}
   </div>
-
 </section>
