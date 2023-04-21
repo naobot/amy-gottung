@@ -24,16 +24,25 @@ layout: default
   </div>
 </section>
 <section class="main">
-  <div class="mr-2 image">
-  {% if page.thumbnail and page.thumbnail != '' %}
-      {% capture image_path %}{{ page.thumbnail }}{% endcapture %}
-      {% capture sm_image_path %}{{ image_path | resize: '1600x1600>' }}{% endcapture %}
-      {% capture lq_image_path %}{{ image_path | resize: '100x100>' }}{% endcapture %}
-      {% include lazyload.html image_src=sm_image_path lq_image_src=lq_image_path %}</a>{% else %}{% include lazyload.html image_src=sm_image_path lq_image_src=lq_image_path %}
-  {% else %}
-    <img src="https://placehold.co/1024x768">
-  {% endif %}
+  <div class="header">
+    <div class="image-carousel">
+      <div class="image">
+        {% capture image_path %}{{ page.thumbnail }}{% endcapture %}
+        {% capture sm_image_path %}{{ image_path | resize: '1600x1600>' }}{% endcapture %}
+        {% capture lq_image_path %}{{ image_path | resize: '100x100>' }}{% endcapture %}
+        {% include lazyload.html image_src=sm_image_path lq_image_src=lq_image_path %}
+      </div>
+      {% for image_obj in page.images %}
+        <div class="image">
+          {% capture image_path %}{{ image_obj.image }}{% endcapture %}
+          {% capture sm_image_path %}{{ image_path | resize: '1600x1600>' }}{% endcapture %}
+          {% capture lq_image_path %}{{ image_path | resize: '100x100>' }}{% endcapture %}
+          {% include lazyload.html image_src=sm_image_path lq_image_src=lq_image_path %}
+        </div>
+      {% endfor %}
+    </div>
   </div>
+
   <div class="work-item-info">
     {% if work.client %}
     <div>
@@ -88,3 +97,19 @@ layout: default
     {% endunless %}
   </div>
 </section>
+
+<!--work-item.html specific scripts-->
+<script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.image-carousel').slick({
+      autoplay: true,
+      autoplaySpeed: 6000,
+      cssEase: 'linear',
+      arrows: false,
+      fade: true,
+      dots: true
+    });
+  });
+</script>

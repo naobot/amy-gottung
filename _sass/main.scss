@@ -1,7 +1,9 @@
 @charset "utf-8";
 @import "./bulma-0.9.4/bulma.sass";
+@import "./slick/slick-theme.scss";
 
 @import "_home.scss";
 @import "_layout.scss";
+@import "_work-list.scss";
 @import "_work-item.scss";
 @import "_tags.scss";

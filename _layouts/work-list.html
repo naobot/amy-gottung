@@ -44,7 +44,7 @@ layout: default
           {% capture image_path %}{{ work.thumbnail }}{% endcapture %}
           {% capture sm_image_path %}{{ image_path | resize: '1600x1600>' }}{% endcapture %}
           {% capture lq_image_path %}{{ image_path | resize: '100x100>' }}{% endcapture %}
-          {% include lazyload.html image_src=sm_image_path lq_image_src=lq_image_path %}</a>{% else %}{% include lazyload.html image_src=sm_image_path lq_image_src=lq_image_path %}
+          {% include lazyload.html image_src=sm_image_path lq_image_src=lq_image_path %}</a>
       {% else %}
         <img src="https://placehold.co/1024x768">
       {% endif %}
@@ -62,11 +62,11 @@ layout: default
       </h6>
       {% endif %}
       {% if work.description %}
-      <div>
+      <div class="summary">
         <span class="convert-md" data-md="{{ work.description }}"><img src="{{ site.baseurl }}assets/red-loader.svg"></span>
       </div>
       {% endif %}
-      <div>
+      <div class="tags-list">
         {% for tag in work.tags %}
           <span class="mr-2">
             <a href="#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag">
