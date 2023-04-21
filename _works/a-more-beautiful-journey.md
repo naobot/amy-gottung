@@ -1,13 +1,20 @@
 ---
 layout: work-item
-title:  "A More Beautiful Journey"
-client: "Intersection Festival, City of Toronto"
-role: "Co-creator, Creative Producer"
-partners: "TTC, ArtworksxTO The Music Gallery, Regent Park School of Music, Council Fire, The Daniels Corporation, Taxi Agency, City of Toronto, Intersection Festival, Taxi Agency, Soundways, Collectif MU, The Daniels Corporation, The Music Gallery, The Remix Project, Regent Park School of Music, Council Fire Native Cultural Centre, SKETCH, Arts Etobicoke, RISE, Long Winter, Canadian Music Centre, Ableton"
-team: "Dan Werb, Joseph Shabason, David Dacks, Sanjeet Takhar, Jerry Pergolesi, Tad Michalak, et al."
-date:   2023-04-04 15:25:07 -0400
+title: A More Beautiful Journey
+client: Intersection Festival, City of Toronto
+role: Co-creator, Creative Producer
+team: Dan Werb, Joseph Shabason, David Dacks, Sanjeet Takhar, Jerry Pergolesi,
+  Tad Michalak, et al.
+partners: TTC, ArtworksxTO The Music Gallery, Regent Park School of Music,
+  Council Fire, The Daniels Corporation, Taxi Agency, City of Toronto,
+  Intersection Festival, Taxi Agency, Soundways, Collectif MU, The Daniels
+  Corporation, The Music Gallery, The Remix Project, Regent Park School of
+  Music, Council Fire Native Cultural Centre, SKETCH, Arts Etobicoke, RISE, Long
+  Winter, Canadian Music Centre, Ableton
+date: 2023-04-04 15:25:07 -0400
 categories: creative
 tags: media
+thumbnail: /assets/uploads/screenshot-2023-04-21-at-2.13.05-pm.png
 ---
 
 An historic XR (extended reality) audio installation to transform Toronto public transit, in honour of the centennial anniversary of the TTC
