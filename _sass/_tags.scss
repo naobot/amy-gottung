@@ -1,12 +1,13 @@
 .is-tag {
   font-weight: 600 !important;
+  display: inline !important;
 }
 
 .tags-bar {
   h6 a {
     font-size: 0.9rem;
   }
-  h6.current a {
+  .current {
     color: #000;
     &:hover {
       cursor: default;

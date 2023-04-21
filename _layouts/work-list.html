@@ -25,8 +25,8 @@ layout: default
       </div>
       {% for tag in tags %}
         <div>
-          <h6 class="m-0 {{ tag }}">
-            <a href="#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag">
+          <h6 class="m-0">
+            <a href="#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag {{ tag }}">
               #{{ tag }}
             </a>
           </h6>
