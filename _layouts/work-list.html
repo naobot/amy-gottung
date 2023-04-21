@@ -61,6 +61,11 @@ layout: default
         {% endif %}
       </h6>
       {% endif %}
+      {% if work.description %}
+      <div>
+        <span class="convert-md" data-md="{{ work.description }}"><img src="{{ site.baseurl }}assets/red-loader.svg"></span>
+      </div>
+      {% endif %}
       <div>
         {% for tag in work.tags %}
           <span class="mr-2">
