@@ -9,6 +9,8 @@ partners: Tea Base Collective, Harbourfront Centre, the Gladstone Hotel, Workman
   Trinity Square Video, Lost is Found Collective, The Tranzac, ISO Radio, FSR
   Radio, True Connection, InterAccess, Club Quarantine, et al.
 date: 2023-04-04 15:25:07 -0400
+description: Toronto's kaleidescopic, carnivalesque all-ages, pay-what-you-can
+  multi-arts series.
 categories: creative
 tags: festival
 thumbnail: /assets/uploads/49635921_1415653918570825_1962781139236028416_o.jpg
