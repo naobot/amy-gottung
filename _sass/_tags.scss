@@ -1,4 +1,7 @@
 .tags-bar {
+  h6 a {
+    font-size: 0.9rem;
+  }
   h6.current a {
     color: #000;
     &:hover {

@@ -26,7 +26,7 @@ layout: default
       {% for tag in tags %}
         <div>
           <h6 class="m-0 {{ tag }}">
-            <a href="#{{ tag }}" onClick="filterTag('{{tag}}')">
+            <a href="#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag">
               #{{ tag }}
             </a>
           </h6>
@@ -69,7 +69,7 @@ layout: default
       <div>
         {% for tag in work.tags %}
           <span class="mr-2">
-            <a href="#{{ tag }}" onClick="filterTag('{{tag}}')">
+            <a href="#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag">
               #{{ tag }}
             </a>
           </span>
