@@ -81,5 +81,10 @@ collections:
       - { label: 'Description', name: 'body', widget: 'markdown' }
       - { label: "Category", name: "categories", widget: "select", options: ["creative", "consulting", "speaking"] }
       - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Main Image", name: "thumbnail", widget: "image", choose_url: false }
-      - { label: "Additional Images", name: "images", widget: "image", required: false, media_library: { config: { multiple: true } } }
+      - { label: "Main Image", name: "thumbnail", widget: "image", choose_url: false, allow_multiple: false }
+      - label: "Additional Images"
+        name: "images"
+        widget: "list"
+        required: false
+        fields:
+          - { name: image, label: Image, widget: image }
