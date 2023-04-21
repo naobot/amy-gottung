@@ -15,15 +15,17 @@ partners: "[Collectif MU](https://lastation.paris/), [Collectif
   Independent Music Association, Dundas West-Little Portugal BIA, St. Anne’s
   Anglican Church, The Garrison, Process, Studio AM, Réseau Map,  Manifesto XXI"
 date: 2023-04-19T18:07:06.818Z
+description: International DIY music and art Festival, co-presented by Long
+  Winter and La Station.
 categories: creative
 tags:
   - festival
   - conference
 thumbnail: /assets/uploads/6r0a6842.jpg
+images:
+  - image: /assets/uploads/shane-parent-crowd01.jpg
 ---
-I﻿nternational DIY music and art Festival, co-presented by Long Winter and La Station.
-
-
+International DIY music and art Festival, co-presented by Long Winter and La Station.
 
 Multi-pronged, multi-sector artistic, editorial, and research exchange. 
 
