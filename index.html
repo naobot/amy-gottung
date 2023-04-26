@@ -2,7 +2,6 @@
 layout: home
 ---
 
-<div class="grid-sizer"></div>
 <div class="grid">
 {% for item in site.data.featured.items %}
   {% assign work = site.works | where: "title", item.work_title | first %}
@@ -26,7 +25,7 @@ layout: home
           {% endif %}
           {% for tag in work.tags %}
             <span class="mr-2">
-              <a href="#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag">
+              <a href="{{ site.baseurl }}{{ work.categories }}/#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag">
                 #{{ tag }}
               </a>
             </span>

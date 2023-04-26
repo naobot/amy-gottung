@@ -14,7 +14,7 @@ partners: TTC, ArtworksxTO The Music Gallery, Regent Park School of Music,
   Winter, Canadian Music Centre, Ableton
 date: 2023-04-04 15:25:07 -0400
 categories: creative
-tags: media, installation
+tags: media installation
 thumbnail: /assets/uploads/screenshot-2023-04-21-at-2.13.05-pm.png
 ---
 

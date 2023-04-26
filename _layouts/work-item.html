@@ -85,24 +85,43 @@ layout: default
     {% assign related = related_works | uniq %}
     {% unless related == empty %}
     <div>
-      <strong>
-        Related:
-      </strong>
-      <ul>
+      <h5>
+        Related Work
+      </h5>
+
+      <div class="grid">
         {% for related_work in related %}
-          <li>
-            <a href="{{ related_work.url | relative_url }}">{{ related_work.title }}</a><br/>
-            {% for tag in related_work.tags %}
-              <small>
-                <a href="{{ site.baseurl }}{{ related_work.categories }}/#{{ tag }}">
-                  #{{ tag }}
-                </a>
-              </small>
-              &nbsp;
-            {% endfor %}
-          </li>
+          <div class="grid-item">
+            <div class="thumbnail">
+              <a href="{{ related_work.url | relative_url }}">
+            {% if related_work.thumbnail and related_work.thumbnail != '' %}
+                {% capture image_path %}{{ related_work.thumbnail }}{% endcapture %}
+                {% capture sm_image_path %}{{ image_path | resize: '600x600>' }}{% endcapture %}
+                <img src="{{ sm_image_path }}">
+            {% else %}
+              <img src="https://placehold.co/1024x768">
+            {% endif %}
+              </a>
+            </div>
+            <div class="preview">
+              <a href="{{ related_work.url | relative_url }}"><h6 class="title">{{ related_work.title }}</h6></a>
+              <div class="summary">
+                {% if related_work.description %}
+                  <span class="convert-md mr-2" data-md="{{ related_work.description }}"></span>
+                {% endif %}
+                {% for tag in related_work.tags %}
+                  <span class="mr-2">
+                    <a href="{{ site.baseurl }}{{ related_work.categories }}/#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag">
+                      #{{ tag }}
+                    </a>
+                  </span>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
         {% endfor %}
-      </ul>
+      </div>
+
     </div>
     {% endunless %}
   </div>
@@ -120,6 +139,14 @@ layout: default
       arrows: false,
       fade: true,
       dots: true
+    });
+
+    // init Masonry
+    var $grid = $('.grid').masonry({
+    });
+    // layout Masonry after each image loads
+    $grid.imagesLoaded().progress( function() {
+      $grid.masonry('layout');
     });
 
     $('iframe').wrap('<div class="video"></div>');
