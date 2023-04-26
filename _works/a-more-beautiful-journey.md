@@ -20,3 +20,5 @@ thumbnail: /assets/uploads/screenshot-2023-04-21-at-2.13.05-pm.png
 An historic XR (extended reality) audio installation to transform Toronto public transit, in honour of the centennial anniversary of the TTC
 
 Through a web-based mobile app, riders experience an eclectic mix of site-specific ambient songs, soundscapes, and scores for over 25 discrete stretches of TTC line -- written by musicians from, and for, neighbourhoods spanning the breadth of the public transit grid. These sounds can be experienced through a web-based mobile app.  Musical excerpts unfold generatively for listeners travelling across streetcar or bus routes. AMBJ offers new modes of encounter with our urban geography: simultaneously public and private, intimate and communal, and accessible to millions of daily riders across the TTC.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_mnJavvnby8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
