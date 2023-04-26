@@ -2,11 +2,54 @@
 layout: home
 ---
 
+<div class="grid-sizer"></div>
+<div class="grid">
 {% for item in site.data.featured.items %}
   {% assign work = site.works | where: "title", item.work_title | first %}
-  <h4>
-    <a href="{{ work.url | relative_url }}">{{ work.title }}</a>
-  </h4>
+    <div class="grid-item">
+      <div class="thumbnail">
+        <a href="{{ work.url | relative_url }}">
+      {% if work.thumbnail and work.thumbnail != '' %}
+          {% capture image_path %}{{ work.thumbnail }}{% endcapture %}
+          {% capture sm_image_path %}{{ image_path | resize: '900x900>' }}{% endcapture %}
+          <img src="{{ sm_image_path }}">
+      {% else %}
+        <img src="https://placehold.co/1024x768">
+      {% endif %}
+        </a>
+      </div>
+      <div class="preview">
+        <a href="{{ work.url | relative_url }}"><h6 class="title">{{ work.title }}</h6></a>
+        <div class="summary">
+          {% if work.description %}
+            <span class="convert-md" data-md="{{ work.description }}"></span>
+          {% endif %}
+          {% for tag in work.tags %}
+            <span class="mr-2">
+              <a href="#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag">
+                #{{ tag }}
+              </a>
+            </span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
 {% endfor %}
+</div>
+
+<script type="text/javascript">
+  // external js: masonry.pkgd.js, imagesloaded.pkgd.js
+
+  var grid = document.querySelector('.grid');
+  var msnry;
+
+  imagesLoaded( grid, function() {
+    // init Isotope after all images have loaded
+    msnry = new Masonry( grid, {
+      itemSelector: '.grid-item'
+      // percentPosition: true
+    });
+  });
+</script>
 
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" type="text/javascript"></script>

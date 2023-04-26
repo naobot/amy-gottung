@@ -4,3 +4,36 @@
   margin-left: 0.2rem;
   font-style: italic;
 }
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+  text-align: center;
+  padding: 1rem;
+  img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .preview {
+    margin-top: 1rem;
+  }
+  .title {
+    margin-bottom: 0.5rem;
+  }
+  .summary {
+    font-size: 0.9rem;
+    text-align: left;
+  }
+  .tags-list {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
