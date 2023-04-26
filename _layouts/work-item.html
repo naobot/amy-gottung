@@ -6,7 +6,12 @@ layout: default
   <div class="level">
     <div class="level-left tags-bar">
       <div>
-        <h4 class="m-0">{{ page.title }}</h4>
+        <h4 class="m-0">
+          {{ page.title }}
+          {% if page.link %}
+            <a href="{{ page.link }}" class="ml-2">↗</a>
+          {% endif %}
+        </h4>
       </div>
       {% for tag in page.tags %}
         <div>
@@ -57,6 +62,11 @@ layout: default
     {% if page.partners and page.partners != "" %}
     <div>
       <strong>Partners:</strong> <span data-md="{{ page.partners }}" class="convert-md"><img src="{{ site.baseurl }}assets/red-loader.svg"></span>
+    </div>
+    {% endif %}
+    {% if page.team and page.team != "" %}
+    <div>
+      <strong>Team:</strong> <span data-md="{{ page.team }}" class="convert-md"><img src="{{ site.baseurl }}assets/red-loader.svg"></span>
     </div>
     {% endif %}
 
