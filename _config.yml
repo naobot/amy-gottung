@@ -51,6 +51,7 @@ defaults:
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-target-blank
 sass:
     sass_dir: _sass
 

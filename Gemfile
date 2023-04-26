@@ -17,6 +17,7 @@ group :jekyll_plugins do
   gem 'jekyll-watch', '~> 2.2', '>= 2.2.1'
   gem 'jekyll-sass-converter', '~> 2.1'
   gem "jekyll-resize", git: "https://github.com/MichaelCurrin/jekyll-resize"
+  gem 'jekyll-target-blank'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
