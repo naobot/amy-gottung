@@ -22,7 +22,7 @@ layout: home
         <a href="{{ work.url | relative_url }}"><h6 class="title">{{ work.title }}</h6></a>
         <div class="summary">
           {% if work.description %}
-            <span class="convert-md" data-md="{{ work.description }}"></span>
+            <span class="convert-md mr-2" data-md="{{ work.description }}"></span>
           {% endif %}
           {% for tag in work.tags %}
             <span class="mr-2">
