@@ -10,8 +10,8 @@ layout: default
       </div>
       {% for tag in page.tags %}
         <div>
-          <h6 class="m-0 {{ tag }}">
-            <a href="{{ site.baseurl }}{{ page.categories }}/#{{ tag }}">
+          <h6 class="m-0">
+            <a href="{{ site.baseurl }}{{ page.categories }}/#{{ tag }}" class="is-tag {{ tag }}">
               #{{ tag }}
             </a>
           </h6>
@@ -56,7 +56,7 @@ layout: default
     {% endif %}
     {% if page.partners and page.partners != "" %}
     <div>
-      <strong>Partners:</strong> <div data-md="{{ page.partners }}" class="convert-md"><img src="{{ site.baseurl }}assets/red-loader.svg"></div>
+      <strong>Partners:</strong> <span data-md="{{ page.partners }}" class="convert-md"><img src="{{ site.baseurl }}assets/red-loader.svg"></span>
     </div>
     {% endif %}
 
@@ -111,5 +111,7 @@ layout: default
       fade: true,
       dots: true
     });
+
+    $('iframe').wrap('<div class="video"></div>');
   });
 </script>
