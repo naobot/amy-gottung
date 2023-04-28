@@ -108,9 +108,6 @@ layout: default
             <div class="preview">
               <a href="{{ related_work.url | relative_url }}"><h6 class="title">{{ related_work.title }}</h6></a>
               <div class="summary">
-                {% if related_work.description %}
-                  <span class="convert-md mr-2" data-md="{{ related_work.description }}"></span>
-                {% endif %}
                 {% for tag in related_work.tags %}
                   <span class="mr-2">
                     <a href="{{ site.baseurl }}{{ related_work.categories }}/#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag">
