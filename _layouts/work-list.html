@@ -57,10 +57,9 @@ layout: default
 
       {% if work.client and work.client != work.title %}
       <h6>
+        {{ work.client }}
         {% if work.client_link %}
-          <a href="{{ work.client_url }}">{{ work.client }}</a>
-        {% else %}
-          {{ work.client }}
+          <a href="{{ work.client_url }}" class="ml-2" target="_blank">↗</a>
         {% endif %}
       </h6>
       {% endif %}
