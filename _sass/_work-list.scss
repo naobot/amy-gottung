@@ -1,3 +1,5 @@
+$work-item-height: 260px;
+
 .tags-bar {
   div {
     padding: 0.2rem;
@@ -6,22 +8,63 @@
 }
 .work-item {
   &:not(:last-child) {
-    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 3px solid #485fc7;
+  }
+  & > div {
+    width: 33.3%;
+    max-width: 620px;
+    @include until($small-screen) {
+      width: 50%;
+    }
+  }
+  .detail, .summary {
+    font-size: 0.9rem;
+    line-height: 1rem;
   }
   .image {
-    width: 75%;
+    max-width: 600px;
+    margin-right: 4rem;
+    overflow: hidden;
+    height: $work-item-height;
+    @include until($medium-screen) {
+      height: calc(#{$work-item-height} - 40px);
+    }
+    @include from($large-screen) {
+      height: calc(#{$work-item-height} + 90px);
+    }
+    & > div {
+      height: 100%;
+      width: auto;
+    }
   }
   .description {
-    width: 25%;
     min-width: 200px;
     max-width: 420px;
+    @include until($small-screen) {
+      display: none;
+    }
   }
   .summary {
-    font-size: 1rem;
-    line-height: 0.95;
     margin-bottom: 0.9rem;
+    height: calc(#{$work-item-height} - 4em);
+    @include until($medium-screen) {
+      height: calc(#{$work-item-height} - 40px - 4em);
+    }
+    @include from($large-screen) {
+      height: calc(#{$work-item-height} + 90px - 4em);
+    }
+    overflow-y: hidden;
+    --mask: linear-gradient(to bottom,
+        rgba(0,0,0, 1) 0,   rgba(0,0,0, 1) 77%,
+        rgba(0,0,0, 0) 95%, rgba(0,0,0, 0) 0
+    ) 100% 50% / 100% 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
   }
   .tags-list {
     font-size: 0.9rem;
+    margin-bottom: 1.5em;
   }
 }

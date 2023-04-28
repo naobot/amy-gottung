@@ -38,20 +38,23 @@ layout: default
 <section class="main">
   {% for work in works %}
   <div class="work-item is-flex is-flex-direction-row is-align-items-stretch {{ work.tags | join: ' ' }}">
-    <div class="mr-2 image">
-      <a href="{{ work.url | relative_url }}">
-      {% if work.thumbnail and work.thumbnail != '' %}
-          {% capture image_path %}{{ work.thumbnail }}{% endcapture %}
-          {% capture sm_image_path %}{{ image_path | resize: '1600x1600>' }}{% endcapture %}
-          {% capture lq_image_path %}{{ image_path | resize: '100x100>' }}{% endcapture %}
-          {% include lazyload.html image_src=sm_image_path lq_image_src=lq_image_path %}</a>
-      {% else %}
-        <img src="https://placehold.co/1024x768">
-      {% endif %}
-      </a>
+    <div class="image">
+      <div>
+        <a href="{{ work.url | relative_url }}">
+        {% if work.thumbnail and work.thumbnail != '' %}
+            {% capture image_path %}{{ work.thumbnail }}{% endcapture %}
+            {% capture sm_image_path %}{{ image_path | resize: '1600x1600>' }}{% endcapture %}
+            {% capture lq_image_path %}{{ image_path | resize: '100x100>' }}{% endcapture %}
+            {% include lazyload.html image_src=sm_image_path lq_image_src=lq_image_path %}</a>
+        {% else %}
+          <img src="https://placehold.co/1024x768">
+        {% endif %}
+        </a>
+      </div>
     </div>
-    <div class="mx-1 description">
+    <div class="mr-2">
       <h4><a href="{{ work.url | relative_url }}">{{ work.title }}</a></h4>
+
       {% if work.client and work.client != work.title %}
       <h6>
         {% if work.client_link %}
@@ -61,11 +64,7 @@ layout: default
         {% endif %}
       </h6>
       {% endif %}
-      {% if work.description %}
-      <div class="summary">
-        <span class="convert-md" data-md="{{ work.description }}"><img src="{{ site.baseurl }}assets/red-loader.svg"></span>
-      </div>
-      {% endif %}
+
       <div class="tags-list">
         {% for tag in work.tags %}
           <span class="mr-2">
@@ -75,6 +74,24 @@ layout: default
           </span>
         {% endfor %}
       </div>
+
+      {% if work.role and work.role != "" %}
+      <div class="detail">
+        <strong>Role:</strong> {{ work.role }}
+      </div>
+      {% endif %}
+
+    </div>
+
+    <div class="mx-1 description">
+      {% if work.content %}
+      <div class="summary has-text-justified">
+        <span class="convert-md" data-md="{{ work.content | strip_html | truncatewords: 600, '...' }}"><img src="{{ site.baseurl }}assets/red-loader.svg"></span>
+      </div>
+      <div class="has-text-right mr-2">
+        <a href="{{ work.url | relative_url }}">More →</a>
+      </div>
+      {% endif %}
     </div>
   </div>
   {% endfor %}
