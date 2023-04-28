@@ -7,22 +7,21 @@ layout: home
   {% assign work = site.works | where: "title", item.work_title | first %}
     <div class="grid-item">
       <div class="thumbnail">
-        <a href="{{ work.url | relative_url }}">
-      {% if work.thumbnail and work.thumbnail != '' %}
-          {% capture image_path %}{{ work.thumbnail }}{% endcapture %}
-          {% capture sm_image_path %}{{ image_path | resize: '900x900>' }}{% endcapture %}
-          <img src="{{ sm_image_path }}">
-      {% else %}
-        <img src="https://placehold.co/1024x768">
-      {% endif %}
-        </a>
+        <div>
+          <a href="{{ work.url | relative_url }}">
+        {% if work.thumbnail and work.thumbnail != '' %}
+            {% capture image_path %}{{ work.thumbnail }}{% endcapture %}
+            {% capture sm_image_path %}{{ image_path | resize: '900x900>' }}{% endcapture %}
+            <img src="{{ sm_image_path }}">
+        {% else %}
+          <img src="https://placehold.co/1024x768">
+        {% endif %}
+          </a>
+        </div>
       </div>
       <div class="preview">
         <a href="{{ work.url | relative_url }}"><h6 class="title">{{ work.title }}</h6></a>
         <div class="summary">
-          {% if work.description %}
-            <span class="convert-md mr-2" data-md="{{ work.description }}"></span>
-          {% endif %}
           {% for tag in work.tags %}
             <span class="mr-2">
               <a href="{{ site.baseurl }}{{ work.categories }}/#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag">
@@ -37,14 +36,15 @@ layout: home
 </div>
 
 <script type="text/javascript">
-  // external js: masonry.pkgd.js, imagesloaded.pkgd.js
+  // external js: isotope.pkgd.js, imagesloaded.pkgd.js
 
   var grid = document.querySelector('.grid');
   var msnry;
 
   imagesLoaded( grid, function() {
     // init Isotope after all images have loaded
-    msnry = new Masonry( grid, {
+    msnry = new Isotope( grid, {
+      layoutMode: 'fitRows',
       itemSelector: '.grid-item'
       // percentPosition: true
     });

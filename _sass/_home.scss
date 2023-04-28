@@ -1,3 +1,5 @@
+$grid-image-size: 260px;
+
 .more-arrow {
   display: inline-block;
   padding: 0.1rem 0.2rem;
@@ -9,19 +11,43 @@
 
 .grid-sizer,
 .grid-item {
-  width: 33.333%;
+  // width: 33.333%;
+  width: calc(#{$grid-image-size} + 20px);
 }
 
 .grid-item {
   float: left;
   text-align: center;
   padding: 0.4rem 0.6rem;
-  img {
-    display: block;
-    width: 100%;
-    max-width: 100%;
+  margin-bottom: 2em;
+  .thumbnail {
+    overflow: hidden;
+    height: $grid-image-size;
+    width: $grid-image-size;
     margin: 0 auto;
+    & > div {
+      height: 100%;
+      width: auto;
+      img {
+        max-width: none;
+        height: 100%;
+        transform: translateX(-20%);
+        filter: saturate(0%);
+        transition-property: filter;
+        transition-duration: 1.4s;
+        transition-delay: 200ms;
+        &:hover {
+          filter: saturate(100%);
+        }
+      }
+    }
   }
+  // img {
+  //   display: block;
+  //   width: 100%;
+  //   max-width: 100%;
+  //   margin: 0 auto;
+  // }
   .preview {
     margin-top: 0.5rem;
   }
@@ -30,7 +56,7 @@
   }
   .summary {
     font-size: 0.9rem;
-    text-align: left;
+    text-align: center;
   }
   .tags-list {
     margin-top: 0.5rem;
