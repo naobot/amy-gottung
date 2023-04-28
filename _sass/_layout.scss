@@ -7,11 +7,11 @@ body {
 .big-container {
   width: 100vw;
   height: 100vh;
-  padding: 0.2rem;
+  padding: 0.8rem;
   background: #effebf;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  // justify-content: space-between;
 }
 nav {
   > div {
@@ -31,7 +31,7 @@ nav {
   .first {
     // border: 1px #c29ca2 solid;
     width: $sidebar-width;
-    padding: 0.6rem;
+    // padding: 0.6rem;
     @include until($mobile-screen) {
       width: calc(#{$sidebar-width} - 80px);
     }
@@ -39,7 +39,7 @@ nav {
   .second {
     // border: 1px #c29ca2 solid;
     // padding: 0.6rem;
-    margin: 0 0 0 2em;
+    // margin: 0 0 0 2em;
     display: flex;
     flex-direction: column;
     width: calc(100vw - #{$sidebar-width});
