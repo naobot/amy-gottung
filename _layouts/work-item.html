@@ -93,15 +93,17 @@ layout: default
         {% for related_work in related %}
           <div class="grid-item">
             <div class="thumbnail">
-              <a href="{{ related_work.url | relative_url }}">
-            {% if related_work.thumbnail and related_work.thumbnail != '' %}
-                {% capture image_path %}{{ related_work.thumbnail }}{% endcapture %}
-                {% capture sm_image_path %}{{ image_path | resize: '600x600>' }}{% endcapture %}
-                <img src="{{ sm_image_path }}">
-            {% else %}
-              <img src="https://placehold.co/1024x768">
-            {% endif %}
-              </a>
+              <div>
+                <a href="{{ related_work.url | relative_url }}">
+              {% if related_work.thumbnail and related_work.thumbnail != '' %}
+                  {% capture image_path %}{{ related_work.thumbnail }}{% endcapture %}
+                  {% capture sm_image_path %}{{ image_path | resize: '600x600>' }}{% endcapture %}
+                  <img src="{{ sm_image_path }}">
+              {% else %}
+                <img src="https://placehold.co/1024x768">
+              {% endif %}
+                </a>
+              </div>
             </div>
             <div class="preview">
               <a href="{{ related_work.url | relative_url }}"><h6 class="title">{{ related_work.title }}</h6></a>
@@ -149,7 +151,8 @@ layout: default
 
   imagesLoaded( grid, function() {
     // init Isotope after all images have loaded
-    msnry = new Masonry( grid, {
+    msnry = new Isotope( grid, {
+      layoutMode: 'fitRows',
       itemSelector: '.grid-item'
       // percentPosition: true
     });
