@@ -32,6 +32,9 @@ nav {
     // border: 1px #c29ca2 solid;
     width: $sidebar-width;
     padding: 0.6rem;
+    @include until($mobile-screen) {
+      width: calc(#{$sidebar-width} - 80px);
+    }
   }
   .second {
     // border: 1px #c29ca2 solid;
@@ -40,6 +43,9 @@ nav {
     display: flex;
     flex-direction: column;
     width: calc(100vw - #{$sidebar-width});
+    @include until($mobile-screen) {
+      width: calc(100vw - #{$sidebar-width} + 80px);
+    }
     .fixed-top {
       padding: 1em;
       margin-top: 1em;

@@ -18,6 +18,9 @@ $work-item-height: 260px;
     @include until($small-screen) {
       width: 50%;
     }
+    @include until($mobile-screen) {
+      width: 100%;
+    }
   }
   .detail, .summary {
     font-size: 0.9rem;
@@ -28,6 +31,9 @@ $work-item-height: 260px;
     margin-right: 4rem;
     overflow: hidden;
     height: $work-item-height;
+    @include until($mobile-screen) {
+      display: none;
+    }
     @include until($medium-screen) {
       height: calc(#{$work-item-height} - 40px);
     }
