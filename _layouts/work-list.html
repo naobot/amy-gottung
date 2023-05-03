@@ -18,9 +18,7 @@ layout: default
     <div class="level-left tags-bar">
       <div>
         <h4 class="m-0">
-          <a href="#" onClick="filterTag()">
-            #{{ layout.category_type }}
-          </a>
+          {{ layout.category_type }}
         </h4>
       </div>
       {% for tag in tags %}
@@ -52,7 +50,7 @@ layout: default
         </a>
       </div>
     </div>
-    <div class="mr-2">
+    <div class="mr-4 credits fade-out">
       <h4><a href="{{ work.url | relative_url }}">{{ work.title }}</a></h4>
 
       {% if work.client and work.client != work.title %}
@@ -80,15 +78,27 @@ layout: default
       </div>
       {% endif %}
 
+      {% if work.team and work.team != "" %}
+      <div class="detail">
+        <strong>Team:</strong> <span class="convert-md" data-md="{{ work.team }}"></span>
+      </div>
+      {% endif %}
+
+      {% if work.partners and work.partners != "" %}
+      <div class="detail">
+        <strong>Partners:</strong> <span class="convert-md" data-md="{{ work.partners }}"></span>
+      </div>
+      {% endif %}
+
     </div>
 
     <div class="mx-1 description">
-      {% if work.content %}
-      <div class="summary has-text-justified">
-        <span class="convert-md" data-md="{{ work.content | strip_html | truncatewords: 600, '...' }}"><img src="{{ site.baseurl }}assets/red-loader.svg"></span>
+      <div class="level mb-2 mr-2">
+        <span class="level-left">&nbsp;</span>
       </div>
-      <div class="has-text-right mr-2">
-        <a href="{{ work.url | relative_url }}">More →</a>
+      {% if work.content %}
+      <div class="summary fade-out has-text-justified">
+        <span class="convert-md" data-md="{{ work.content | strip_html | truncatewords: 300, '...' }}"><img src="{{ site.baseurl }}assets/red-loader.svg"></span><a class="ml-2" href="{{ work.url | relative_url }}"><em>Read more →</em></a>
       </div>
       {% endif %}
     </div>

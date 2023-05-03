@@ -6,6 +6,7 @@ $work-item-height: 260px;
     margin-right: 1rem;
   }
 }
+
 .work-item {
   &:not(:last-child) {
     padding-bottom: 1.5rem;
@@ -22,6 +23,38 @@ $work-item-height: 260px;
       width: 100%;
     }
   }
+  .credits {
+    overflow: hidden;
+    max-height: $work-item-height;
+    transition: max-height 1s ease-out;
+    @include until($medium-screen) {
+      max-height: calc(#{$work-item-height} - 40px);
+    }
+    @include from($large-screen) {
+      max-height: calc(#{$work-item-height} + 90px);
+    }
+  }
+  &:not(:hover) .credits, &:not(:hover) .summary {
+    overflow-y: hidden;
+    --mask: linear-gradient(to bottom,
+        rgba(0,0,0, 1) 0,   rgba(0,0,0, 1) 77%,
+        rgba(0,0,0, 0) 95%, rgba(0,0,0, 0) 0
+    ) 100% 50% / 100% 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+  }
+  &:hover {
+    .credits {
+      max-height: 400px;
+      transition: max-height 1.25s ease-in;
+    }
+    .summary {
+      overflow-y: auto;
+      max-height: calc(400px - 1.2em - 1rem);
+      transition: max-height 1.25s ease-in;
+    }
+  }
+
   .detail, .summary {
     font-size: 0.9rem;
     line-height: 1rem;
@@ -53,21 +86,15 @@ $work-item-height: 260px;
     }
   }
   .summary {
-    margin-bottom: 0.9rem;
-    height: calc(#{$work-item-height} - 4em);
+    min-height: calc(#{$work-item-height} - 4em);
+    max-height: calc(#{$work-item-height} - 3em);
+    transition: max-height 1s ease-out;
     @include until($medium-screen) {
-      height: calc(#{$work-item-height} - 40px - 4em);
+      max-height: calc(#{$work-item-height} - 40px - 3em);
     }
     @include from($large-screen) {
-      height: calc(#{$work-item-height} + 90px - 4em);
+      max-height: calc(#{$work-item-height} + 90px - 3em);
     }
-    overflow-y: hidden;
-    --mask: linear-gradient(to bottom,
-        rgba(0,0,0, 1) 0,   rgba(0,0,0, 1) 77%,
-        rgba(0,0,0, 0) 95%, rgba(0,0,0, 0) 0
-    ) 100% 50% / 100% 100% repeat-x;
-    -webkit-mask: var(--mask);
-    mask: var(--mask);
   }
   .tags-list {
     font-size: 0.9rem;
