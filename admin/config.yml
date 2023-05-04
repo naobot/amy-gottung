@@ -69,7 +69,7 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'work-item' }
       - { label: 'Title', name: 'title', widget: 'string', hint: 'Please ensure this is unique' }
-      - { label: 'Project Link', name: 'link', widget: 'string', required: false, pattern: ['https?:\/\/[\w\d]+\.[\w\d]+\.?[\w\d]*\/?.*', 'Must be a valid URL (begins with http://)'] }
+      - { label: 'External Project Link', name: 'link', widget: 'string', required: false, pattern: ['https?:\/\/[\w\d]+\.[\w\d]+\.?[\w\d]*\/?.*', 'Must be a valid URL (begins with http://)'] }
       - { label: 'Client', name: 'client', widget: 'string', required: false }
       - { label: 'Client Link', name: 'client_link', widget: 'string', required: false, pattern: ['https?:\/\/[\w\d]+\.[\w\d]+\.?[\w\d]*\/?.*', 'Must be a valid URL (begins with http://)'] }
       - { label: 'Role', name: 'role', widget: 'string', required: false }
