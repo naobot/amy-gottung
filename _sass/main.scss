@@ -1,4 +1,11 @@
 @charset "utf-8";
+
+@font-face {
+  font-family: 'Director';
+  src:  url('assets/Director-Variable.woff2') format('woff2'),
+        url('ssets/Director-Variable.woff') format('woff');
+}
+
 @import "./bulma-0.9.4/bulma.sass";
 @import "./slick/slick-theme.scss";
 

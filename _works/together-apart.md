@@ -1,7 +1,7 @@
 ---
 layout: work-item
 title: Together Apart
-link: <https://toronto.paris/>[t﻿oronto.paris](https://toronto.paris/)
+link: https://toronto.paris/
 role: Creative Producer
 when: September - November 2021
 where: T﻿oronto, Canada; Paris, France
