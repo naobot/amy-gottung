@@ -5,6 +5,7 @@ client: Long Winter Music and Arts Festival
 client_link: http://www.torontolongwinter.com/about
 role: Executive Director
 when: 2016-2020
+where: T﻿oronto, Canada
 partners: Tea Base Collective, Harbourfront Centre, the Gladstone Hotel, Workman
   Arts, OCAD University, Venus Fest, Bedroomer, Trap Door, Pleasure Dome,
   Trinity Square Video, Lost is Found Collective, The Tranzac, ISO Radio, FSR
