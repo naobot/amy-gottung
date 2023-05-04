@@ -49,23 +49,23 @@ layout: default
   </div>
 
   <div class="work-item-info">
-    {% if work.client %}
-    <div>
-      <strong>Client:</strong> {% if page.client_link %}<a href="{{ page.client_link }}" target="_blank">{{ page.client }}</a>{% else %}{{ page.client }}{% endif %}
+    {% if page.client %}
+    <div class="my-2">
+      <strong>Client:</strong> {% if page.client_link %}<a href="{{ page.client_link | strip }}" target="_blank">{{ page.client }}</a>{% else %}{{ page.client }}{% endif %}
     </div>
     {% endif %}
     {% if page.role and page.role != "" %}
-    <div>
+    <div class="my-2">
       <strong>Role:</strong> {{ page.role }}
     </div>
     {% endif %}
     {% if page.partners and page.partners != "" %}
-    <div>
+    <div class="is-size-6">
       <strong>Partners:</strong> <span data-md="{{ page.partners }}" class="convert-md"><img src="{{ site.baseurl }}assets/red-loader.svg"></span>
     </div>
     {% endif %}
     {% if page.team and page.team != "" %}
-    <div>
+    <div class="is-size-6">
       <strong>Team:</strong> <span data-md="{{ page.team }}" class="convert-md"><img src="{{ site.baseurl }}assets/red-loader.svg"></span>
     </div>
     {% endif %}
@@ -84,7 +84,7 @@ layout: default
     {% endfor %}
     {% assign related = related_works | uniq %}
     {% unless related == empty %}
-    <div>
+    <div class="related">
       <h5>
         Related Work
       </h5>
