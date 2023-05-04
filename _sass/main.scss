@@ -1,9 +1,28 @@
 @charset "utf-8";
 
 @font-face {
-  font-family: 'Director';
-  src:  url('assets/Director-Variable.woff2') format('woff2'),
-        url('ssets/Director-Variable.woff') format('woff');
+  font-family: "JetBrains Mono";
+  src: url("/assets/JetBrainsMono-Thin.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JetBrain Mono";
+  src: url("/assets/JetBrainsMono-ThinItalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/assets/JetBrainsMono-SemiBold.woff2") format("woff2");
+  font-weight: bolder;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/assets/JetBrainsMono-Regular.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
 }
 
 @import "./bulma-0.9.4/bulma.sass";

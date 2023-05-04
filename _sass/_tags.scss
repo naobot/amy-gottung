@@ -1,7 +1,14 @@
 .is-tag {
-  font-weight: 600 !important;
-  display: inline !important;
-  color: #fe7363;
+  color: $link;
+  display: inline-block;
+  padding: 2px 4px;
+  border: 1px solid $link;
+  text-align: center;
+  &:hover {
+    color: #fff;
+    background-color: $link;
+    border: 1px solid $link;
+  }
 }
 
 .tags-bar {
@@ -9,9 +16,20 @@
     font-size: 0.9rem;
   }
   .current {
-    color: #000;
+    color: #fff !important;
+    background-color: $text !important;
+    border: 1px solid $text !important;
     &:hover {
       cursor: default;
+      color: #fff !important;
+      background-color: $text !important;
+      border: 1px solid $text !important;
     }
+  }
+}
+
+.tags-list {
+  span:not(:last-child) {
+    margin-right: 6px;
   }
 }

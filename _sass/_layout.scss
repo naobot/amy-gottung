@@ -1,14 +1,19 @@
 $sidebar-width: 280px;
 
+.external-arrow {
+  position: relative;
+  margin: 0;
+}
+
 body {
-  font-size: 1.2em;
+  font-size: 0.9em;
 }
 
 .big-container {
   width: 100vw;
   height: 100vh;
   padding: 0.8rem;
-  background: #effebf;
+  background: #fff;
   display: flex;
   flex-direction: column;
   // justify-content: space-between;
@@ -29,7 +34,6 @@ nav {
   align-items: stretch;
   overflow: hidden;
   .first {
-    // border: 1px #c29ca2 solid;
     width: $sidebar-width;
     // padding: 0.6rem;
     @include until($mobile-screen) {
@@ -37,7 +41,6 @@ nav {
     }
   }
   .second {
-    // border: 1px #c29ca2 solid;
     // padding: 0.6rem;
     // margin: 0 0 0 2em;
     display: flex;
@@ -47,7 +50,7 @@ nav {
       width: calc(100vw - #{$sidebar-width} + 80px);
     }
     .fixed-top {
-      // padding: 1em;
+      padding: 0 1em;
       margin-top: 1em;
     }
     .main {

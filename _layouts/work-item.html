@@ -9,14 +9,14 @@ layout: default
         <h4 class="m-0">
           {{ page.title }}
           {% if page.link %}
-            <a href="{{ page.link }}" target="_blank" class="ml-2">↗</a>
+            <a href="{{ page.link | strip }}" target="_blank" class="external-arrow">↗</a>
           {% endif %}
         </h4>
       </div>
       {% for tag in page.tags %}
         <div>
           <h6 class="m-0">
-            <a href="{{ site.baseurl }}{{ page.categories }}/#{{ tag }}" class="is-tag {{ tag }}">
+            <a href="{{ site.baseurl }}{{ page.categories }}/#{{ tag }}" class="is-tag {{ tag | strip }}">
               #{{ tag }}
             </a>
           </h6>
@@ -51,7 +51,7 @@ layout: default
   <div class="work-item-info">
     {% if work.client %}
     <div>
-      <strong>Client:</strong> {% if page.client_link %}<a href="{{ page.client_link | relative_url }}" target="_blank">{{ page.client }}</a>{% else %}{{ page.client }}{% endif %}
+      <strong>Client:</strong> {% if page.client_link %}<a href="{{ page.client_link }}" target="_blank">{{ page.client }}</a>{% else %}{{ page.client }}{% endif %}
     </div>
     {% endif %}
     {% if page.role and page.role != "" %}
