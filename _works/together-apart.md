@@ -1,9 +1,10 @@
 ---
 layout: work-item
 title: Together Apart
+link: <https://toronto.paris/>[t﻿oronto.paris](https://toronto.paris/)
 role: Creative Producer
-when: Fall to Winter 2022
-where: <https://toronto.paris/>[t﻿oronto.paris](https://toronto.paris/)
+when: September - November 2021
+where: T﻿oronto, Canada; Paris, France
 partners: "[Collectif MU](https://lastation.paris/), [Collectif
   Ascidiacea](https://ascidiacea.org/), [University of Ryerson (Faculty of
   Communication and Design)](https://www.ryerson.ca/fcad/), City of Paris, City
@@ -16,7 +17,7 @@ partners: "[Collectif MU](https://lastation.paris/), [Collectif
   Anglican Church, The Garrison, Process, Studio AM, Réseau Map,  Manifesto XXI"
 date: 2023-04-19T18:07:06.818Z
 description: International DIY music and art Festival, co-presented by Long
-  Winter and La Station.
+  Winter (Toronto) and La Station (France).
 categories: creative
 tags:
   - festival
