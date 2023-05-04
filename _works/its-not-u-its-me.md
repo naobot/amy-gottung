@@ -1,6 +1,7 @@
 ---
 layout: work-item
 title: It’s Not U It’s Me
+link: http://itsnotuits.me/
 client: It’s Not U It’s Me
 client_link: http://itsnotuits.me/
 role: ""
