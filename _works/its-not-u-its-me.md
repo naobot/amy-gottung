@@ -6,7 +6,8 @@ client_link: http://itsnotuits.me/
 role: ""
 date: 2023-04-04 15:25:07 -0400
 categories: consulting
-tags: dance underground
+tags:
+  - organizational_development
 thumbnail: /assets/uploads/13239405_1760033877542971_1046369470115057772_n.jpg
 ---
 
