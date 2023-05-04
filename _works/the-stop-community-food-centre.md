@@ -6,8 +6,6 @@ client_link: http://thestop.org/
 date: 2023-04-19T20:14:38.030Z
 categories: consulting
 tags:
-  - nonprofit
-  - development
   - fundraising
 thumbnail: /assets/uploads/imagestop.jpeg
 ---
