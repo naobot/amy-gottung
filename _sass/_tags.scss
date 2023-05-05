@@ -1,14 +1,14 @@
 .is-tag {
-  color: $link;
+  color: $text;
   display: inline-block;
   padding: 2px 4px;
-  border: 1px solid $link;
+  border: 1px solid $text;
   text-align: center;
   font-weight: 600;
   &:hover {
     color: #fff;
-    background-color: $link;
-    border: 1px solid $link;
+    background-color: $text;
+    border: 1px solid $text;
   }
 }
 
