@@ -41,23 +41,6 @@ collections:
             widget: 'list'
             fields:
               - { label: Work, name: work_title, widget: 'relation', collection: 'works', search_fields: ['title'], value_field: 'title', display_fields: ['title'] }
-  - name: 'work_settings'
-    label: 'Work Settings'
-    files:
-      name: workOrder
-      label: Work Order
-      file: '_data/workOrder.yml'
-      fields:
-        - label: Work Order
-          name: work_order
-          widget: list
-          fields:
-            - label: Work
-              name: work
-              widget: relation
-              collection: works
-              searchFields: [title]
-              valueField: title
   - name: 'pages'
     label: 'Pages'
     editor:
@@ -120,3 +103,20 @@ collections:
         required: false
         fields:
           - { name: image, label: Image, widget: image }
+  - name: 'work_settings'
+    label: 'Work Settings'
+    files:
+      - name: workOrder
+        label: Work Order
+        file: '_data/workOrder.yml'
+        fields:
+          - label: Work Order
+            name: work_order
+            widget: list
+            fields:
+              - label: Work
+                name: work
+                widget: relation
+                collection: works
+                searchFields: [title]
+                valueField: title
