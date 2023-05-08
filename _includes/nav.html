@@ -1,30 +1,32 @@
 <div class="nav-items">
-{% for item in site.data.navigation %}
-  {% capture clean_item_link %}{{ item.link | remove: "/" | strip }}{% endcapture %}
-  {% capture clean_page_url %}{{ page.url | remove: "/" | strip }}{% endcapture %}
+{% for item in site.data.navigation.items %}
+  {% if item.visibility %}
+    {% capture clean_item_link %}{{ item.link | remove: "/" | strip }}{% endcapture %}
+    {% capture clean_page_url %}{{ page.url | remove: "/" | strip }}{% endcapture %}
 
-  {% if clean_item_link == 'creative' %}
-    {% assign works = site.works | where: "categories", "creative" %}
-  {% elsif clean_item_link == 'consulting' %}
-    {% assign works = site.works | where: "categories", "consulting" %}
-  {% elsif clean_item_link == 'speaking' %}
-    {% assign works = site.works | where: "categories", "speaking" %}
-  {% endif %}
+    {% if clean_item_link == 'creative' %}
+      {% assign works = site.works | where: "categories", "creative" %}
+    {% elsif clean_item_link == 'consulting' %}
+      {% assign works = site.works | where: "categories", "consulting" %}
+    {% elsif clean_item_link == 'speaking' %}
+      {% assign works = site.works | where: "categories", "speaking" %}
+    {% endif %}
 
-  {% assign all_tags = works | map: "tags" %}
-  {% assign tags = all_tags | uniq %}
+    {% assign all_tags = works | map: "tags" %}
+    {% assign tags = all_tags | uniq %}
 
-  <div>
-    <a href="{{ item.link | relative_url }}" class="{% if clean_item_link == clean_page_url %}current{% endif %}">{{ item.name }}</a>
-  </div>
-  {% if (site.data.site_config.categories contains item.name) and (clean_item_link == clean_page_url) %}
-  {% for tag in tags %}
-  <div class="ml-2 tags-bar">
-    <a href="#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag {{ tag }}">
-      #{{ tag }}
-    </a>
-  </div>
-  {% endfor %}
+    <div>
+      <a href="{{ item.link | relative_url }}" class="{% if clean_item_link == clean_page_url %}current{% endif %}">{{ item.name }}</a>
+    </div>
+    {% if (site.data.site_config.categories contains item.name) and (clean_item_link == clean_page_url) %}
+    {% for tag in tags %}
+    <div class="ml-2 tags-bar">
+      <a href="#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag {{ tag }}">
+        #{{ tag }}
+      </a>
+    </div>
+    {% endfor %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 </div>
