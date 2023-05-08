@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
+publish_mode: editorial_workflow
 media_folder: 'assets/uploads'
 collections:
   - name: 'general'
@@ -75,8 +76,9 @@ collections:
     folder: '_works/'
     create: true
     slug: '{{slug}}'
+    preview_path: preview/{{slug}}
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'work-item' }
       - { label: 'Title', name: 'title', widget: 'string', hint: 'Please ensure this is unique' }
