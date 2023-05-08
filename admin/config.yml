@@ -8,7 +8,7 @@ collections:
     editor:
       preview: false
     files:
-      - label: 'General Settings'
+      - label: 'General Settings (personal info, etc.)'
         name: 'site_config'
         file: '_data/site_config.yml'
         fields:
@@ -19,6 +19,17 @@ collections:
               - { label: 'Site Title', widget: 'string', name: 'title' }
               - { label: 'Short Bio', hint: 'This appears on the home page.', widget: 'markdown', name: 'short_bio' }
               - { label: 'Email', widget: 'string', name: 'email' }
+      - label: 'Navigation Settings (page visibility, etc.)'
+        name: 'nav_config'
+        file: '_data/navigation.yml'
+        fields:
+          - label: 'Navigation Items'
+            name: 'items'
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Link, name: link, widget: string }
+              - { label: Visibility, name: visibility, widget: boolean }
       - label: 'Featured Works'
         name: 'featured'
         file: '_data/featured.yml'

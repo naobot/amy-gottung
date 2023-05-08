@@ -1,10 +1,19 @@
-- name: About
-  link: /about
-- name: Creative
-  link: /creative
-- name: Consulting
-  link: /consulting
-- name: Speaking
-  link: /speaking
-- name: Clients
-  link: /clients
+items:
+  - name: About
+    link: /about
+    visibility: true
+  - name: Blog
+    link: /blog
+    visibility: false
+  - name: Creative
+    link: /creative
+    visibility: true
+  - name: Consulting
+    link: /consulting
+    visibility: true
+  - name: Speaking
+    link: /speaking
+    visibility: false
+  - name: Clients
+    link: /clients
+    visibility: true
