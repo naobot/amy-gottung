@@ -27,7 +27,11 @@ layout: default
     </div>
   </section>
   <section class="main">
-    {% for work in works %}
+    {% assign ordered_work = site.data.workOrder.work_order | map: "work" %}
+
+    {% for work_title in ordered_work %}
+    {% assign work = works | where: "title", work_title | first %}
+    {% if work %}
     <div class="work-item is-flex is-flex-direction-row is-align-items-stretch {{ work.tags | join: ' ' }}">
       <div class="image">
         <div>
@@ -95,6 +99,7 @@ layout: default
         {% endif %}
       </div>
     </div>
+    {% endif %}
     {% endfor %}
   </section>
   {% include filter_tag_script.html %}
