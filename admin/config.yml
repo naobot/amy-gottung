@@ -76,7 +76,7 @@ collections:
     create: true
     slug: '{{slug}}'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'work-item' }
       - { label: 'Title', name: 'title', widget: 'string', hint: 'Please ensure this is unique' }
