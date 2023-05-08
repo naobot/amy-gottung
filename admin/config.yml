@@ -110,7 +110,7 @@ collections:
         label: Work Order
         file: '_data/workOrder.yml'
         fields:
-          - label: Work Order
+          - label: Ordered Work
             name: work_order
             widget: list
             fields:
