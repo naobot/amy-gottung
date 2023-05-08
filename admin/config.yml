@@ -1,7 +1,8 @@
+site_url: https://amy-gottung.netlify.app
+display_url: https://amy-gottung.netlify.app
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
-publish_mode: editorial_workflow
 media_folder: 'assets/uploads'
 collections:
   - name: 'general'
