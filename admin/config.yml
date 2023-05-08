@@ -73,7 +73,7 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'works'
-    label: 'Work'
+    label: 'All Work Items'
     folder: '_works/'
     create: true
     slug: '{{slug}}'
@@ -104,13 +104,13 @@ collections:
         fields:
           - { name: image, label: Image, widget: image }
   - name: 'work_settings'
-    label: 'Work Display Settings'
+    label: 'Active Work Settings'
     files:
       - name: workOrder
-        label: Work Display Order
+        label: Active Works in Order
         file: '_data/workOrder.yml'
         fields:
-          - label: Active Work
+          - label: Active Works
             name: work_order
             widget: list
             fields:
