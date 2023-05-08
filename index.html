@@ -2,7 +2,11 @@
 layout: home
 ---
 
-{% for work in site.works %}
+{% assign ordered_work = site.data.workOrder.work_order | map: "work" %}
+
+{% for work_title in ordered_work %}
+{% assign work = site.works | where: "title", work_title | first %}
+{% if work %}
 <div class="work-item is-flex is-flex-direction-row is-align-items-stretch {{ work.tags | join: ' ' }}">
   <div class="image">
     <div>
@@ -68,4 +72,5 @@ layout: home
     {% endif %}
   </div>
 </div>
+{% endif %}
 {% endfor %}
