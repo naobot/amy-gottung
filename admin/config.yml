@@ -76,7 +76,7 @@ collections:
     folder: '_works/'
     create: true
     slug: '{{slug}}'
-    preview_path: preview/{{slug}}
+    preview_path: '{{slug}}'
     editor:
       preview: false
     fields:
