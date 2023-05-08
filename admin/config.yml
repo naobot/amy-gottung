@@ -32,15 +32,15 @@ collections:
               - { label: Name, name: name, widget: string }
               - { label: Link, name: link, widget: string }
               - { label: Visibility, name: visibility, widget: boolean }
-      - label: 'Featured Works'
-        name: 'featured'
-        file: '_data/featured.yml'
-        fields:
-          - label: 'Currently Featured Works'
-            name: 'items'
-            widget: 'list'
-            fields:
-              - { label: Work, name: work_title, widget: 'relation', collection: 'works', search_fields: ['title'], value_field: 'title', display_fields: ['title'] }
+      # - label: 'Featured Works'
+      #   name: 'featured'
+      #   file: '_data/featured.yml'
+      #   fields:
+      #     - label: 'Currently Featured Works'
+      #       name: 'items'
+      #       widget: 'list'
+      #       fields:
+      #         - { label: Work, name: work_title, widget: 'relation', collection: 'works', search_fields: ['title'], value_field: 'title', display_fields: ['title'] }
   - name: 'pages'
     label: 'Pages'
     editor:
