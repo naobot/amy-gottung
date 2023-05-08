@@ -20,25 +20,6 @@ layout: default
         {{ layout.category_type }} work
       </h4>
     </div>
-    <div class="level-right">
-      filter by:&nbsp;
-      {% for tag in tags %}
-        <div>
-          <h6 class="m-0">
-            <a href="#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag {{ tag }}">
-              #{{ tag }}
-            </a>
-          </h6>
-        </div>
-      {% endfor %}
-        <div>
-          <h6 class="m-0">
-            <a href="/creative" class="is-tag all">
-              all
-            </a>
-          </h6>
-        </div>
-    </div>
   </div>
 </section>
 <section class="main">

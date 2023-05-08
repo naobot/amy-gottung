@@ -14,13 +14,13 @@
       elem.classList.add('is-flex');
     }
     // reset tag highlights
-    const highlightedTags = document.querySelectorAll('.tags-bar h6 .current');
+    const highlightedTags = document.querySelectorAll('.tags-bar .current');
     for (const elem of highlightedTags) {
       elem.classList.remove('current');
     }
     // highlight currently selected tag
     if (tag) {
-      const currentTag = document.querySelector(`.tags-bar h6 .${tag}`);
+      const currentTag = document.querySelector(`.tags-bar .${tag}`);
       currentTag.classList.add('current');
     }
   }
