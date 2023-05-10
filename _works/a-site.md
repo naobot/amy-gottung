@@ -8,7 +8,7 @@ where: Karen Vanderborght, Mandy Lam, David Psutka, et al.
 date: 2023-05-10T17:47:19.963Z
 categories: creative
 tags:
-  - "#media"
+  - media
 thumbnail: /assets/uploads/screenshot-2023-05-10-at-10.54.12-am.png
 images: []
 ---
