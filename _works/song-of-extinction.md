@@ -11,7 +11,7 @@ team: Rose Bolton, composer / Marc de Guerre, filmmaker / Don McKay, poet.
 date: 2023-05-10T18:07:39.776Z
 categories: creative
 tags:
-  - "#performance"
+  - performance
 thumbnail: /assets/uploads/mitb13507281_10153582815957097_3191387696730185842_n.jpg
 images:
   - image: /assets/uploads/13071693_1324022877626923_3416895025440380892_o.jpg
