@@ -23,6 +23,13 @@ tags:
 thumbnail: /assets/uploads/6r0a6842.jpg
 images:
   - image: /assets/uploads/shane-parent-crowd01.jpg
+  - image: /assets/uploads/6r0a5562.jpg
+  - image: /assets/uploads/shane-parent-house-of-siriano.jpg
+  - image: /assets/uploads/shane-parent-dj-mirass.jpg
+  - image: /assets/uploads/shane-parent-asuquomo.jpg
+  - image: /assets/uploads/shane-parent-cerena.jpg
+  - image: /assets/uploads/shane-parent-karim-olen-ash.jpg
+  - image: /assets/uploads/shane-parent-dj-mirass.jpg
 description: International DIY music and art Festival, co-presented by Long
   Winter (Toronto) and La Station (France).
 ---
