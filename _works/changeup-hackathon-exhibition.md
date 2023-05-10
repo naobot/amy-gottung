@@ -19,6 +19,11 @@ images:
   - image: /assets/uploads/42674851_332160334276053_8477873668272160768_o.jpg
   - image: /assets/uploads/42730969_332157610942992_5904651382761193472_o.jpg
   - image: /assets/uploads/42814468_332157720942981_3663116231675740160_o.jpg
+  - image: /assets/uploads/20180922_215657.jpg
+  - image: /assets/uploads/20180922_200937.jpg
+  - image: /assets/uploads/20180922_142043_hdr.jpg
+  - image: /assets/uploads/20180922_140756.jpg
+  - image: /assets/uploads/20180921_215316.jpg
 ---
 Co-designed and produced pop-up tech and art jam, workshop series, and exhibition at [Toronto Media Arts Centre](https://www.tomediaarts.org/). 50+ participants. 3-day creation period.
 
