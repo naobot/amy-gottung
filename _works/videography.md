@@ -5,6 +5,7 @@ client: Plum TV, The Kit Magazine, Sweet Potato Chronicles, Glenn Gould
   Festival, Tapestry Opera, Dan Lim Photography
 role: Videographer (Producer/Shooter/Editor)
 when: 2006 - 2014
+where: ""
 date: 2023-05-10T18:04:13.071Z
 categories: creative
 tags:
