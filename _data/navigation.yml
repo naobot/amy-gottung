@@ -17,9 +17,3 @@ items:
   - name: Clients
     link: /clients
     visibility: true
-  - name: A Beautiful Journey
-    link: https://amy-gottung.netlify.app/a-more-beautiful-journey
-    visibility: true
-  - link: https://www.instagram.com/cogarash/
-    name: Instagram
-    visibility: true
