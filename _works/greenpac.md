@@ -11,7 +11,7 @@ thumbnail: /assets/uploads/greenpac3.jpeg
 images:
   - image: /assets/uploads/greenpacscreen-shot-2022-01-02-at-6.00.00-pm.png
 ---
-G﻿rant writing and consulting for Canada's only non-partisan, non-profit working to build environmental leadership and government action on the environment.\
+G﻿rant writing and development consulting for Canada's only non-partisan, non-profit working to build environmental leadership and government action on the environment.\
 \
 We do this through 3 programming streams:\
 1 / PARLIAMENTARY INTERNSHIP FOR THE ENVIRONMENT\
