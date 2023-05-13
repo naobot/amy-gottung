@@ -60,7 +60,7 @@ layout: home
       {% for category in work.categories %}
         <span class="level-right">
           <a href="{{ category }}">
-            {{ category }}
+            {{ category | capitalize }}
           </a>
         </span>
       {% endfor %}

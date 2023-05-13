@@ -1,4 +1,4 @@
-<div class="nav-items">
+<div class="nav-items is-flex-grow-3">
 {% for item in site.data.navigation.items %}
   {% if item.visibility %}
     {% capture clean_item_link %}{{ item.link | remove: "/" | strip }}{% endcapture %}

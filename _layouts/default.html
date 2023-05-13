@@ -21,16 +21,16 @@
   <body>
     <div class="big-container">
       <div class="content">
-        <nav class="first">
-          <h1>
+        <nav class="first is-flex is-flex-direction-column">
+          <h1 class="is-family-secondary">
             <a href="/">
               {{ site.data.site_config.info.title }}
             </a>
           </h1>
-          <div id='contact'>
+          {% include nav.html %}
+          <div id='contact is-align-self-flex-end'>
             {{ site.data.site_config.info.email }}
           </div>
-          {% include nav.html %}
         </nav>
         <div class="second">
           {{ content }}

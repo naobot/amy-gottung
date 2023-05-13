@@ -13,7 +13,7 @@ items:
     visibility: true
   - name: Speaking
     link: /speaking
-    visibility: true
+    visibility: false
   - name: Clients
     link: /clients
     visibility: true
