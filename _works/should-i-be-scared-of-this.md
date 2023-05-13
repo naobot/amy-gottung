@@ -8,7 +8,7 @@ team: Jordan Foisy, Chris DePaul, Miles DePaul
 date: 2023-05-10T17:30:22.699Z
 categories: creative
 tags:
-  - "#media"
+  - media
 thumbnail: /assets/uploads/sibsot-image.jpg
 images: []
 ---

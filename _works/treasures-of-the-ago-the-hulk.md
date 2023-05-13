@@ -9,7 +9,7 @@ team: Priam Givord, Gillian McIntyre, Sherry Philips, Karen Vanderborght, et al.
 date: 2023-05-10T17:43:17.004Z
 categories: creative
 tags:
-  - "#media"
+  - media
 thumbnail: /assets/uploads/hulk_screen-shot-2021-02-23-at-9.34.42-pm.png
 images:
   - image: /assets/uploads/hulk-screen-shot-2021-02-23-at-9.35.00-pm.png

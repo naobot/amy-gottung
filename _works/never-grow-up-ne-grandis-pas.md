@@ -10,7 +10,7 @@ team: Karen Vanderborght, Gillian Bleckenhorst, Maxwell Lander, Omar David
 date: 2023-05-10T17:54:49.983Z
 categories: creative
 tags:
-  - "#media"
+  - media
 thumbnail: /assets/uploads/screenshot-2023-03-09-at-11.52.20-am.png
 images:
   - image: /assets/uploads/screenshot-2023-03-09-at-11.52.37-am.png

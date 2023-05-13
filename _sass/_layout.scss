@@ -43,6 +43,7 @@ nav {
   flex-direction: row;
   align-items: stretch;
   overflow: hidden;
+  height: 100%;
   .first {
     text-align: center;
     width: $sidebar-width;

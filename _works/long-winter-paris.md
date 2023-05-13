@@ -10,7 +10,7 @@ partners: L﻿e Bureau Export, La Gaîté Lyrique, French Consultate
 date: 2023-05-10T17:11:07.918Z
 categories: creative
 tags:
-  - "#festival"
+  - festival
 thumbnail: /assets/uploads/76680617_1656593061143575_4368703470631387136_o.jpg
 images:
   - image: /assets/uploads/matthew-progress-photo-guendalina-flamini-9.jpg

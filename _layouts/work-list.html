@@ -29,78 +29,82 @@ layout: default
   <section class="main">
     {% assign ordered_work = site.data.workOrder.work_order | map: "work" %}
 
-    {% for work_title in ordered_work %}
-    {% assign work = works | where: "title", work_title | first %}
-    {% if work %}
-    <div class="work-item is-flex is-flex-direction-row is-align-items-stretch {{ work.tags | join: ' ' }}">
-      <div class="image">
-        <div>
-          <a href="{{ work.url | relative_url }}">
-          {% if work.thumbnail and work.thumbnail != '' %}
-              {% capture image_path %}{{ work.thumbnail }}{% endcapture %}
-              {% capture sm_image_path %}{{ image_path | resize: '1600x1600>' }}{% endcapture %}
-              {% capture lq_image_path %}{{ image_path | resize: '100x100>' }}{% endcapture %}
-              {% include lazyload.html image_src=sm_image_path lq_image_src=lq_image_path %}</a>
-          {% else %}
-            <img src="https://placehold.co/1024x768">
-          {% endif %}
-          </a>
-        </div>
-      </div>
-      <div class="mr-4 credits fade-out">
-        <h4><a href="{{ work.url | relative_url }}">{{ work.title }}</a></h4>
+    <div>
+      {% for work_title in ordered_work %}
+        {% assign work = works | where: "title", work_title | first %}
+        {% if work %}
+        <div class="work-item is-flex is-flex-direction-row is-align-items-stretch {{ work.tags | join: ' ' }}">
+          <div class="image">
+            <div>
+              <a href="{{ work.url | relative_url }}">
+              {% if work.thumbnail and work.thumbnail != '' %}
+                  {% capture image_path %}{{ work.thumbnail }}{% endcapture %}
+                  {% capture sm_image_path %}{{ image_path | resize: '1600x1600>' }}{% endcapture %}
+                  {% capture lq_image_path %}{{ image_path | resize: '100x100>' }}{% endcapture %}
+                  {% include lazyload.html image_src=sm_image_path lq_image_src=lq_image_path %}</a>
+              {% else %}
+                <img src="https://placehold.co/1024x768">
+              {% endif %}
+            </div>
+          </div>
+          <div class="mr-4 credits fade-out">
+            <h4><a href="{{ work.url | relative_url }}">{{ work.title }}</a></h4>
 
-        {% if work.client and work.client != work.title %}
-        <h6>
-          {{ work.client }}
-          {% if work.client_link %}
-            <a href="{{ work.client_url }}" class="external-arrow" target="_blank">↗</a>
-          {% endif %}
-        </h6>
-        {% endif %}
+            {% if work.client and work.client != work.title %}
+            <h6>
+              {{ work.client }}
+              {% if work.client_link %}
+                <a href="{{ work.client_url }}" class="external-arrow" target="_blank">↗</a>
+              {% endif %}
+            </h6>
+            {% endif %}
 
-        {% if work.role and work.role != "" %}
-        <div class="detail my-2">
-          <strong>Role:</strong> {{ work.role }}
-        </div>
-        {% endif %}
+            {% if work.role and work.role != "" %}
+            <div class="detail my-2">
+              <strong>Role:</strong> {{ work.role }}
+            </div>
+            {% endif %}
 
-        {% if work.team and work.team != "" %}
-        <div class="detail is-size-6">
-          <strong>Team:</strong> <span class="convert-md" data-md="{{ work.team }}"></span>
-        </div>
-        {% endif %}
+            {% if work.team and work.team != "" %}
+            <div class="detail is-size-6">
+              <strong>Team:</strong> <span class="convert-md" data-md="{{ work.team }}"></span>
+            </div>
+            {% endif %}
 
-        {% if work.partners and work.partners != "" %}
-        <div class="detail is-size-6">
-          <strong>Partners:</strong> <span class="convert-md" data-md="{{ work.partners }}"></span>
-        </div>
-        {% endif %}
+            {% if work.partners and work.partners != "" %}
+            <div class="detail is-size-6">
+              <strong>Partners:</strong> <span class="convert-md" data-md="{{ work.partners }}"></span>
+            </div>
+            {% endif %}
+          </div>
 
-      </div>
-
-      <div class="mx-1 description">
-        <div class="level mb-2 mr-2">
-          <span class="level-left">&nbsp;</span>
-          <div class="level-right tags-list">
-            {% for tag in work.tags %}
-              <span>
-                <a href="#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag">
-                  #{{ tag }}
-                </a>
-              </span>
-            {% endfor %}
+          <div class="mx-1 description">
+            <div class="level mb-2 mr-2">
+              <span class="level-left">&nbsp;</span>
+              <div class="level-right tags-list">
+                {% for tag in work.tags %}
+                  <span>
+                    <a href="#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag">
+                      #{{ tag }}
+                    </a>
+                  </span>
+                {% endfor %}
+              </div>
+            </div>
+            {% if work.content %}
+            <div class="summary fade-out has-text-justified">
+              <span class="convert-md" data-md="{{ work.content | strip_html | truncatewords: 300, '...' }}"><img src="{{ site.baseurl }}assets/red-loader.svg"></span><a class="ml-2" href="{{ work.url | relative_url }}"><em>Read more →</em></a>
+            </div>
+            {% endif %}
           </div>
         </div>
-        {% if work.content %}
-        <div class="summary fade-out has-text-justified">
-          <span class="convert-md" data-md="{{ work.content | strip_html | truncatewords: 300, '...' }}"><img src="{{ site.baseurl }}assets/red-loader.svg"></span><a class="ml-2" href="{{ work.url | relative_url }}"><em>Read more →</em></a>
-        </div>
         {% endif %}
-      </div>
+      {% endfor %}
     </div>
-    {% endif %}
-    {% endfor %}
+
+    <div class="no-works-msg is-hidden">
+      Currently no work to display for this tag.
+    </div>
   </section>
   {% include filter_tag_script.html %}
 {% else %}

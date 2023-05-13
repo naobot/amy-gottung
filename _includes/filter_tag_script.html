@@ -7,6 +7,10 @@
         elem.classList.remove('is-flex');
         elem.classList.add('is-hidden');
       }
+      if (visibleWorkItems.length == 0) {
+        document.getElementsByClassName('no-works-msg')[0].classList.remove('is-hidden');
+        document.getElementsByClassName('no-works-msg')[0].classList.add('is-flex');
+      }
     }
     // show only matched tag works
     for (const elem of visibleWorkItems) {

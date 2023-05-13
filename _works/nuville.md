@@ -11,7 +11,7 @@ partners: Mammalian Diving Collective, Mandy Lam, Workman Arts, Cara Spooner,
 date: 2023-05-10T17:38:18.267Z
 categories: creative
 tags:
-  - "#media"
+  - media
 thumbnail: /assets/uploads/screenshot-2023-05-10-at-10.42.07-am.png
 ---
 H﻿elped generate funding and build an inter-disciplinary team for this experimental new media XR adventure.

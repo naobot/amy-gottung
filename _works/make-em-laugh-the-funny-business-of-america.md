@@ -12,7 +12,7 @@ team: Ghost Light Films, Thirteen / WNET (as Thirteen / WNET New York), Rhino
 date: 2023-05-10T18:00:48.248Z
 categories: creative
 tags:
-  - "#media"
+  - media
 thumbnail: /assets/uploads/mel.jpeg
 images:
   - image: /assets/uploads/richiepry.jpg
