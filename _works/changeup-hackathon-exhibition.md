@@ -32,7 +32,7 @@ Co-designed and produced pop-up tech and art jam, workshop series, and exhibitio
 \
 | FLOATER MENTORS\
 ●° Markus Heckmann / Derivative / #synth #audio-visual #cg #collaboration #installation\
-●° Sarah Friend / [https://isthisa.com](https://amygottung.com/%3Ca) target="_blank">https://isthisa.com / #blockchain #interactive #generative\
+●° Sarah Friend / [https://isthisa.com](https://isthisa.com) / #blockchain #interactive #generative\
 ●° Nadine Lessio / #games #tech #design #installation\
 ●° Protim Roy / #machine learning #music #art\
 ●° Henry Faber / #community #VR #games\
@@ -41,10 +41,10 @@ Co-designed and produced pop-up tech and art jam, workshop series, and exhibitio
 \
 | PROJECT LEAD MENTORS\
 °● Kyle Duffield + Daniele Hopkins / Electric Perfume\
-°● Xavier Snelgrove / [https://wxs.ca](https://amygottung.com/%3Ca) target="_blank">https://wxs.ca\
+°● Xavier Snelgrove / [wxs.ca](https://wxs.ca)
 °● Izzie Colpitts-Campbell‎ / Dames Making Games Toronto / <https://dmg.to/>\
-°● David Psutka / https://actactact.[bandcamp.com](http://bandcamp.com/)\
-°● Xuan Ye / http://a.[pureapparat.us/g-a-r-d-e-n](http://pureapparat.us/g-a-r-d-e-n)\
+°● David Psutka / [actactact.bandcamp.com](https://actactact.bandcamp.com/)\
+°● Xuan Ye / [a.pureapparat.us/g-a-r-d-e-n](http://pureapparat.us/g-a-r-d-e-n)\
 °● Trevor Blumas\
 °● Julia Romanowski / [www.juliaromanowski.com](http://www.juliaromanowski.com/)\
 °● Monica Bialobrzeski / [monicabialo.com/](http://monicabialo.com/)\
