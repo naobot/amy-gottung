@@ -8,6 +8,7 @@ date: 2023-05-14T23:34:17.660Z
 categories: creative
 tags:
   - performance
+  - opera
 thumbnail: /assets/uploads/noyes_fludde_poster.jpg
 ---
 Produced this unique rendering of Britten’s beloved opera with 100+ local performers: an eclectic mix of Toronto-area youth and amateur musicians alongside professional chamber orchestra and soloists. VIVA! Youth Singers, Kingsway Chamber Strings, Trinity-St. Paul’s, et al.
