@@ -17,6 +17,8 @@ Workshop designer, facilitator
 
 Recent projects include:
 
+V﻿ibelab - Lead Facilitator - 2023 public consultations to inform the City of Toronto's night economy strategy
+
 Assistant conductor for VIVA Singers: music education and performance program for youth and young adults with disabilities
 
 Artscape Daniels Launchpad: workshop facilitator (workshops for professional creatives)
