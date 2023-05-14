@@ -1,6 +1,6 @@
 ---
 layout: work-item
-title: Speaker
+title: Speaking Engagements
 client: Various
 date: 2023-05-14T21:07:40.175Z
 categories: speaking
