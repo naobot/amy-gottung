@@ -2,6 +2,9 @@
   function filterTag(tag) {
     const allWorkItems = document.getElementsByClassName('work-item');
     const visibleWorkItems = tag ? document.getElementsByClassName(`work-item ${tag}`) : allWorkItems;
+    // reset no works to display msg
+    document.getElementsByClassName('no-works-msg')[0].classList.remove('is-flex');
+    document.getElementsByClassName('no-works-msg')[0].classList.add('is-hidden');
     if (allWorkItems.length !== visibleWorkItems.length) {
       for (const elem of allWorkItems) {
         elem.classList.remove('is-flex');
