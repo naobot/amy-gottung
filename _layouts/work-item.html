@@ -90,7 +90,10 @@ layout: default
       </h5>
 
       <div class="grid">
+        {% assign ordered_work = site.data.workOrder.work_order %}
         {% for related_work in related %}
+          {% assign active_related_work = ordered_work | where: "work", related_work.title | first %}
+          {% if active_related_work %}
           <div class="grid-item">
             <div class="thumbnail">
               <div>
@@ -118,6 +121,7 @@ layout: default
               </div>
             </div>
           </div>
+          {% endif %}
         {% endfor %}
       </div>
 
