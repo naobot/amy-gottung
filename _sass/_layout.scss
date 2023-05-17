@@ -32,6 +32,9 @@ nav {
         font-size: 1.2em;
         &.is-tag {
           font-size: 1em;
+          @include until($mobile-screen) {
+            font-size: 0.8em;
+          }
         }
         // text-transform: lowercase;
       }
@@ -48,13 +51,18 @@ nav {
     text-align: center;
     width: $sidebar-width;
     padding-top: 1rem;
+    @include until($mobile-screen) {
+      font-size: 0.8rem;
+    }
     h1 {
       text-transform: uppercase;
       a:link, a:hover, a:visited, a:active {
         color: $black !important;
       }
+      @include until($mobile-screen) {
+        font-size: 1.4rem;
+      }
     }
-    // padding: 0.6rem;
     @include until($mobile-screen) {
       width: calc(#{$sidebar-width} - 80px);
     }
@@ -67,6 +75,7 @@ nav {
     width: calc(100vw - #{$sidebar-width});
     @include until($mobile-screen) {
       width: calc(100vw - #{$sidebar-width} + 80px);
+      padding-left: 1em;
     }
     .fixed-top {
       padding: 0 1em;
