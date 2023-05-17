@@ -45,6 +45,7 @@ collections:
     label: 'Pages'
     create: true
     slug: '{{permalink}}'
+    folder: '/'
     fields:
       - {label: 'Layout', name: 'layout', widget: hidden, default: 'page'}
       - {label: 'Title', name: 'title', widget: string}
@@ -52,21 +53,6 @@ collections:
       - {label: 'Page Content', name: 'body', widget: markdown}
     editor:
       preview: false
-    files:
-      - label: 'About Page'
-        name: 'about'
-        file: 'about.markdown'
-        fields:
-          - { label: 'Title', name: 'title', widget: 'hidden', default: 'About' }
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Clients Page'
-        name: 'client-roster'
-        file: 'client-roster.md'
-        fields:
-          - { label: 'Title', name: 'title', widget: 'hidden', default: 'Client Roster' }
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'blog'
     label: 'Blog'
     folder: '_posts/'
