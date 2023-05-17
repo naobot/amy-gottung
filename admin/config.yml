@@ -43,6 +43,13 @@ collections:
       #         - { label: Work, name: work_title, widget: 'relation', collection: 'works', search_fields: ['title'], value_field: 'title', display_fields: ['title'] }
   - name: 'pages'
     label: 'Pages'
+    create: true
+    slug: '{{permalink}}'
+    fields:
+      - {label: 'Layout', name: 'layout', widget: hidden, default: 'page'}
+      - {label: 'Title', name: 'title', widget: string}
+      - {label: 'URL', name: 'permalink', widget: string, pattern: ['[\w\d\-]+']}
+      - {label: 'Page Content', name: 'body', widget: markdown}
     editor:
       preview: false
     files:
