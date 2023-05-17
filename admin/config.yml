@@ -48,7 +48,7 @@ collections:
     fields:
       - {label: 'Layout', name: 'layout', widget: hidden, default: 'page'}
       - {label: 'Title', name: 'title', widget: string}
-      - {label: 'URL', name: 'permalink', widget: string, pattern: ['[\w\d\-]+']}
+      - {label: 'URL', name: 'permalink', widget: string, pattern: ['[\w\d\-]+', 'Must only consist of alphanumeric characters.'], hint: 'This is the URL to the page that appears after amygottung.com/'}
       - {label: 'Page Content', name: 'body', widget: markdown}
     editor:
       preview: false
