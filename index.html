@@ -23,6 +23,13 @@ layout: home
     </div>
   </div>
   <div class="mr-4 credits fade-out">
+    <h5>
+      {% for category in work.categories %}
+      <a href="{{ category }}">
+        /{{ category }}
+      </a>
+      {% endfor %}
+    </h5>
     <h4><a href="{{ work.url | relative_url }}">{{ work.title }}</a></h4>
 
     {% if work.client and work.client != work.title %}
@@ -57,13 +64,6 @@ layout: home
   <div class="mx-1 description">
     <div class="mb-2 mr-2 level">
       <span class="level-left">&nbsp;</span>
-      {% for category in work.categories %}
-        <span class="level-right">
-          <a href="{{ category }}">
-            {{ category | capitalize }}
-          </a>
-        </span>
-      {% endfor %}
     </div>
     {% if work.content %}
     <div class="summary fade-out has-text-justified">
