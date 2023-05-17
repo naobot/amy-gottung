@@ -31,6 +31,9 @@ collections:
   works:
     output: true
     permalink: /:title
+  pages:
+    output: true
+    permalink: /:permalink
 
 defaults:
   - scope:
@@ -41,6 +44,11 @@ defaults:
   - scope:
       path: ""
       type: "works"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "pages"
     values:
       layout: "default"
   - scope:

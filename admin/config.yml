@@ -44,8 +44,9 @@ collections:
   - name: 'pages'
     label: 'Pages'
     create: true
-    slug: '{{permalink}}'
-    folder: '/'
+    slug: '{{slug}}'
+    preview_path: '{{slug}}'
+    folder: '_pages/'
     fields:
       - {label: 'Layout', name: 'layout', widget: hidden, default: 'page'}
       - {label: 'Title', name: 'title', widget: string}
