@@ -3,6 +3,7 @@ layout: work-item
 title: Advisory Committees
 client: Various (Toronto Metropolitan University, City of Toronto, Urban Land
   Institute, et al.)
+role: Committee member
 date: 2023-05-14T23:25:21.650Z
 categories: speaking
 tags:
