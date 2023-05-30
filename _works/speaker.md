@@ -9,10 +9,13 @@ images:
   - image: /assets/uploads/120114149_2876588355776008_7925218672823700763_o.jpg
   - image: /assets/uploads/capitalism-updated.png
 ---
+**Engagement:** Sommet de la Nuit - [Mtl2424](https://www.mtl2424.ca/en/)(2023)\
+Panelist: DIY Spaces
+
 **Engagement:** [Space of Urgency](https://spaceofurgency.org/) Conference -* [Frei(t)räume](https://spaceofurgency.org/project/freitraeume/)* (2022)\
 Co-presenter: Building a Global Cultural Mycellium\
 \
-**Engagement: *Towards an Alternative Vision of Creative and Cultural Third-Places*** (2022)\
+**Engagement:** *Towards an Alternative Vision of Creative and Cultural Third-Places* (2022)\
 [Université de Sourbonne Nouvelle](http://www.univ-paris3.fr/) et al. \
 Panelist: Alternatives and Policies\
 \
