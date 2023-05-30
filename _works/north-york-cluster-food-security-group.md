@@ -1,6 +1,6 @@
 ---
 layout: work-item
-title: North York Cluster Food Security Group
+title: North York Food Security Cluster
 client: North York Community House + friends
 role: Consultant
 date: 2023-05-14T19:56:47.001Z
