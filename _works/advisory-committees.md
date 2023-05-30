@@ -1,7 +1,8 @@
 ---
 layout: work-item
 title: Advisory Committees
-client: Various committees
+client: Various (Toronto Metropolitan University, City of Toronto, Urban Land
+  Institute, et al.)
 date: 2023-05-14T23:25:21.650Z
 categories: speaking
 tags:
@@ -12,14 +13,14 @@ images:
 ---
 **Advisory Committees**\
 \
-University of TorontoSchool of Cities - Reimagining Music Venues\
+City of Toronto Nightlife Advisory Committee
+
+University of Toronto School of Cities - Reimagining Music Venues\
 \
 City of Toronto, Tourism - City of Toronto narrative focus group\
 \
 [Urban Land Institute](https://uli.org/) - Technical Assistance Panel - cultural space project\
 \
 City of Toronto Economic Recovery Group / Track - Music, Entertainment, Film\
-\
-City of Toronto Nightlife Advisory Committee\
 \
 [Ryerson FCAD Professional Music Program](https://www.ryerson.ca/music/) - program development committee
