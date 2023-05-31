@@ -7,6 +7,7 @@ date: 2023-05-14T20:52:08.476Z
 categories: consulting
 tags:
   - organizational_development
+  - sector_development
 thumbnail: /assets/uploads/ukai-11.jpg
 images:
   - image: /assets/uploads/ukai-9.jpg
