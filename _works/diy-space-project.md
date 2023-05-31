@@ -9,6 +9,7 @@ partners: Trans Europe Halles, City of Toronto, The Toronto Metropolitan School,
 date: 2023-04-19T20:16:53.980Z
 categories: consulting
 tags:
+  - sector_development
   - research
 thumbnail: /assets/uploads/screen-shot-2022-02-12-at-2.48.18-pm.png
 images:
