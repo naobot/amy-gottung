@@ -79,9 +79,8 @@ layout: default
           </div>
 
           <div class="mx-1 description">
-            <div class="level mb-2 mr-2">
-              <span class="level-left">&nbsp;</span>
-              <div class="level-right tags-list">
+            <div class="mb-2 mr-2">
+              <div class="tags-list">
                 {% for tag in work.tags %}
                   <span>
                     <a href="#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag">
