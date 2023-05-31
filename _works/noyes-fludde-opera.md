@@ -7,7 +7,6 @@ role: Producer
 date: 2023-05-14T23:34:17.660Z
 categories: creative
 tags:
-  - performance
   - opera
 thumbnail: /assets/uploads/noyes_fludde_poster.jpg
 ---
