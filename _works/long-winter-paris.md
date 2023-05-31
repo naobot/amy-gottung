@@ -21,17 +21,5 @@ images:
 ---
 With Collectif MU at [La Station](https://lastation.paris/) (Paris, France), co-presented a two-day festival and music industry conference, bringing 40+ Toronto-area artists and industry to Paris: an eclectic roster of under-represented, high-potential talent. Presented an accompanying France-Canada DIY music industry conference at [La Gaîté Lyrique](https://gaite-lyrique.net/en).
 
-
-
 \
 JESSICA93 • FUCKED UP • NEW FRIES • BUDDY RECORDS • PHÈDRE • ICE CREAM • CARIN KELLY • EDNA KING • JOEL EEL • DOOMSQUAD • HAVIAH MIGHTY • ATELIER CISEAUX • TELEPHONE EXPLOSION • OPALE • MATTHEW PROGRESS • SYLVERE • SCOTT HARDWARE • MYST MILANO. • DJ SUNDAE
-
-![]()
-
-s﻿dfsdfsdfsdfds
-
-
-
-
-
-s﻿dfsdfsdfsdf
