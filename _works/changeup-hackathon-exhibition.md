@@ -10,7 +10,6 @@ date: 2023-05-10T17:23:38.675Z
 categories: creative
 tags:
   - hackathon
-  - exhibition
 thumbnail: /assets/uploads/42687404_331982724293814_513709059610771456_o.jpg
 images:
   - image: /assets/uploads/42600258_331982700960483_3987281654300278784_o.jpg
