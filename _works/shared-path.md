@@ -1,6 +1,6 @@
 ---
 layout: work-item
-title: Shared Path
+title: Shared Path Consultation
 date: 2023-05-28T15:12:39.779Z
 categories: consulting
 tags:
