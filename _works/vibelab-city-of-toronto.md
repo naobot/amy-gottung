@@ -7,6 +7,7 @@ date: 2023-05-14T21:11:37.217Z
 categories: consulting
 tags:
   - sector_development
+  - research
 thumbnail: /assets/uploads/nighteconomyreview-1920x1080-1.jpg
 ---
 Lead local consultant and partner to Vibelab, a global leader in purpose driven consultancy for nighttime culture. We developed and conducted a local outreach and engagement process, in order to understand the industry and community’s most pressing needs. 
