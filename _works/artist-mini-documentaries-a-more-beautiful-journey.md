@@ -10,4 +10,4 @@ tags:
   - media
 thumbnail: /assets/uploads/screenshot-2023-05-31-at-10.54.54-am.png
 ---
-P﻿roduced, co-directed, interviewed and wrote for these three short documentaries on Toronto artists and neighbourhoods featured in the More Beautiful Journey app project.
+P﻿roduced, co-directed, interviewed and wrote three short documentaries on Toronto artists and neighbourhoods featured in the More Beautiful Journey app project.
