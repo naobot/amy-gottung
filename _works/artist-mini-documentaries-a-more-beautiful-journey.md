@@ -1,6 +1,6 @@
 ---
 layout: work-item
-title: Web documentaries (A More Beautiful Journey)
+title: Mini-documentaries - A More Beautiful Journey
 role: Writer/Producer
 team: A﻿dam Seward  (DOP / Editor)
 partners: "[T﻿omorrow Night Films](https://www.tomorrownightfilms.com/)"
