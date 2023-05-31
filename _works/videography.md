@@ -1,8 +1,8 @@
 ---
 layout: work-item
 title: Videography
-client: Plum TV, The Kit Magazine, Sweet Potato Chronicles, Glenn Gould
-  Festival, Tapestry Opera, Dan Lim Photography
+client: The Kit Magazine, Sweet Potato Chronicles, Glenn Gould Festival,
+  Tapestry Opera, Dan Lim Photography, Plum TV
 role: Videographer (Producer/Shooter/Editor)
 when: 2006 - 2014
 where: ""
