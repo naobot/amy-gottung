@@ -112,5 +112,6 @@ collections:
                 name: work
                 widget: relation
                 collection: works
+                optionsLength: 80
                 searchFields: [title]
                 valueField: title
