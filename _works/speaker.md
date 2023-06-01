@@ -23,45 +23,34 @@ Panelist: Alternatives and Policies\
 Presenter: A More Beautiful Journey x Soundways AR collaboration\
 \
 **Engagement:** [Canadian Music Centre](https://cmccanada.org/) AR composition workshop (2022)\
-\
 Panelist \
 \
 **Engagement:** [Indie Week Canada](https://www.indieweek.com/)(2022)\
-\
 Panelist: Industry Insights\
 \
 **Engagement:** [Trans Europe Halles Conference](https://teh.net/event/teh-conference-93-in-prague/) (2022)\
-\
 Presenter: Toronto DIY Space Project\
 \
 **Engagement:** City of Toronto Music Office\
-\
 Masterclass: DIY presentation and promotion\
 \
 **Engagement:** [Venus Fest](https://www.venusfest.net/)\
-\
 Panelist: “Relocalizing our music scene” \
 \
 **Engagement:** [Global TO](https://www.globaltoronto.org/)\
-\
 Moderator: capitalism panel with panelists Rosina Kazi (LAL, Unit 2), ShoShona Kish (Digging Roots), and musician Ian Kamau.\
 \
 **Engagemen**t: [University of Toronto - entrepreneurship](https://entrepreneurs.utoronto.ca/)\
-\
 Panelist: multiple workshops presented by ONRamp, the University of Toronto’s Entrepreneurship Centre and the university’s [Faculty of Music](https://music.utoronto.ca/)\
 \
 **Engagement:** [Seneca](https://www.senecacollege.ca/home.html) College\
-\
 Guest lecturer: PR and publicity in the non-profit sector\
 \
 **Engagement:** [Artspond: This Space - Lessons from the Landscape ](https://artspond.com/2020/09/24/this-space-lessons-from-the-landscape/)\
-\
 Round table on spatial precarity, gentrification, and the arts\
 \
 **Engagement:** [Third Spaces conference - École nationale supérieure d'architecture de Paris-La Villette (ENSA Paris-La Villette)](https://adair3p.hypotheses.org/133)\
-\
 Speaker and collaborative think tank participant at international cross-sector research conference on creative and cultural third spaces, run by ADAIR (Art and Design Actions for Inclusive Renewal).\
  \
 **Engagement:** [University of Toronto](https://www.utoronto.ca/)\
-\
 Panelist and speaker for University of Toronto’s Lives in Music and Music and Entrepreneurship courses
