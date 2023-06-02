@@ -2,6 +2,9 @@ items:
   - name: About
     link: /about
     visibility: true
+  - name: Contact
+    link: /contact
+    visibility: true
   - name: Blog
     link: /blog
     visibility: false
