@@ -33,14 +33,14 @@ layout: default
     <div class="image-carousel">
       <div class="image">
         {% capture image_path %}{{ page.thumbnail }}{% endcapture %}
-        {% capture sm_image_path %}{{ image_path | resize: '1600x1600>' }}{% endcapture %}
+        {% capture sm_image_path %}{{ image_path | resize: '1600x800>' }}{% endcapture %}
         {% capture lq_image_path %}{{ image_path | resize: '100x100>' }}{% endcapture %}
         {% include lazyload.html image_src=sm_image_path lq_image_src=lq_image_path %}
       </div>
       {% for image_obj in page.images %}
         <div class="image">
           {% capture image_path %}{{ image_obj.image }}{% endcapture %}
-          {% capture sm_image_path %}{{ image_path | resize: '1600x1600>' }}{% endcapture %}
+          {% capture sm_image_path %}{{ image_path | resize: '1600x800>' }}{% endcapture %}
           {% capture lq_image_path %}{{ image_path | resize: '100x100>' }}{% endcapture %}
           {% include lazyload.html image_src=sm_image_path lq_image_src=lq_image_path %}
         </div>
@@ -138,6 +138,7 @@ layout: default
     $('.image-carousel').slick({
       autoplay: true,
       autoplaySpeed: 6000,
+      pauseOnHover: false,
       cssEase: 'linear',
       arrows: false,
       fade: true,
