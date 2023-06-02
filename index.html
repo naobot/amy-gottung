@@ -26,7 +26,7 @@ layout: home
     <h5>
       {% for category in work.categories %}
       <a href="{{ category }}">
-        /{{ category }}
+        # {{ category | capitalize }}
       </a>
       {% endfor %}
     </h5>
@@ -42,23 +42,22 @@ layout: home
     {% endif %}
 
     {% if work.role and work.role != "" %}
-    <div class="detail">
-      <strong>Role:</strong> {{ work.role }}
+    <div class="detail my-2">
+      <strong>Role: {{ work.role }}</strong>
     </div>
     {% endif %}
 
     {% if work.team and work.team != "" %}
-    <div class="detail">
+    <div class="detail is-size-6">
       <strong>Team:</strong> <span class="convert-md" data-md="{{ work.team }}"></span>
     </div>
     {% endif %}
 
     {% if work.partners and work.partners != "" %}
-    <div class="detail">
+    <div class="detail is-size-6">
       <strong>Partners:</strong> <span class="convert-md" data-md="{{ work.partners }}"></span>
     </div>
     {% endif %}
-
   </div>
 
   <div class="mx-1 description">
