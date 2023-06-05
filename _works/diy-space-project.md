@@ -13,16 +13,16 @@ tags:
   - research
 thumbnail: /assets/uploads/screen-shot-2022-02-12-at-2.48.18-pm.png
 images:
-  - image: /assets/uploads/dspphoto-2022-06-03-12-23-44-1-.jpeg
-  - image: /assets/uploads/dspphoto-2022-06-03-12-23-44.jpeg
+  - image: /assets/uploads/photo-2022-06-03-15-23-44.jpg
+  - image: /assets/uploads/photo-2022-06-03-15-23-44-1-.jpg
   - image: /assets/uploads/dspphoto-2022-06-03-12-23-43.jpeg
-  - image: /assets/uploads/dspphoto-2022-06-03-06-03-29.jpeg
-  - image: /assets/uploads/dspphoto-2022-06-01-23-53-12.jpeg
-  - image: /assets/uploads/dspphoto-2022-06-01-23-53-11.jpeg
+  - image: /assets/uploads/photo-2022-06-03-09-03-29.jpg
+  - image: /assets/uploads/photo-2022-06-02-02-53-12.jpg
+  - image: /assets/uploads/photo-2022-06-02-02-53-11.jpg
   - image: /assets/uploads/dspimg_1618.jpeg
   - image: /assets/uploads/dspimg_1397.jpeg
-  - image: /assets/uploads/dspphoto-2022-06-01-09-27-40.jpeg
-  - image: /assets/uploads/dspimg_1494.jpeg
+  - image: /assets/uploads/photo-2022-06-01-12-37-32.jpg
+  - image: /assets/uploads/img_1335.jpg
 ---
 TORONTO DIY SPACE PROJECT - INTERVENTIONS FOR ALTERNATIVE CULTURAL SPACES
 
