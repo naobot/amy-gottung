@@ -92,6 +92,9 @@ $work-item-height: 260px;
       width: auto;
     }
   }
+  h1, h2, h3, h4, h5, h6 {
+    // font-weight: 400;
+  }
   .description {
     min-width: 200px;
     max-width: 420px;
