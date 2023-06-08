@@ -30,14 +30,14 @@ nav {
       }
       a {
         font-size: 1.2em;
-        font-weight: 600;
+        font-weight: 400;
         &.is-tag {
           font-size: 1em;
           @include until($mobile-screen) {
             font-size: 0.8em;
           }
         }
-        // text-transform: lowercase;
+        text-transform: lowercase;
       }
     }
   }
@@ -58,7 +58,7 @@ nav {
     h1 {
       text-transform: uppercase;
       a:link, a:hover, a:visited, a:active {
-        color: $black !important;
+        color: $text !important;
       }
       @include until($mobile-screen) {
         font-size: 1.4rem;
