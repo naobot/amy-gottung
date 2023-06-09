@@ -42,20 +42,20 @@ layout: home
     {% endif %}
 
     {% if work.role and work.role != "" %}
-    <div class="detail my-2">
-      <strong>Role: {{ work.role }}</strong>
+    <div class="detail my-2 has-text-weight-semibold">
+      Role: {{ work.role }}
     </div>
     {% endif %}
 
     {% if work.team and work.team != "" %}
     <div class="detail is-size-6">
-      <strong>Team:</strong> <span class="convert-md" data-md="{{ work.team }}"></span>
+      <span class="has-text-weight-semibold">Team:</span> <span class="convert-md" data-md="{{ work.team }}"></span>
     </div>
     {% endif %}
 
     {% if work.partners and work.partners != "" %}
     <div class="detail is-size-6">
-      <strong>Partners:</strong> <span class="convert-md" data-md="{{ work.partners }}"></span>
+      <span class="has-text-weight-semibold">Partners:</span> <span class="convert-md" data-md="{{ work.partners }}"></span>
     </div>
     {% endif %}
   </div>
