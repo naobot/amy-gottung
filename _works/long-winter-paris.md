@@ -13,10 +13,10 @@ tags:
   - festival
 thumbnail: /assets/uploads/76680617_1656593061143575_4368703470631387136_o.jpg
 images:
-  - image: /assets/uploads/matthew-progress-photo-guendalina-flamini-9.jpg
-  - image: /assets/uploads/71557321_1059345934456266_9032354891078565888_o.jpg
   - image: /assets/uploads/copy-of-doomsquad-photo-guendalina-flamini-16.jpg
+  - image: /assets/uploads/75464107_1656594631143418_8357464212884160512_o.jpg
   - image: /assets/uploads/71557321_1059345934456266_9032354891078565888_o.jpg
+  - image: /assets/uploads/copy-of-haviah-mighty-photo-guendalina-flamini-31.jpg
   - image: /assets/uploads/70058417_1604892296313652_2192325666370748416_o.jpg
 ---
 With Collectif MU at [La Station](https://lastation.paris/) (Paris, France), co-presented a two-day festival and music industry conference, bringing 40+ Toronto-area artists and industry to Paris: an eclectic roster of under-represented, high-potential talent. Presented an accompanying France-Canada DIY music industry conference at [La Gaîté Lyrique](https://gaite-lyrique.net/en).
