@@ -31,18 +31,18 @@
   font-weight: normal;
   font-style: normal;
 }
-// @font-face {
-//   font-family: "Fengardo Neue";
-//   src: url("/assets/fengardoneue_black-webfont.woff") format("woff");
-//   font-weight: bolder;
-//   font-style: normal;
-// }
-// @font-face {
-//   font-family: "Fengardo Neue";
-//   src: url("/assets/fengardoneue_regular-webfont.woff") format("woff");
-//   font-weight: normal;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: "Fengardo Neue";
+  src: url("/assets/fengardoneue_black-webfont.woff") format("woff");
+  font-weight: bolder;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Fengardo Neue";
+  src: url("/assets/fengardoneue_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 // @font-face {
 //   font-family: "Karla";
 //   src: url("/assets/karla-bold-webfont.woff2") format("woff2");
@@ -58,13 +58,13 @@
 @font-face {
   font-family: "Physis";
   src: url("/assets/RNSPhysis-Bold.woff2") format("woff2");
-  font-weight: bolder;
+  font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "Physis";
   src: url("/assets/RNSPhysis-Medium.woff2") format("woff2");
-  font-weight: bold;
+  font-weight: 600;
   font-style: normal;
 }
 @font-face {
