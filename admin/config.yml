@@ -88,7 +88,7 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       # - { label: 'Short Description', name: 'description', widget: 'markdown', hint: 'Shows up in previews', required: false, minimal: true }
       - { label: 'Description', name: 'body', widget: 'markdown' }
-      - { label: "Category", name: "categories", widget: "select", options: ["creative", "consulting", "speaking"] }
+      - { label: "Category", name: "categories", widget: "select", options: ["creative", "consulting", "speaking", "writing"] }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Main Image", name: "thumbnail", widget: "image", choose_url: false, allow_multiple: false }
       - label: "Additional Images"

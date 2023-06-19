@@ -1,5 +1,9 @@
 $work-item-height: 260px;
 
+.category-title {
+  color: $link !important;
+}
+
 .tags-bar {
   div:not(:last-child) {
     padding: 0.2rem;

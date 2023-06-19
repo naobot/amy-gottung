@@ -10,6 +10,8 @@
       {% assign works = site.works | where: "categories", "consulting" %}
     {% elsif clean_item_link == 'speaking' %}
       {% assign works = site.works | where: "categories", "speaking" %}
+    {% elsif clean_item_link == 'writing' %}
+      {% assign works = site.works | where: "categories", "writing" %}
     {% endif %}
 
     {% assign all_tags = works | map: "tags" %}

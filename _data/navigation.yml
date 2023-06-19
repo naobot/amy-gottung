@@ -17,6 +17,9 @@ items:
   - name: Speaking
     link: /speaking
     visibility: true
+  - name: Writing
+    link: /writing
+    visibility: false
   - name: Clients
     link: /clients
     visibility: true

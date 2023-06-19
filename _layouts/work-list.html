@@ -11,6 +11,9 @@ layout: default
 {% elsif layout.category_type == 'speaking' %}
   {% assign works = site.works | where: "categories", "speaking" %}
   {% assign nav_item = site.data.navigation.items | where: "link", "/speaking" | first %}
+{% elsif layout.category_type == 'writing' %}
+  {% assign works = site.works | where: "categories", "writing" %}
+  {% assign nav_item = site.data.navigation.items | where: "link", "/writing" | first %}
 {% endif %}
 
 {% if nav_item.visibility %}
@@ -20,7 +23,7 @@ layout: default
   <section class="fixed-top">
     <div class="level tags-bar">
       <div class="level-left">
-        <h4 class="m-0">
+        <h4 class="m-0 category-title">
           {{ layout.category_type }} work
         </h4>
       </div>
