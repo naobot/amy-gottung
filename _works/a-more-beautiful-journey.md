@@ -20,6 +20,8 @@ categories: creative
 tags:
   - media
 thumbnail: /assets/uploads/screenshot-2023-04-21-at-2.13.05-pm.png
+images:
+  - image: /assets/uploads/screenshot-2023-06-20-at-1.12.05-pm.png
 ---
 An historic XR (extended reality) audio installation to transform Toronto public transit, in honour of the centennial anniversary of the TTC. 
 
