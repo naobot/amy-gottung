@@ -31,11 +31,8 @@ I surface data, develop strategy, and open opportunities - for communities, sect
 *values* 
 
 My interests tend towards the marginal, relational, speculative, systemic, and complex. I’m propelled by the eternal persistence, and infinite configurations, of an alternative. 
- 
 
-![](/assets/uploads/_dsf0417-1.1mb.jpg "Photo by Hao Nguyen")
-
-               
+![](/assets/uploads/_dsf0417-copy-1-.jpg "Photo by Hao Nguyen")
 
 *bio*
 
