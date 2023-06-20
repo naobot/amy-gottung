@@ -6,6 +6,7 @@ role: Writer/Producer
 team: "DOP/Editor: Adam Seward | Tomorrow Night Films; PA/1st AC- Callum Kelley
   @vhsdeath8; AMBJ Marketing/Comms: Kat Cooper; Artist: Felipe Sena
   @felipe7sena"
+partners: C﻿ity of Toronto, Music Gallery, et al.
 date: 2023-06-20T20:12:41.663Z
 categories: creative
 tags:
