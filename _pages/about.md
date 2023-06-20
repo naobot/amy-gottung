@@ -1,6 +1,6 @@
 ---
-title: About
 layout: page
+title: About
 permalink: /about/
 ---
 *what I do*
@@ -31,7 +31,11 @@ I surface data, develop strategy, and open opportunities - for communities, sect
 *values* 
 
 My interests tend towards the marginal, relational, speculative, systemic, and complex. I’m propelled by the eternal persistence, and infinite configurations, of an alternative. 
-                            ![](https://freight.cargo.site/w/2262/q/75/i/69527f3bff26e62a75ca6501ad5543a4f8d7c4cfc8a06080950ae89c9d93131e/Amysmallphoto.png)
+ 
+
+![](/assets/uploads/_dsf0417-1.1mb.jpg "Photo by Hao Nguyen")
+
+               
 
 *bio*
 
