@@ -13,6 +13,8 @@ date: 2023-05-10T18:00:48.248Z
 categories: creative
 tags:
   - media
+  - documentary
+  - television
 thumbnail: /assets/uploads/marx61oqgzhiz6l._ac_sl1000_.jpg
 images:
   - image: /assets/uploads/richiepry.jpg
