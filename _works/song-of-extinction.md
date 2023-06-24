@@ -4,7 +4,7 @@ title: Song of Extinction
 client: Luminato Festival, Music in the Barns
 role: Producer
 when: "2015"
-where: T﻿oronto, Canada
+where: Toronto, Canada
 team: Rose Bolton, composer / Marc de Guerre, filmmaker / Don McKay, poet.
   Performed by Music in the Barns Chamber Ensemble, Members of Tafelmusik
   Chamber Choir, VIVA! Youth Singers of Toronto, with Music Director John Hess.

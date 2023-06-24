@@ -8,16 +8,19 @@ items:
   - name: Blog
     link: /blog
     visibility: false
-  - name: Creative
+  - name: Work
+    link: /work
+    visibility: false
+  - name: 'Creative'
     link: /creative
     visibility: true
-  - name: Consulting
+  - name: 'Consulting'
     link: /consulting
     visibility: true
-  - name: Speaking
+  - name: 'Speaking'
     link: /speaking
     visibility: true
-  - name: Writing
+  - name: 'Writing'
     link: /writing
     visibility: false
   - name: Clients

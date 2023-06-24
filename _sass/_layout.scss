@@ -1,8 +1,9 @@
 $sidebar-width: 220px;
 
-.site-title {
+.site-title, .category-title {
   font-family: "Hiragino Sans", sans-serif !important;
   font-weight: 200 !important;
+  text-transform: uppercase;
 }
 
 .external-arrow {
@@ -42,7 +43,11 @@ nav {
             font-size: 0.8em;
           }
         }
-        text-transform: lowercase;
+        &:not(.is-tag) {
+          font-family: "Hiragino Sans", sans-serif !important;
+          font-weight: 200 !important;
+          text-transform: uppercase;
+        }
       }
     }
   }
@@ -86,6 +91,10 @@ nav {
     .fixed-top {
       padding: 0 1em;
       margin-top: 1em;
+      max-width: 1200px;
+      .tags-bar {
+        margin-top: 1em;
+      }
     }
     .main {
       padding: 1em;
@@ -98,7 +107,7 @@ nav {
           @include until($small-screen) {
             width: 100%;
           }
-          max-width: 1600px;
+          max-width: 1200px;
           max-height: 800px;
           padding: 2rem;
         }

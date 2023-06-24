@@ -25,8 +25,8 @@ layout: home
   <div class="mr-4 credits fade-out">
     <h5>
       {% for category in work.categories %}
-      <a href="{{ category }}">
-        # {{ category | capitalize }}
+      <a href="{{ category }}" class="category-title">
+        {{ category | capitalize }}
       </a>
       {% endfor %}
     </h5>

@@ -21,11 +21,21 @@ layout: default
   {% assign tags = all_tags | uniq %}
 
   <section class="fixed-top">
+    <span class="convert-md" data-md="{{ site.data.site_config.info.short_bio }}">
+      <img src="{{ site.baseurl }}assets/red-loader.svg">
+    </span>
+    <div class="more-arrow">
+      <a href="/about">Read more →</a>
+    </div>
     <div class="level tags-bar">
-      <div class="level-left">
-        <h4 class="m-0 category-title">
-          {{ layout.category_type }} work
-        </h4>
+      <div class="level-right">
+        <span class="mr-4 category-title">
+          <a href="/work">All Work</a>
+        </span>
+        <span>/</span>
+        <span class="mx-4 category-title">
+          <a href="/{{ layout.category_type }}">{{ layout.category_type }}</a>
+        </span>
       </div>
     </div>
   </section>
