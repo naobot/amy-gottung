@@ -32,8 +32,6 @@ I surface data, develop strategy, and open opportunities - for communities, sect
 
 My interests tend towards the marginal, relational, speculative, systemic, and complex. I’m propelled by the eternal persistence, and infinite configurations, of an alternative. 
 
-![](/assets/uploads/desksf0281-copy.jpg "Photo by Hao Nguyen")
-
 *bio*
 
 **Amy Gottung** is a cultural programmer/producer, consultant, and writer based in Canada. Bridging sectors and disciplines, her practice is split between two principal streams.
