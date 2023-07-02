@@ -3,31 +3,49 @@
   {% if item.visibility %}
     {% capture clean_item_link %}{{ item.link | remove: "/" | strip }}{% endcapture %}
     {% capture clean_page_url %}{{ page.url | remove: "/" | strip }}{% endcapture %}
-
-    {% if clean_item_link == 'creative' %}
-      {% assign works = site.works | where: "categories", "creative" %}
-    {% elsif clean_item_link == 'consulting' %}
-      {% assign works = site.works | where: "categories", "consulting" %}
-    {% elsif clean_item_link == 'speaking' %}
-      {% assign works = site.works | where: "categories", "speaking" %}
-    {% elsif clean_item_link == 'writing' %}
-      {% assign works = site.works | where: "categories", "writing" %}
-    {% endif %}
-
-    {% assign all_tags = works | map: "tags" %}
-    {% assign tags = all_tags | uniq %}
+    {% capture capitalised_page_url %}{{ clean_page_url | capitalize }}{% endcapture %}
 
     <div>
       <a href="{{ item.link | relative_url }}" class="{% if clean_item_link == clean_page_url %}current{% endif %}">{{ item.name }}</a>
     </div>
-    {% if (site.data.site_config.categories contains item.name) and (clean_item_link == clean_page_url) %}
-    {% for tag in tags %}
-    <div class="ml-2 tags-bar">
-      <a href="#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag {{ tag }}">
-        #{{ tag }}
-      </a>
-    </div>
-    {% endfor %}
+
+    {% if item.name == 'Work' and ((clean_item_link == clean_page_url) or (site.data.site_config.categories contains capitalised_page_url) %}
+      <div class="work-categories">
+      {% for ctgy in item.categories %}
+        {% if ctgy.visibility %}
+
+          {% capture clean_ctgy_link %}{{ ctgy.link | remove: "/" | strip }}{% endcapture %}
+
+          {% if clean_ctgy_link == 'creative' %}
+            {% assign works = site.works | where: "categories", "creative" %}
+          {% elsif clean_ctgy_link == 'consulting' %}
+            {% assign works = site.works | where: "categories", "consulting" %}
+          {% elsif clean_ctgy_link == 'speaking' %}
+            {% assign works = site.works | where: "categories", "speaking" %}
+          {% elsif clean_ctgy_link == 'writing' %}
+            {% assign works = site.works | where: "categories", "writing" %}
+          {% endif %}
+
+          {% assign all_tags = works | map: "tags" %}
+          {% assign tags = all_tags | uniq %}
+
+          <div>
+            <a href="{{ clean_ctgy_link | relative_url }}" class="{% if clean_ctgy_link == clean_page_url %}current{% endif %}">{{ ctgy.name }}</a>
+          </div>
+
+          {% if (site.data.site_config.categories contains ctgy.name) and (clean_ctgy_link == clean_page_url) %}
+          {% for tag in tags %}
+          <div class="ml-2 tags-bar">
+            <a href="#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag {{ tag }}">
+              #{{ tag }}
+            </a>
+          </div>
+          {% endfor %}
+          {% endif %}
+
+        {% endif %}
+      {% endfor %}
+      </div>
     {% endif %}
   {% endif %}
 {% endfor %}

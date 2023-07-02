@@ -30,6 +30,9 @@ nav {
     &.nav-items {
       > div:not(.tags-bar) {
         margin: 0.7rem 0;
+        .current {
+          font-weight: 400 !important;
+        }
       }
       div.tags-bar {
         margin: 0.2rem 0;

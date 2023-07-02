@@ -4,19 +4,18 @@ layout: default
 
 {% if layout.category_type == 'creative' %}
   {% assign works = site.works | where: "categories", "creative" %}
-  {% assign nav_item = site.data.navigation.items | where: "link", "/creative" | first %}
+  <!-- {% assign nav_item = site.data.navigation.items | where: "link", "/creative" | first %} -->
 {% elsif layout.category_type == 'consulting' %}
   {% assign works = site.works | where: "categories", "consulting" %}
-  {% assign nav_item = site.data.navigation.items | where: "link", "/consulting" | first %}
+  <!-- {% assign nav_item = site.data.navigation.items | where: "link", "/consulting" | first %} -->
 {% elsif layout.category_type == 'speaking' %}
   {% assign works = site.works | where: "categories", "speaking" %}
-  {% assign nav_item = site.data.navigation.items | where: "link", "/speaking" | first %}
+  <!-- {% assign nav_item = site.data.navigation.items | where: "link", "/speaking" | first %} -->
 {% elsif layout.category_type == 'writing' %}
   {% assign works = site.works | where: "categories", "writing" %}
-  {% assign nav_item = site.data.navigation.items | where: "link", "/writing" | first %}
+  <!-- {% assign nav_item = site.data.navigation.items | where: "link", "/writing" | first %} -->
 {% endif %}
 
-{% if nav_item.visibility %}
   {% assign all_tags = works | map: "tags" %}
   {% assign tags = all_tags | uniq %}
 
@@ -120,6 +119,3 @@ layout: default
     </div>
   </section>
   {% include filter_tag_script.html %}
-{% else %}
-  {% include placeholder.html %}
-{% endif %}

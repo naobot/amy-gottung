@@ -10,19 +10,20 @@ items:
     visibility: false
   - name: Work
     link: /work
-    visibility: false
-  - name: 'Creative'
-    link: /creative
     visibility: true
-  - name: 'Consulting'
-    link: /consulting
-    visibility: true
-  - name: 'Speaking'
-    link: /speaking
-    visibility: true
-  - name: 'Writing'
-    link: /writing
-    visibility: false
+    categories:
+    - name: 'Creative'
+      link: /creative
+      visibility: true
+    - name: 'Consulting'
+      link: /consulting
+      visibility: true
+    - name: 'Speaking'
+      link: /speaking
+      visibility: true
+    - name: 'Writing'
+      link: /writing
+      visibility: false
   - name: Clients
     link: /clients
     visibility: true
