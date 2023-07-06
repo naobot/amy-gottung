@@ -25,6 +25,13 @@ body {
   // justify-content: space-between;
 }
 nav {
+  .work-categories > div {
+    text-align: left;
+    padding-left: 5.5em;
+    a {
+      font-size: 1.1em !important;
+    }
+  }
   > div {
     margin-bottom: 1rem;
     &.nav-items {
