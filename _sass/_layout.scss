@@ -26,9 +26,10 @@ body {
 }
 nav {
   .work-categories {
+    margin-top: -0.7rem !important;
     > div:not(.tags-bar) {
-      text-align: left;
-      padding-left: 5.5em;
+      // text-align: left;
+      // padding-left: 5.5em;
       > a {
         font-size: 1em !important;
       }
@@ -38,7 +39,7 @@ nav {
     margin-bottom: 1rem;
     &.nav-items {
       > div:not(.tags-bar) {
-        margin: 0.7rem 0;
+        margin: 0.7rem 0 1rem 0;
         .current {
           font-weight: 400 !important;
         }
