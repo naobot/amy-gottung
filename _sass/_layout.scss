@@ -25,11 +25,13 @@ body {
   // justify-content: space-between;
 }
 nav {
-  .work-categories > div {
-    text-align: left;
-    padding-left: 5.5em;
-    a {
-      font-size: 1.1em !important;
+  .work-categories {
+    > div:not(.tags-bar) {
+      text-align: left;
+      padding-left: 5.5em;
+      > a {
+        font-size: 1em !important;
+      }
     }
   }
   > div {
@@ -48,7 +50,7 @@ nav {
         font-size: 1.2em;
         font-weight: 400;
         &.is-tag {
-          font-size: 1em;
+          font-size: 0.9em;
           @include until($mobile-screen) {
             font-size: 0.8em;
           }
