@@ -2,6 +2,7 @@ site_url: https://amy-gottung.netlify.app
 display_url: https://amy-gottung.netlify.app
 backend:
   name: git-gateway
+  repo: naobot/amy-gottung
   branch: main # Branch to update (optional; defaults to master)
   api_root: https://gitlab.com/api/v4
   base_url: https://gitlab.com
