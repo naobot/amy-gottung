@@ -3,6 +3,8 @@ display_url: https://amy-gottung.netlify.app
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
+  api_root: https://gitlab.com/api/v4
+  base_url: https://gitlab.com
 media_folder: 'assets/uploads'
 collections:
   - name: 'general'
