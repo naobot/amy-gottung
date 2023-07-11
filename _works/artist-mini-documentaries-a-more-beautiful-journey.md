@@ -12,3 +12,5 @@ tags:
 thumbnail: /assets/uploads/screenshot-2023-05-31-at-10.54.54-am.png
 ---
 P﻿roduced, co-directed, and crafted narrative for three micro-documentaries on Toronto artists and neighbourhoods featured in the More Beautiful Journey public art project in Toronto, Canada.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Cz69-R6TfkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
