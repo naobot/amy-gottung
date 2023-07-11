@@ -46,7 +46,7 @@ From 2016-2020 Amy served as the Executive Director of Toronto’s singular “a
 
 Amy is the creator of several cross-sector [interventions](http://www.torontolongwinter.com/diyspace) and [international exchanges](https://toronto.paris/) in support of alternative cultural scenes and spaces. Initiatives include a festival and research conference, co-presented by Long Winter (Toronto) and [La Station Gare des Mines](https://lastation.paris/) (Paris) in 2021, and the DIY Space Project: a multi-city, transdisciplinary research and advocacy program realized in partnership with [Trans Europe Halles](https://teh.net/) (a network of 100+ grassroots cultural centres) and leaders from government, real estate, and nightlife in Canada and Europe. 
 
-She is a co-creator and creative producer of *[A More Beautiful Journey](https://amorebeautifuljourney.ca/),* a custom web augmented reality app that animated hundreds of kilometres of Toronto transit line with original, spatialized music and sound from over 35 artists.
+She is a co-creator and creative producer of *[A More Beautiful Journey](https://amorebeautifuljourney.ca/),* a custom web augmented reality app that animated hundreds of kilometres of Toronto public transit line with original, spatialized music and sound from over 35 artists.
 
 Amy holds a SSHRC-funded M.A. from the University of Toronto and a B. Mus from McGill University. She has lived and worked in Toronto, New York, Montréal, Sagueney (QC), Zürich, Massachusetts, Connecticut, and British Columbia. She speaks English, French, and basic German.
 
