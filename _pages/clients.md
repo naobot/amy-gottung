@@ -23,6 +23,8 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [The Stop Community Food Centre](http://thestop.org/)
 
+[S﻿econd Spring](https://secondspring.online/)
+
 [KRAK XR](https://www.krakxr.co/)
 
 [Art Gallery of Ontario](https://ago.ca/)
