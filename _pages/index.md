@@ -3,4 +3,4 @@ layout: splash
 title: home
 permalink: home
 ---
-![](/assets/uploads/6r0a6842.jpg "Photo by Hao Nguyen")
+![](/assets/uploads/screenshot-2023-07-11-at-12.51.10-pm.png "Photo by Hao Nguyen")
