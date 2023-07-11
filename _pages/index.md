@@ -7,7 +7,7 @@ permalink: home
 
 ![](/assets/uploads/6r0a6842.jpg)
 
-![](/assets/uploads/lw-vol.1-2015-rcstills.com-42.jpg)
+![](/assets/uploads/ddscreen-shot-2021-03-09-at-9.16.16-am.png)
 
 ![](/assets/uploads/screenshot-2023-05-31-at-10.54.54-am.png)
 
