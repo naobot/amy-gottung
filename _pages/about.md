@@ -13,7 +13,7 @@ My client and partner [roster](https://amygottung.com/Roster) includes avant st
 
 **research / consulting**
 
-I surface data, develop strategy, and open opportunities - for communities, sectors, and systems.
+I surface data, develop strategy, and open opportunities - for communities, sectors, and systems. 
 
 *practice*
 
