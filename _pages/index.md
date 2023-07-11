@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /
+title: home
+permalink: home
 ---
-
-![](/assets/uploads/dsf0417-copy.jpg "Photo by Hao Nguyen")
+![](/assets/uploads/6r0a6842.jpg "Photo by Hao Nguyen")
