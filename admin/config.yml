@@ -2,10 +2,10 @@ site_url: https://amy-gottung.netlify.app
 display_url: https://amy-gottung.netlify.app
 backend:
   name: git-gateway
-  repo: naobot/amy-gottung
+  # repo: naobot/amy-gottung
   branch: main # Branch to update (optional; defaults to master)
-  api_root: https://gitlab.com/api/v4
-  base_url: https://gitlab.com
+  # api_root: https://gitlab.com/api/v4
+  # base_url: https://gitlab.com
 media_folder: 'assets/uploads'
 collections:
   - name: 'general'
@@ -53,7 +53,7 @@ collections:
     fields:
       - {label: 'Layout', name: 'layout', widget: hidden, default: 'page'}
       - {label: 'Title', name: 'title', widget: string}
-      - {label: 'URL', name: 'permalink', widget: string, pattern: ['[\w\d\-]+', 'Must only consist of alphanumeric characters.'], hint: 'This is the URL to the page that appears after amygottung.com/'}
+      - {label: 'URL', name: 'permalink', widget: string, pattern: ['[/\w\d\-]+', 'Must only consist of alphanumeric characters.'], hint: 'This is the URL to the page that appears after amygottung.com/'}
       - {label: 'Page Content', name: 'body', widget: markdown}
     editor:
       preview: false
