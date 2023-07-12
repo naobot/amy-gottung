@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: home
-permalink: home
+permalink: /
 ---
 ![](/assets/uploads/screenshot-2023-07-11-at-12.51.10-pm.png "Photo by Hao Nguyen")
 
