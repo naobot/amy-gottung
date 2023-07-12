@@ -119,7 +119,15 @@ nav {
       .page-content {
         width: 100%;
         & > img, & > p > img {
-          width: 90%;
+          @include until($small-screen) {
+            width: 100%;
+          }
+          @include until ($medium-screen) {
+            max-width: 800px;
+          }
+          @include until ($large-screen) {
+            max-width: 980px;
+          }
           max-width: 1200px;
           max-height: 800px;
           padding: 2rem;
