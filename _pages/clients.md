@@ -1,9 +1,8 @@
 ---
-layout: page
+layout: columns
 title: Client Roster
 permalink: /clients
 ---
-R﻿ecent clients and partners include:[](https://vibe-lab.org/)
 
 [VibeLab](https://vibe-lab.org/)
 
@@ -43,13 +42,13 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [Level Justice](https://leveljustice.org/)
 
-[Pride Toronto](https://www.pridetoronto.com/) 
+[Pride Toronto](https://www.pridetoronto.com/)
 
 [Artscape Daniels Launchpad](http://www.artscapedanielslaunchpad.ca/)
 
 [Harbourfront Centre](http://www.harbourfrontcentre.com/)
 
-[City of Toronto](https://www.toronto.ca/) 
+[City of Toronto](https://www.toronto.ca/)
 
 [Jessy Lanza](https://jessylanza.com/)
 

@@ -1,0 +1,16 @@
+article {
+  padding: 0.8rem;
+  background: white;
+  column-count: 3;
+  column-width: 10em;
+  column-gap: 2.5em;
+  widows: 3;
+  orphans: 3;
+  // height: 40em;
+}
+
+.background-container {
+  background: white url(/assets/SingleGrid.png) repeat;
+  background-size: 12px;
+  padding: 2.5em;
+}
