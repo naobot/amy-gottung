@@ -1,4 +1,7 @@
 $sidebar-width: 360px;
+@include until($mobile-screen) {
+  $sidebar-width: 200px;
+}
 
 .site-title, .category-title {
   font-family: "Physis", sans-serif !important;
@@ -86,6 +89,7 @@ nav {
     padding: 1rem 2.6rem;
     @include until($mobile-screen) {
       font-size: 0.8rem;
+      padding: 1rem 1.2rem 1rem 0.5rem;
     }
     .site-header {
       text-align: left;
@@ -109,7 +113,7 @@ nav {
     width: calc(100vw - #{$sidebar-width});
     @include until($mobile-screen) {
       width: calc(100vw - #{$sidebar-width} + 80px);
-      padding-left: 1em;
+      padding-left: 0.5em;
     }
     .fixed-top {
       padding: 0 1em;
@@ -148,6 +152,11 @@ nav {
 .splash-cover {
   margin-top: calc(3.2rem * 2 + 104px);
   font-size: 1.4em;
+  @include until($mobile-screen) {
+    margin-top: calc(3.2rem * 2 + 100px);
+    line-height: 1.2em;
+    font-size: 1em;
+  }
   font-weight: 600;
 }
 #contact {
