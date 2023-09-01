@@ -24,11 +24,17 @@
     <div class="big-container">
       <div class="content">
         <nav class="first is-flex is-flex-direction-column">
-          <h1 class="is-family-secondary">
-            <a href="/" class="site-title">
-              {{ site.data.site_config.info.title }}
-            </a>
-          </h1>
+          <div class="site-header">
+            <h1>
+              <span class="convert-md" data-md="{{ site.data.site_config.info.short_bio }}">
+                <strong>{{ site.data.site_config.info.title }}</strong>
+                <img src="{{ site.baseurl }}assets/red-loader.svg">
+              </span>
+              <span class="more-arrow">
+                <a href="/about">Read more →</a>
+              </span>
+            </h1>
+          </div>
           {% include nav.html %}
           <div id='contact'>
             {{ site.data.site_config.info.email }}

@@ -1,7 +1,7 @@
-$sidebar-width: 220px;
+$sidebar-width: 360px;
 
 .site-title, .category-title {
-  font-family: "Hiragino Sans", sans-serif !important;
+  font-family: "Physis", sans-serif !important;
   font-weight: 200 !important;
   text-transform: uppercase;
 }
@@ -26,22 +26,29 @@ body {
 }
 nav {
   .work-categories {
-    margin-top: -0.7rem !important;
+    // margin-top: -0.7rem !important;
     > div:not(.tags-bar) {
       // text-align: left;
       // padding-left: 5.5em;
       > a {
-        font-size: 1em !important;
+        color: $link !important;
+        // font-size: 1em !important;
       }
     }
   }
   > div {
     margin-bottom: 1rem;
     &.nav-items {
+      > div:not(.work-categories) {
+        > a {
+          color: $text !important;
+        }
+      }
       > div:not(.tags-bar) {
-        margin: 0.7rem 0 1rem 0;
+        // margin: 0.7rem 0 1rem 0;
+        text-align: right;
         .current {
-          font-weight: 400 !important;
+          font-weight: 600 !important;
         }
       }
       div.tags-bar {
@@ -49,7 +56,7 @@ nav {
       }
       a {
         font-size: 1.2em;
-        font-weight: 400;
+        font-weight: 600;
         &.is-tag {
           font-size: 0.9em;
           @include until($mobile-screen) {
@@ -57,9 +64,9 @@ nav {
           }
         }
         &:not(.is-tag) {
-          font-family: "Hiragino Sans", sans-serif !important;
-          font-weight: 200 !important;
+          font-family: "Physis", sans-serif !important;
           text-transform: uppercase;
+          line-height: 0.8;
         }
       }
     }
@@ -74,19 +81,20 @@ nav {
   .first {
     overflow-y: scroll;
     z-index: 15;
-    text-align: center;
+    // text-align: center;
     width: $sidebar-width;
-    padding-top: 1rem;
+    padding: 1rem 2.6rem;
     @include until($mobile-screen) {
       font-size: 0.8rem;
     }
-    h1 {
-      text-transform: uppercase;
-      a:link, a:hover, a:visited, a:active {
-        color: $text !important;
-      }
-      @include until($mobile-screen) {
-        font-size: 1.4rem;
+    .site-header {
+      text-align: left;
+      margin: 3.2rem 0;
+      h1 {
+        font-size: 1.4em !important;
+        @include until($mobile-screen) {
+          font-size: 1.4em !important;
+        }
       }
     }
     @include until($mobile-screen) {
@@ -137,6 +145,16 @@ nav {
   }
 }
 
+.splash-cover {
+  margin-top: calc(3.2rem * 2 + 104px);
+  font-size: 1.4em;
+  font-weight: 600;
+}
+#contact {
+  text-align: center;
+  font-weight: 600;
+}
+
 .bottom-link {
   width: 100%;
   z-index: 10;
@@ -148,7 +166,7 @@ nav {
     text-align: center;
     font-size: 1.5em;
     font-weight: 200;
-    font-family: "Hiragino Sans", sans-serif;
+    font-family: "Physis", sans-serif;
     text-transform: uppercase;
     padding: 60px 0 0.5rem 0;
     overflow-y: hidden;

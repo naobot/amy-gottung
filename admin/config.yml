@@ -57,6 +57,9 @@ collections:
       - {label: 'Page Content', name: 'body', widget: markdown}
     editor:
       preview: false
+  - name: 'about'
+    label: 'About'
+    folder:
   - name: 'blog'
     label: 'Blog'
     folder: '_posts/'

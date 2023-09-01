@@ -3,7 +3,7 @@ items:
     link: /about
     visibility: true
   - name: Contact
-    link: /contact
+    link: /
     visibility: true
   - name: Notebook
     link: /notebook

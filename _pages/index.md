@@ -3,4 +3,5 @@ layout: splash
 title: home
 permalink: /
 ---
-*PLACEHOLDER*
+
+→ amy.gottung@gmail.com
