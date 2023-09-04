@@ -8,6 +8,9 @@
   // }
   line-height: 1.125;
 }
+.top-boxes {
+  border-bottom: 2px $text solid;
+}
 .top-boxes > div {
   min-height: 300px;
 }
