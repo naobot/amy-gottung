@@ -59,7 +59,25 @@ collections:
       preview: false
   - name: 'about'
     label: 'About'
-    folder:
+    editor:
+      preview: false
+    files:
+      - label: 'About Page Content'
+        name: 'about_content'
+        file: '_data/about.yml'
+        fields:
+          - label: 'Photo'
+            name: 'photo'
+            widget: image
+          - label: 'Top Left Box'
+            name: 'top_left'
+            widget: markdown
+          - label: 'Top Right Box'
+            name: 'top_right'
+            widget: markdown
+          - label: 'Main Content'
+            name: 'main'
+            widget: markdown
   - name: 'blog'
     label: 'Blog'
     folder: '_posts/'
