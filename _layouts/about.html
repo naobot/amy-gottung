@@ -3,11 +3,11 @@ layout: page
 ---
 
 <div class="columns top-boxes">
-  <div class="column is-half">
-    {{ site.data.about.top_left }}
+  <div class="column is-half convert-md" data-md="{{ site.data.about.top_left }}">
+    <img src="{{ site.baseurl }}assets/red-loader.svg">
   </div>
-  <div class="column is-half">
-    {{ site.data.about.top_right }}
+  <div class="column is-half convert-md" data-md="{{ site.data.about.top_right }}">
+    <img src="{{ site.baseurl }}assets/red-loader.svg">
   </div>
 </div>
 <div class="columns bio-boxes">
@@ -17,7 +17,7 @@ layout: page
     {% capture lq_image_path %}{{ image_path | resize: '100x100>' }}{% endcapture %}
     {% include lazyload.html image_src=sm_image_path lq_image_src=lq_image_path %}
   </div>
-  <div class="column is-two-thirds">
-    {{ site.data.about.main }}
+  <div class="column is-two-thirds convert-md" data-md="{{ site.data.about.main }}">
+    <img src="{{ site.baseurl }}assets/red-loader.svg">
   </div>
 </div>
