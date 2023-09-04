@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about-old/
 ---
 *what I do*
 
@@ -13,7 +13,7 @@ My client and partner [roster](https://amygottung.com/Roster) includes avant st
 
 **research / consulting**
 
-I surface data, develop strategy, and open opportunities - for communities, sectors, and systems. 
+I surface data, develop strategy, and open opportunities - for communities, sectors, and systems.
 
 *practice*
 
@@ -38,7 +38,7 @@ My interests tend towards the marginal, relational, speculative, systemic, and c
 
 **Amy Gottung** is a cultural programmer/producer, writer, and researcher. Bridging sectors and disciplines, her practice is split between two principal streams.
 
-As a consultant and fundraiser, Amy works with organizations in culture, media, and social-purpose spaces internationally. Her [client roster](https://amygottung.com/roster) embraces legacy institutions, service non-profits, avant production studios, and DIY collectives. Recent projects include a collaboration with [VibeLab,](https://vibe-lab.org/) a global leader in night culture, on consultations to inform the City of Toronto’s night economy strategy. 
+As a consultant and fundraiser, Amy works with organizations in culture, media, and social-purpose spaces internationally. Her [client roster](https://amygottung.com/roster) embraces legacy institutions, service non-profits, avant production studios, and DIY collectives. Recent projects include a collaboration with [VibeLab,](https://vibe-lab.org/) a global leader in night culture, on consultations to inform the City of Toronto’s night economy strategy.
 
 As a director/producer, Amy generates unique frameworks for boundary-pushing work. She has led landmark projects and diverse teams in the creation of experimental media, non-fiction television and video, international festivals, art-tech hackathons, and operas.
 
@@ -50,7 +50,7 @@ She is a co-creator and creative producer of *[A More Beautiful Journey](https:/
 
 Amy holds a SSHRC-funded M.A. from the University of Toronto and a B. Mus from McGill University. She has lived and worked in Toronto, New York, Montréal, Sagueney (QC), Zürich, Massachusetts, Connecticut, and British Columbia. She speaks English, French, and basic German.
 
-Amy collaborates and experiments with partners around the world. 
+Amy collaborates and experiments with partners around the world.
 
 *contact*
 
