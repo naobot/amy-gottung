@@ -30,9 +30,8 @@ $work-item-height: 260px;
     content: "";
     display: inline-block;
     width: 100%;
-    height: 45px;
-    background: white url(/assets/SingleGrid.png) repeat;
-    background-size: 12px;
+    height: 2px;
+    background-color: $text;
     margin: 0.5rem 0;
   }
 }
