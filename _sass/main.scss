@@ -1,24 +1,6 @@
 @charset "utf-8";
 
 @font-face {
-  font-family: "Basteleur Moonlight";
-  src: url("/assets/Basteleur-Moonlight.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Fengardo Neue";
-  src: url("/assets/fengardoneue_black-webfont.woff") format("woff");
-  font-weight: bolder;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Fengardo Neue";
-  src: url("/assets/fengardoneue_regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: "Physis";
   src: url("/assets/RNSPhysis-Bold.woff2") format("woff2");
   font-weight: 800;
@@ -36,12 +18,7 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: "Mostica";
-  src: url("/assets/Mostica.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 
 @import "./bulma-0.9.4/bulma.sass";

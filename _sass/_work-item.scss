@@ -1,5 +1,10 @@
 .work-item-info {
   margin-top: 2rem;
+  .convert-md {
+    p {
+      display: inline;
+    }
+  }
   .description {
     margin: 2rem 0;
     .youtube-video {
