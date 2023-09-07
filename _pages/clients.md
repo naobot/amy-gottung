@@ -51,6 +51,8 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [Jessy Lanza](https://jessylanza.com/)
 
+[S﻿ylvain Sailly](http://www.zszsvzszs.com/)
+
 [Radha Chaddah](https://www.radhachaddah.com/)
 
 [Ryerson FCAD](https://www.ryerson.ca/fcad/)
