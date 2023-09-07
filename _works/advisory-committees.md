@@ -14,7 +14,7 @@ images:
 ---
 **Advisory** \
 \
-City of Toronto Nightlife Advisory Committee
+City of Toronto - Nightlife Advisory Committee
 
 University of Toronto School of Cities - Reimagining Music Venues
 
