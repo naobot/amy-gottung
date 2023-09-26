@@ -67,7 +67,8 @@ layout: home
       </div>
       {% if work.content %}
       <div class="summary fade-out has-text-justified">
-        <span class="convert-md" data-md="{{ work.content | strip_html | truncatewords: 300, '...' }}"><img src="{{ site.baseurl }}assets/red-loader.svg"></span><a class="ml-2" href="{{ work.url | relative_url }}"><em>Read more →</em></a>
+        <span class="convert-md" data-md="{{ work.content | strip_html | truncatewords: 300, '...' }}"><img src="{{ site.baseurl }}assets/red-loader.svg"></span>
+        <p class="has-text-right" href="{{ work.url | relative_url }}">Read more →</p>
       </div>
       {% endif %}
     </div>
