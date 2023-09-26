@@ -7,7 +7,7 @@ layout: home
 {% for work_title in ordered_work %}
 {% assign work = site.works | where: "title", work_title | first %}
 {% if work %}
-<div class="work-item-container">
+<div class="work-item-container is-visible">
   <div class="work-item is-flex is-flex-direction-row is-align-items-stretch {{ work.tags | join: ' ' }}">
     <div class="image">
       <div>
