@@ -77,6 +77,11 @@ $work-item-height: 260px;
       transition: max-height 1.25s ease-in;
     }
     .summary {
+      &::webkit-scrollbar {
+        display: none;
+      }
+      -ms-overflow-style: none;
+      scrollbar-width: none;
       overflow-y: auto;
       max-height: calc(400px - 1.2em - 1rem);
       transition: max-height 1.25s ease-in;
