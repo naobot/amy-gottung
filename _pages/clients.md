@@ -3,7 +3,6 @@ layout: columns
 title: Client Roster
 permalink: /clients
 ---
-
 [VibeLab](https://vibe-lab.org/)
 
 [The Laneway Project](https://www.thelanewayproject.ca/)
@@ -52,11 +51,17 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [Jessy Lanza](https://jessylanza.com/)
 
+[S﻿ylvain Sailly](http://www.zszsvzszs.com/)
+
 [Radha Chaddah](https://www.radhachaddah.com/)
 
 [Ryerson FCAD](https://www.ryerson.ca/fcad/)
 
 [Sony Centre for the Performing Arts](http://www.sonycentre.ca/)
+
+[L﻿il Sis](https://www.instagram.com/lilsis.ca/)
+
+[D﻿ancing with Parkinson's](https://www.dancingwithparkinsons.com/)
 
 [The Daniels Corporation](https://danielshomes.ca/)
 

@@ -12,11 +12,13 @@ thumbnail: /assets/uploads/musicmusic-homepage-hero.jpeg
 images:
   - image: /assets/uploads/musicloop-sessions-1.jpeg
 ---
-**Advisory Committees**\
+**Advisory** \
 \
-City of Toronto Nightlife Advisory Committee
+City of Toronto - Nightlife Advisory Committee
 
-University of Toronto School of Cities - Reimagining Music Venues\
+University of Toronto School of Cities - Reimagining Music Venues
+
+T﻿oronto Arts Council - Juror, Project Grants \
 \
 City of Toronto, Tourism - City of Toronto narrative focus group\
 \
