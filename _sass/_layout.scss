@@ -82,7 +82,7 @@ nav {
   overflow: hidden;
   height: 100%;
   .first {
-    overflow-y: scroll;
+    overflow-y: auto;
     z-index: 15;
     // text-align: center;
     width: $sidebar-width;

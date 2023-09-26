@@ -8,6 +8,8 @@
     <div>
       <a href="{{ item.link | relative_url }}" class="{% if clean_item_link == clean_page_url %}current{% endif %}">{{ item.name }}</a>
     </div>
+
+    {% if item.name == 'Work' and ((clean_item_link == clean_page_url) or (site.data.site_config.categories contains capitalised_page_url) %}
     <div class="work-categories">
     {% for ctgy in item.categories %}
       {% if ctgy.visibility %}
@@ -44,6 +46,7 @@
       {% endif %}
     {% endfor %}
     </div>
+    {% endif %}
   {% endif %}
 {% endfor %}
 </div>
