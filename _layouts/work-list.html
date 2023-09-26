@@ -19,19 +19,7 @@ layout: default
   {% assign all_tags = works | map: "tags" %}
   {% assign tags = all_tags | uniq %}
 
-  <section class="fixed-top">
-    <div class="level tags-bar">
-      <div class="level-item">
-        <span class="mr-4 category-title">
-          <a href="/work">All Work</a>
-        </span>
-        <span>/</span>
-        <span class="mx-4 category-title">
-          <a href="/{{ layout.category_type }}">{{ layout.category_type }}</a>
-        </span>
-      </div>
-    </div>
-  </section>
+
   <section class="main">
     {% assign ordered_work = site.data.workOrder.work_order | map: "work" %}
 
