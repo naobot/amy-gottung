@@ -6,6 +6,12 @@ $grid-image-size: 260px;
   margin-left: 0.2rem;
   // font-style: italic;
 }
+.site-header {
+  .more-arrow {
+    margin-left: 0;
+    padding: 0.1rem 0;
+  }
+}
 
 /* ---- .grid-item ---- */
 
