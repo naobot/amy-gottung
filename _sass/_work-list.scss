@@ -25,7 +25,7 @@ $work-item-height: 260px;
   }
 }
 
-.work-item-container {
+.is-visible.work-item-container ~ .is-visible {
   &::before {
     content: "";
     display: inline-block;

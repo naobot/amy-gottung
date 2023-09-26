@@ -7,8 +7,9 @@
     document.getElementsByClassName('no-works-msg')[0].classList.add('is-hidden');
     if (allWorkItems.length !== visibleWorkItems.length) {
       for (const elem of allWorkItems) {
-        // elem.classList.remove('is-flex');
-        elem.closest('.work-item-container').classList.add('is-hidden');
+        var workItemContainer = elem.closest('.work-item-container');
+        workItemContainer.classList.add('is-hidden');
+        workItemContainer.classList.remove('is-visible');
       }
       if (visibleWorkItems.length == 0) {
         document.getElementsByClassName('no-works-msg')[0].classList.remove('is-hidden');
@@ -17,7 +18,9 @@
     }
     // show only matched tag works
     for (const elem of visibleWorkItems) {
-      elem.closest('.work-item-container').classList.remove('is-hidden');
+      var workItemContainer = elem.closest('.work-item-container');
+      workItemContainer.classList.remove('is-hidden');
+      workItemContainer.classList.add('is-visible');
       // elem.classList.add('is-flex');
     }
     // reset tag highlights
