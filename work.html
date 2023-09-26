@@ -7,7 +7,7 @@ layout: home
 {% for work_title in ordered_work %}
 {% assign work = site.works | where: "title", work_title | first %}
 {% if work %}
-<div class="work-item-container is-visible">
+<div class="work-item-container">
   <div class="work-item is-flex is-flex-direction-row is-align-items-stretch {{ work.tags | join: ' ' }}">
     <div class="image">
       <div>
@@ -68,7 +68,9 @@ layout: home
       {% if work.content %}
       <div class="summary fade-out has-text-justified">
         <span class="convert-md" data-md="{{ work.content | strip_html | truncatewords: 300, '...' }}"><img src="{{ site.baseurl }}assets/red-loader.svg"></span>
-        <p class="has-text-right" href="{{ work.url | relative_url }}">Read more →</p>
+        <p class="has-text-right">
+          <a class="ml-2" href="{{ work.url | relative_url }}">Read more →</a>
+        </p>
       </div>
       {% endif %}
     </div>
