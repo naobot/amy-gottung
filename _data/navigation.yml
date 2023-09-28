@@ -2,12 +2,6 @@ items:
   - name: About
     link: /about
     visibility: true
-  - name: Contact
-    link: /
-    visibility: true
-  - name: Notebook
-    link: /notebook
-    visibility: false
   - name: Work
     link: /work
     visibility: true
@@ -26,4 +20,10 @@ items:
         visibility: false
   - name: Clients
     link: /clients
+    visibility: true
+  - name: Notebook
+    link: /notebook
+    visibility: false
+  - name: Contact
+    link: /
     visibility: true
