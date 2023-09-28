@@ -1,3 +1,5 @@
+$text-padding: 2.5em;
+
 .top-boxes .column, .bio-boxes .column {
   // h1, h2, h3, h4, h5, h6 {
   //   margin: 0;
@@ -9,10 +11,13 @@
   line-height: 1.125;
 }
 .top-boxes {
-  border-bottom: 1px $text solid;
+  margin-bottom: 0 !important;
+  .column {
+    padding: $text-padding;
+  }
 }
 .top-boxes > div {
-  min-height: 300px;
+  // min-height: 300px;
 }
 .bio-boxes {
   .headshot {
@@ -20,4 +25,12 @@
       width: 100%;
     }
   }
+  .bio-text {
+    padding: $text-padding;
+  }
+}
+.divider-line {
+  height: 0;
+  border-bottom: 1px $text solid;
+  margin: 0 0 $text-padding 0 !important;
 }
