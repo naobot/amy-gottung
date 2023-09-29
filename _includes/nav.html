@@ -5,48 +5,82 @@
     {% capture clean_page_url %}{{ page.url | remove: "/" | strip }}{% endcapture %}
     {% capture capitalised_page_url %}{{ clean_page_url | capitalize }}{% endcapture %}
 
-    <div>
-      <a href="{{ item.link | relative_url }}" class="{% if clean_item_link == clean_page_url %}current{% endif %}">{{ item.name }}</a>
-    </div>
-
-    {% if item.name == 'Work' and ((clean_item_link == clean_page_url) or (site.data.site_config.categories contains capitalised_page_url) %}
-    <div class="work-categories">
-    {% for ctgy in item.categories %}
-      {% if ctgy.visibility %}
-
-        {% capture clean_ctgy_link %}{{ ctgy.link | remove: "/" | strip }}{% endcapture %}
-
-        {% if clean_ctgy_link == 'creative' %}
-          {% assign works = site.works | where: "categories", "creative" %}
-        {% elsif clean_ctgy_link == 'consulting' %}
-          {% assign works = site.works | where: "categories", "consulting" %}
-        {% elsif clean_ctgy_link == 'speaking' %}
-          {% assign works = site.works | where: "categories", "speaking" %}
-        {% elsif clean_ctgy_link == 'writing' %}
-          {% assign works = site.works | where: "categories", "writing" %}
-        {% endif %}
-
-        {% assign all_tags = works | map: "tags" %}
-        {% assign tags = all_tags | uniq %}
-
-        <div>
-          <a href="{{ clean_ctgy_link | relative_url }}" class="{% if clean_ctgy_link == clean_page_url %}current{% endif %}">{{ ctgy.name }}</a>
+    {% if item.name == 'Work' %}
+      <div class="work-categories-container">
+        <div class="nav-item">
+          <a href="{{ item.link | relative_url }}" class="{% if clean_item_link == clean_page_url %}current{% endif %}">{{ item.name }}</a>
         </div>
 
-        {% if (site.data.site_config.categories contains ctgy.name) and (clean_ctgy_link == clean_page_url) %}
-        <div class="ml-2 tags-bar">
-        {% for tag in tags %}
-          <a href="#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag {{ tag }}">
-            #{{ tag }}
-          </a>
+        {% if ((clean_item_link == clean_page_url) or (site.data.site_config.categories contains capitalised_page_url)) %}
+          {% assign hide_work_categories = false %}
+        {% else %}
+          {% assign hide_work_categories = true %}
+          <script type="text/javascript">
+            window.addEventListener('load', function () {
+              var converter = new showdown.Converter();
+              for (const elem of document.getElementsByClassName('convert-md')) {
+                var md = elem.dataset.md;
+                var html = converter.makeHtml(md);
+                elem.innerHTML = html;
+              }
+
+              const workCategoriesContainer = document.getElementsByClassName('work-categories-container')[0];
+              const workCategories = document.getElementsByClassName('work-categories')[0];
+
+              workCategoriesContainer.addEventListener("mouseover", event => {
+                workCategories.classList.remove("hidden-nav");
+              });
+
+              workCategoriesContainer.addEventListener("mouseout", event => {
+                workCategories.classList.add("hidden-nav");
+              });
+            });
+          </script>
+        {% endif %}
+
+        <div class="work-categories {% if hide_work_categories %}hidden-nav{% endif %}">
+        {% for ctgy in item.categories %}
+          {% if ctgy.visibility %}
+
+            {% capture clean_ctgy_link %}{{ ctgy.link | remove: "/" | strip }}{% endcapture %}
+
+            {% if clean_ctgy_link == 'creative' %}
+              {% assign works = site.works | where: "categories", "creative" %}
+            {% elsif clean_ctgy_link == 'consulting' %}
+              {% assign works = site.works | where: "categories", "consulting" %}
+            {% elsif clean_ctgy_link == 'speaking' %}
+              {% assign works = site.works | where: "categories", "speaking" %}
+            {% elsif clean_ctgy_link == 'writing' %}
+              {% assign works = site.works | where: "categories", "writing" %}
+            {% endif %}
+
+            {% assign all_tags = works | map: "tags" %}
+            {% assign tags = all_tags | uniq %}
+
+            <div class="nav-item">
+              <a href="{{ clean_ctgy_link | relative_url }}" class="{% if clean_ctgy_link == clean_page_url %}current{% endif %}">{{ ctgy.name }}</a>
+            </div>
+
+            {% if (site.data.site_config.categories contains ctgy.name) and (clean_ctgy_link == clean_page_url) %}
+            <div class="ml-2 tags-bar">
+            {% for tag in tags %}
+              <a href="#{{ tag }}" onClick="filterTag('{{tag}}')" class="is-tag {{ tag }}">
+                #{{ tag }}
+              </a>
+            {% endfor %}
+            </div>
+            {% endif %}
+
+          {% endif %}
         {% endfor %}
         </div>
-        {% endif %}
-
-      {% endif %}
-    {% endfor %}
-    </div>
+      </div>
+    {% else %}
+      <div class="nav-item">
+        <a href="{{ item.link | relative_url }}" class="{% if clean_item_link == clean_page_url %}current{% endif %}">{{ item.name }}</a>
+      </div>
     {% endif %}
+
   {% endif %}
 {% endfor %}
 </div>

@@ -28,23 +28,33 @@ body {
   // justify-content: space-between;
 }
 nav {
-  .work-categories {
-    // margin-top: -0.7rem !important;
-    > div:not(.tags-bar) {
-      // text-align: left;
-      // padding-left: 5.5em;
-      > a {
-        color: $link !important;
-        // font-size: 1em !important;
+  .work-categories-container {
+    .work-categories {
+      overflow: hidden;
+      transition: max-height 1.25s ease-in-out;
+      &:not(.hidden-nav) {
+        max-height: 400px;
+      }
+      &.hidden-nav {
+        max-height: 0;
+      }
+      // margin-top: -0.7rem !important;
+      > div:not(.tags-bar) {
+        // text-align: left;
+        // padding-left: 5.5em;
+        > a {
+          color: $link !important;
+          // font-size: 1em !important;
+        }
       }
     }
   }
   > div {
     margin-bottom: 1rem;
     &.nav-items {
-      > div:not(.work-categories) {
+      .nav-item {
         > a {
-          color: $text !important;
+          color: $text;
         }
       }
       > div:not(.tags-bar) {
