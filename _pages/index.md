@@ -4,4 +4,4 @@ title: home
 permalink: /
 ---
 
-→ amy.gottung@gmail.com
+→ info@amygottung.com
