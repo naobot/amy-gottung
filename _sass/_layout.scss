@@ -160,10 +160,10 @@ nav {
 }
 
 .splash-cover {
-  margin-top: calc(3.2rem * 2 + 104px);
+  margin-top: calc(3.2rem * 2 + 104px - 1em);
   font-size: 1.4em;
   @include until($mobile-screen) {
-    margin-top: calc(3.2rem * 2 + 100px);
+    margin-top: calc(3.2rem * 2 + 100px - 1.5em);
     line-height: 1.2em;
     font-size: 1em;
   }
