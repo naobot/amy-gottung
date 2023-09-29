@@ -61,6 +61,9 @@ $work-item-height: 260px;
     @include from($large-screen) {
       max-height: calc(#{$work-item-height} + 90px);
     }
+    .is-tag {
+      margin-top: 0px !important;
+    }
   }
   &:not(:hover) .credits, &:not(:hover) .summary {
     overflow-y: hidden;
