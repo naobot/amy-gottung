@@ -26,7 +26,7 @@ $text-padding: 2.5em;
     }
   }
   .bio-text {
-    padding: $text-padding;
+    padding: inherit $text-padding;
   }
 }
 .divider-line {
