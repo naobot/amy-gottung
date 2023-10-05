@@ -12,4 +12,4 @@ tags:
   - fundraising
 thumbnail: /assets/uploads/thrvht_secondspring_0001-0405_eveetoaeedited.gif
 ---
-R﻿egular contributor to this contemporary experimental art imprint and production studio. Collaborator, performer, project developer.
+R﻿egular contributor to this contemporary experimental art imprint and production studio. Ensemble member, curatorial and project development.
