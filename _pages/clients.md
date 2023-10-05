@@ -117,6 +117,8 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [Florentine Films](http://www.florentinefilms.com/) (NY)
 
+[D﻿ancing with Parkinson's](https://www.dancingwithparkinsons.com/)
+
 [Sara Elgamal](https://sarathecamel.com/)
 
 [Thin Edge New Music Collective](https://www.thethinedgenewmusiccollective.com/)
