@@ -12,4 +12,4 @@ tags:
   - fundraising
 thumbnail: /assets/uploads/touch-the-ten-thousand-things-without-dependency_front.jpg
 ---
-R﻿egular contributor to this contemporary experimental art imprint and production studio. Ensemble member, curatorial and project development.
+R﻿egular contributor to this contemporary experimental art imprint and production studio. Ensemble member, curatorial, project, and funding development.
