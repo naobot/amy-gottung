@@ -15,4 +15,4 @@ images:
   - image: /assets/uploads/screenshot-2023-05-30-at-8.53.42-am.png
   - image: /assets/uploads/screenshot-2023-05-30-at-8.45.19-am.png
 ---
-Fundraising and development strategy, grant and proposal writing, program evaluation design and communications support for this deeply rooted, progressive food security, urban agriculture, and community advocacy organization in Toronto’s west end.
+Fundraising and development strategy, grant and proposal writing, program evaluation design and communications support for this progressive food security, urban agriculture, and community advocacy organization in Toronto’s west end.
