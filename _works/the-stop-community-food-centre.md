@@ -3,6 +3,7 @@ layout: work-item
 title: The Stop Community Food Centre
 client: The Stop Community Food Centre
 client_link: http://thestop.org/
+when: 2017-2023
 date: 2023-04-19T20:14:38.030Z
 categories: consulting
 tags:
