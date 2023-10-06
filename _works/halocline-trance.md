@@ -15,4 +15,4 @@ images:
   - image: /assets/uploads/htscreenshot-2023-03-13-at-10.48.41-am.png
   - image: /assets/uploads/htscreenshot-2023-03-13-at-10.47.57-am.png
 ---
-Ongoing strategic and project funding, business evelopment for this avant music and multi-media label and creative collective.
+Ongoing strategic and project funding, business development for this avant music and multi-media label and creative collective.
