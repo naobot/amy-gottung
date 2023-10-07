@@ -26,6 +26,8 @@ P﻿rojects include:
 * B﻿ehind-the-music documentaries (web content) - Tapestry Opera
 * \#﻿operavirgins series - Tapestry Opera
 
+
+
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/248982564?h=b5e637784f" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
 
 P﻿ilot to a series, "People Drinking Hot Things," made for no real reason. Produced with Alex Haythorne (DOP).
