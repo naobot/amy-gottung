@@ -4,6 +4,7 @@ title: Halocline Trance
 link: ""
 client_link: https://haloclinetrance.bandcamp.com/
 role: Consultant
+when: 2022-present
 date: 2023-05-14T20:49:03.851Z
 categories: consulting
 tags:
