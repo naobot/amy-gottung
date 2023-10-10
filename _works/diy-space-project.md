@@ -4,6 +4,7 @@ title: DIY Space Project
 link: https://torontolongwinter.com/diyspace
 client: Trans Europe Halles et al.
 role: Founder / Director
+when: 2022-2023
 partners: Trans Europe Halles, City of Toronto, The Toronto Metropolitan School,
   Vibe Lab, et al.
 date: 2023-04-19T20:16:53.980Z
