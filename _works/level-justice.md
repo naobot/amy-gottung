@@ -3,6 +3,7 @@ layout: work-item
 title: Level Justice
 link: https://www.leveljustice.org/
 role: Consultant
+when: 2018-2020
 date: 2023-05-30T14:17:21.373Z
 categories: consulting
 tags:
