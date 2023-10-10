@@ -2,6 +2,7 @@
 layout: work-item
 title: Airsa Services for Newcomer Artists
 role: Consultant
+when: "2017"
 date: 2023-05-28T15:14:49.658Z
 categories: consulting
 tags:
