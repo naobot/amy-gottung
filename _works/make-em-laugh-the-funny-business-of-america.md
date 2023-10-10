@@ -4,6 +4,7 @@ title: "Make 'em Laugh: The Funny Business of America"
 client: PBS/WNET
 client_link: ""
 role: Research / Production
+when: 2007-2008
 where: N﻿ew York, New York
 team: Ghost Light Films, Thirteen / WNET (as Thirteen / WNET New York), Rhino
   Entertainment Company (in association with), BBC Cymru Wales (in association
