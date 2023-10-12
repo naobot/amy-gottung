@@ -12,6 +12,7 @@ tags:
   - media
   - video
   - documentary
+  - television
 thumbnail: /assets/uploads/ddscreen-shot-2021-03-09-at-9.16.16-am.png
 ---
 News, documentary, lifestyle, and behind-the-scenes video content for a range of broadcast, editorial and commercial clients.
@@ -25,8 +26,7 @@ P﻿rojects include:
 * C﻿ooking segments (documentary-style) - Sweet Potato Chronicles
 * B﻿ehind-the-music documentaries (web content) - Tapestry Opera
 * \#﻿operavirgins series - Tapestry Opera
-
-
+* P﻿lum TV - lifestyle and news segments for this regional broadcast network 
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/248982564?h=b5e637784f" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
 
