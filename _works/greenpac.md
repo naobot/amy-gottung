@@ -1,6 +1,7 @@
 ---
 layout: work-item
 title: GreenPAC
+client_link: https://www.greenpac.ca/
 role: Consultant, grant writer
 where: C﻿anada
 date: 2023-05-10T20:23:00.202Z
