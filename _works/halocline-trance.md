@@ -1,7 +1,7 @@
 ---
 layout: work-item
 title: Halocline Trance
-link: https://haloclinetrance.bandcamp.com/
+link: ""
 client_link: https://haloclinetrance.bandcamp.com/
 role: Consultant
 when: 2022-present
