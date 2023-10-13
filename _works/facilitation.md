@@ -11,7 +11,7 @@ tags:
 thumbnail: /assets/uploads/spkg2screen-shot-2021-05-04-at-8.14.05-am.png
 images:
   - image: /assets/uploads/spkng1.png
-  - image: /assets/uploads/spkg2screen-shot-2021-05-04-at-8.14.05-am.png
+  - image: /assets/uploads/27023965_10155914191798260_410529859374318782_o.jpg
 ---
 Workshop designer, facilitator 
 
