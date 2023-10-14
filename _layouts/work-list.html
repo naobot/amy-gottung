@@ -58,7 +58,7 @@ layout: default
               <h6>
                 {{ work.client }}
                 {% if work.client_link %}
-                  <a href="{{ work.client_url }}" class="external-arrow" target="_blank">↗</a>
+                  <a href="{{ work.client_link | strip }}" class="external-arrow" target="_blank">↗</a>
                 {% endif %}
                 {% if (work.when or work.where) and (work.when != "") and (work.where != "") %}
                   - {% if work.where and work.where != "" %}{{ work.where }} {% endif %}{% if work.when and work.when != "" %}({{ work.when }}){% endif %}
