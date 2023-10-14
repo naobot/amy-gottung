@@ -40,12 +40,12 @@ layout: home
           <a href="{{ work.client_url }}" class="external-arrow" target="_blank">↗</a>
         {% endif %}
         {% if (work.when or work.where) and (work.when != "") and (work.where != "") %}
-          - {% if work.where %}{{ work.where }} {% endif %}({{ work.when }})
+          - {% if work.where and work.where != "" %}{{ work.where }} {% endif %}{% if work.when and work.when != "" %}({{ work.when }}){% endif %}
         {% endif %}
       </h6>
       {% elsif (work.when or work.where) and (work.when != "") and (work.where != "")  %}
         <h6>
-          {% if work.where %}{{ work.where }} {% endif %}({{ work.when }})
+          {% if work.where and work.where != "" %}{{ work.where }} {% endif %}{% if work.when and work.when != "" %}({{ work.when }}){% endif %}
         </h6>
       {% endif %}
 
