@@ -33,7 +33,7 @@ layout: home
       </h5>
       <h4><a href="{{ work.url | relative_url }}">{{ work.title }}</a></h4>
 
-      {% if work.client and work.client != work.title %}
+      {% if work.client and work.client != work.title and work.client != "" %}
       <h6>
         {{ work.client }}
         {% if work.client_link %}
