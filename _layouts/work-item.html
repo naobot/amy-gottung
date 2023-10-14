@@ -8,7 +8,7 @@ layout: default
       <div>
         <h4 class="m-0">
           {{ page.title }}
-          {% if page.link %}
+          {% if page.link and page.link != "" %}
             <a href="{{ page.link | strip }}" target="_blank" class="external-arrow">↗</a>
           {% endif %}
         </h4>
