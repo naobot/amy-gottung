@@ -59,6 +59,16 @@ layout: default
       <span class="has-text-weight-semibold">Role:</span> {{ page.role }}
     </div>
     {% endif %}
+    {% if page.when and page.when != "" %}
+    <div class="my-2">
+      <span class="has-text-weight-semibold">When:</span> {{ page.when }}
+    </div>
+    {% endif %}
+    {% if page.where and page.where != "" %}
+    <div class="my-2">
+      <span class="has-text-weight-semibold">Where:</span> {{ page.where }}
+    </div>
+    {% endif %}
     {% if page.partners and page.partners != "" %}
     <div class="is-size-6">
       <span class="has-text-weight-semibold">Partners:</span> <span data-md="{{ page.partners }}" class="convert-md"><img src="{{ site.baseurl }}assets/red-loader.svg"></span>

@@ -5,7 +5,7 @@ link: ""
 client: KRAK XR
 role: Co-Producer
 when: "2020"
-where: Karen Vanderborght, Mandy Lam, David Psutka, et al.
+partners: Karen Vanderborght, Mandy Lam, David Psutka, et al.
 date: 2023-05-10T17:47:19.963Z
 categories: creative
 tags:

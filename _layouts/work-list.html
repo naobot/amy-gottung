@@ -60,8 +60,16 @@ layout: default
                 {% if work.client_link %}
                   <a href="{{ work.client_url }}" class="external-arrow" target="_blank">↗</a>
                 {% endif %}
+                {% if (work.when or work.where) and (work.when != "") and (work.where != "") %}
+                  - {% if work.where %}{{ work.where }} {% endif %}({{ work.when }})
+                {% endif %}
               </h6>
+              {% elsif (work.when or work.where) and (work.when != "") and (work.where != "")  %}
+                <h6>
+                  {% if work.where %}{{ work.where }} {% endif %}({{ work.when }})
+                </h6>
               {% endif %}
+
 
               {% if work.role and work.role != "" %}
               <div class="detail my-2 has-text-weight-semibold">

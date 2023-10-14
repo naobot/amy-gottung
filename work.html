@@ -37,9 +37,16 @@ layout: home
       <h6>
         {{ work.client }}
         {% if work.client_link %}
-          <a href="{{ work.client_link | strip }}" class="external-arrow" target="_blank">↗</a>
+          <a href="{{ work.client_url }}" class="external-arrow" target="_blank">↗</a>
+        {% endif %}
+        {% if (work.when or work.where) and (work.when != "") and (work.where != "") %}
+          - {% if work.where %}{{ work.where }} {% endif %}({{ work.when }})
         {% endif %}
       </h6>
+      {% elsif (work.when or work.where) and (work.when != "") and (work.where != "")  %}
+        <h6>
+          {% if work.where %}{{ work.where }} {% endif %}({{ work.when }})
+        </h6>
       {% endif %}
 
       {% if work.role and work.role != "" %}

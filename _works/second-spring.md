@@ -1,8 +1,8 @@
 ---
 layout: work-item
-title: "Second Spring "
+title: "Second Spring"
 link: https://secondspring.online/
-client: https://secondspring.online/
+client: Second Spring
 role: Collective Member
 team: J﻿ulian Hou, Matt Smith, Fan Wu, SF Ho, Kasper Feyrer, Eddy Wang et al.
 date: 2023-07-11T10:16:41.476Z
