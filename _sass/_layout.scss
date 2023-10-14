@@ -1,7 +1,4 @@
 $sidebar-width: 360px;
-@include until($mobile-screen) {
-  $sidebar-width: 200px;
-}
 
 .site-title, .category-title {
   font-family: "Physis", sans-serif !important;
@@ -112,7 +109,7 @@ nav {
       }
     }
     @include until($mobile-screen) {
-      width: calc(#{$sidebar-width} - 80px);
+      width: calc(#{$sidebar-width} - 180px);
     }
   }
   .second {
@@ -122,7 +119,7 @@ nav {
     flex-direction: column;
     width: calc(100vw - #{$sidebar-width});
     @include until($mobile-screen) {
-      width: calc(100vw - #{$sidebar-width} + 80px);
+      width: calc(100vw - #{$sidebar-width} + 180px);
       padding-left: 0.5em;
     }
     .fixed-top {
