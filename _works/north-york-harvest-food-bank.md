@@ -2,6 +2,9 @@
 layout: work-item
 title: North York Harvest Food Bank
 link: https://northyorkharvest.com/
+role: Consultant
+when: 2017-2020
+where: T﻿oronto
 date: 2023-05-14T20:31:20.459Z
 categories: consulting
 tags:
