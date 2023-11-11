@@ -31,3 +31,15 @@ P﻿rojects include:
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/248982564?h=b5e637784f" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
 
 P﻿ilot to series "People Drinking Hot Things," made for no real reason. Co-produced with Alex Haythorne (camera).
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sj5_z6Sz50U?si=HR-Mfeu2HyYe\_hV\_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+\#﻿operavirgins series for Tapestry Opera 
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Je3tqL-c2zg?si=vrRoOPDAP-4vVc-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Behind-the-scenes for Tapestry Opera, with Fucked Up
