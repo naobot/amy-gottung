@@ -25,13 +25,13 @@ images:
   - image: /assets/uploads/20180922_140756.jpg
   - image: /assets/uploads/20180921_215316.jpg
 ---
-Co-designed and produced pop-up tech and art jam, workshop series, and exhibition at [Toronto Media Arts Centre](https://www.tomediaarts.org/). 50+ participants. 3-day creation period.
+Pop-up tech and art jam, workshop series, and exhibition at [Toronto Media Arts Centre](https://www.tomediaarts.org/). 50+ participants. 3-day creation period. 1 exhibition. 
 
 ●○○●●○ MENTORS • PROJECT LEADS ●○○\
 \
 | FLOATER MENTORS\
 ●° Markus Heckmann / Derivative / #synth #audio-visual #cg #collaboration #installation\
-●° Sarah Friend / [https://isthisa.com](https://isthisa.com) / #blockchain #interactive #generative\
+●° Sarah Friend / <https://isthisa.com> / #blockchain #interactive #generative\
 ●° Nadine Lessio / #games #tech #design #installation\
 ●° Protim Roy / #machine learning #music #art\
 ●° Henry Faber / #community #VR #games\
