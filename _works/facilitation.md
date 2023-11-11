@@ -8,10 +8,9 @@ date: 2023-05-14T20:58:07.783Z
 categories: speaking
 tags:
   - facilitation
-thumbnail: /assets/uploads/spkg2screen-shot-2021-05-04-at-8.14.05-am.png
+thumbnail: /assets/uploads/spkng327023965_10155914191798260_410529859374318782_o-2.jpeg
 images:
-  - image: /assets/uploads/spkng1.png
-  - image: /assets/uploads/27023965_10155914191798260_410529859374318782_o.jpg
+  - image: /assets/uploads/danielsscreen-shot-2021-05-04-at-8.14.05-am.png
 ---
 Workshop designer, facilitator 
 
@@ -19,7 +18,7 @@ Recent projects include:
 
 V﻿ibelab - Lead Facilitator - 2023 public consultations to inform the City of Toronto's night economy strategy
 
-Assistant conductor for VIVA Singers: music education and performance program for youth and young adults with disabilities
+VIVA Singers -Assistant Conductor -music education and performance program for youth and young adults with disabilities 
 
 Artscape Daniels Launchpad: workshop facilitator (workshops for professional creatives)
 
