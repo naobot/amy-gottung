@@ -32,3 +32,7 @@ images:
 description: ""
 ---
 Toronto's kaleidescopic, carnivalesque all-ages, pay-what-you-can multi-arts series. In four seasons, brought the organization through a critical period of growth: established a first arms-length Board of Directors and strategic planning process, helped formalize collective communication and programming processes; sourced 10+ new venue, program, and presenting partners when the fest lost its home base; initiated first-ever international projects and increased annual revenues and activity by over 300%. Successfully guided the organization into public operating funding and status. Presented over 1,200 artists and engaged audiences of over 20,000. Initiated first international and cross-sector programs, including collaborations with research (Ryerson, Université de Rouens), policy (City of Toronto), and real estate.
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Xc56WpiUx3E?si=kF1dwv0tid-Dyzj1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
