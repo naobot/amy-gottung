@@ -2,7 +2,7 @@
 layout: work-item
 title: "Treasures of the AGO: The Hulk"
 client: KRAK XR, Art Gallery of Ontario
-role: Production Manager
+role: Production Manager (Phase 1)
 when: 2021-2022
 where: T﻿oronto, Canada
 team: Priam Givord, Gillian McIntyre, Sherry Philips, Karen Vanderborght, et al.
