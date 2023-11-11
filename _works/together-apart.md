@@ -33,9 +33,7 @@ images:
 description: International DIY music and art Festival, co-presented by Long
   Winter (Toronto) and La Station (France).
 ---
-International DIY music and art festival, co-presented by Long Winter and La Station.
-
-Multi-pronged, multi-sector artistic, editorial, and research exchange. 
+International DIY music and art festival , showcase, and conference  co-presented by Long Winter and La Station. 
 
 Sept 24 + 25 // Nov 26 + 27 
 
@@ -44,8 +42,6 @@ Toronto, Ontario // Paris, France // Virtual
 Fieldgate Lot // St. Anne’s Anglican Church // Lula Lounge // Xpace // InterAccess Gallery
 
 Second instalment of a two-part, binational exchange: multi-arts festivals, conference, editorial, and industry events, co-produced and co-programmed by Collectif MU/La Station (Fr) and Long Winter (ON): September 20-21, 2019 (at La Station in Paris, France), and Sept 24-25 (Dundas West - Fieldgate Lot / The Garrison) and Nov 26-27 (St. Annes, Lula Lounge)
-
-A﻿ctivity included:
 
 * An international conference on DIY scenes and spaces: Nov 27, based at Lula Lounge, St. Anne’s (651 Dufferin), and streamed internationally
 * 2﻿ nights of live shows and art installations on Dundas West (Fieldgate lot); all performances filmed for online showcase.
