@@ -13,6 +13,8 @@ tags:
   - Indigenous
   - development
 thumbnail: /assets/uploads/sun.jpeg
+images:
+  - image: /assets/uploads/sharedpathcab11d6f805403e00b6d57067ce5bfba.jpeg
 ---
 D﻿evelopment consulting for this land planning consultancy focused on Indigenous rights and engagement.
 
