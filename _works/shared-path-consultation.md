@@ -1,6 +1,7 @@
 ---
 layout: work-item
 title: Shared Path Consultation
+link: https://sharedpath.ca/
 client: "Shared Path "
 client_link: https://sharedpath.ca/
 role: Consultant
