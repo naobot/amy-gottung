@@ -1,6 +1,9 @@
 ---
 layout: work-item
 title: Daily Bread
+client: Daily Bread
+client_link: https://www.dailybread.ca/
+role: Consultant
 when: 2021-2022
 date: 2023-05-28T15:22:31.008Z
 categories: consulting
