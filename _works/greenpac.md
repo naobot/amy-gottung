@@ -1,6 +1,7 @@
 ---
 layout: work-item
 title: GreenPAC
+client: Green PAC
 client_link: https://www.greenpac.ca/
 role: Consultant, grant writer
 where: C﻿anada
