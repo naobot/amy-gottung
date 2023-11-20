@@ -51,7 +51,7 @@ layout: default
   <div class="work-item-info">
     {% if page.client %}
     <div class="my-2">
-      <span class="has-text-weight-semibold">Client:</span> {{ page.client }}{% if page.client_link %}<a href="{{ work.client_link | strip }}" class="external-arrow" target="_blank">↗</a>{% endif %}
+      <span class="has-text-weight-semibold">Client:</span> {{ page.client }}{% if page.client_link %}<a href="{{ page.client_link | strip }}" class="external-arrow" target="_blank">↗</a>{% endif %}
     </div>
     {% endif %}
     {% if page.role and page.role != "" %}

@@ -52,12 +52,17 @@ layout: default
                   </span>
                 {% endfor %}
               </div>
-              <h4><a href="{{ work.url | relative_url }}">{{ work.title }}</a></h4>
+              <h4>
+                <a href="{{ work.url | relative_url }}">{{ work.title }}</a>
+                {% if work.link and work.link != "" %}
+                  <a href="{{ work.link | strip }}" class="external-arrow" target="_blank">↗</a>
+                {% endif %}
+              </h4>
 
               {% if work.client and work.client != work.title and work.client != "" %}
               <h6>
                 {{ work.client }}
-                {% if work.client_link %}
+                {% if work.client_link and work.client_link != "" %}
                   <a href="{{ work.client_link | strip }}" class="external-arrow" target="_blank">↗</a>
                 {% endif %}
                 {% if (work.when or work.where) and (work.when != "") and (work.where != "") %}

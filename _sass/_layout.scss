@@ -9,6 +9,9 @@ $sidebar-width: 360px;
 .external-arrow {
   position: relative;
   margin: 0;
+  color: $link !important;
+  text-decoration: none;
+  border: none !important;
 }
 
 body {

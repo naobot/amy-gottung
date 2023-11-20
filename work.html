@@ -31,7 +31,12 @@ layout: home
         </a>
         {% endfor %}
       </h5>
-      <h4><a href="{{ work.url | relative_url }}">{{ work.title }}</a></h4>
+      <h4>
+        <a href="{{ work.url | relative_url }}">{{ work.title }}</a>
+        {% if work.link and work.link != "" %}
+          <a href="{{ work.link | strip }}" class="external-arrow" target="_blank">↗</a>
+        {% endif %}
+      </h4>
 
       {% if work.client and work.client != work.title and work.client != "" %}
       <h6>
