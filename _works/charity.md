@@ -2,7 +2,7 @@
 layout: work-item
 title: Charity
 link: https://charity.nfb.ca/
-client: NFB
+client: National Film Board
 role: Production Manager
 when: "2021"
 team: National Film Board of Canada, P﻿FR (Parastoo Anoushahpour, Faraz
