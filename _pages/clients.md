@@ -109,6 +109,8 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [ChangeUp Art+Tech](http://changeup.io/)
 
+[C﻿anadian Golha Orchestra](https://www.instagram.com/canadian_golha_orchestra/?next=%2F%20)
+
 [Dan Lim Photography](http://danlimphoto.com/)
 
 [It's Not U It's Me](http://itsnotuits.me/)
