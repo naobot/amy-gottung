@@ -49,6 +49,8 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [D﻿uplex](https://www.instagram.com/duplexartistsociety/)
 
+[S﻿arah Ruba](http://www.sarahruba.com/)
+
 [City of Toronto](https://www.toronto.ca/)
 
 [Jessy Lanza](https://jessylanza.com/)
