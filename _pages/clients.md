@@ -47,6 +47,8 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [Harbourfront Centre](http://www.harbourfrontcentre.com/)
 
+[D﻿uplex](https://www.instagram.com/duplexartistsociety/)
+
 [City of Toronto](https://www.toronto.ca/)
 
 [Jessy Lanza](https://jessylanza.com/)
