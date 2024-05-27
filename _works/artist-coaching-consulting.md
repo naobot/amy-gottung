@@ -1,10 +1,11 @@
 ---
 layout: work-item
 title: Artist coaching / consulting
-client: "Various (incl): Jessy Lanza / Lanza Trio (musician, documentary film
-  project), Sylvain Sailly (artist) Seyblu (musician), Sara Elmagel (filmmaker),
-  Radha Chaddah (artist), Edwin Huizinga (musician), Classical / Stereo Live
-  Revolution (independent producer), Andrea Tyniec (musician)"
+client: "Various (incl): Sarah Ruba, Jessy Lanza / Lanza Trio (documentary film
+  project), Golha Iranian Orchestra, Sylvain Sailly (artist) Seyblu (musician),
+  Sara Elmagel (filmmaker), Radha Chaddah (artist), Edwin Huizinga (musician),
+  Classical / Stereo Live Revolution (independent producer), Andrea Tyniec
+  (musician)"
 role: Consultant
 date: 2023-05-14T20:34:23.440Z
 categories: consulting
