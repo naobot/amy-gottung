@@ -19,7 +19,7 @@ C﻿o-Programmer with Izolyatsia (Ukraine), La Station-Gare des Mines (France), 
 Panelist: DIY Spaces
 
 **Engagement:** [Space of Urgency](https://spaceofurgency.org/) Conference -* [Frei(t)räume](https://spaceofurgency.org/project/freitraeume/)* (2022)\
-Co-presenter: Building a Global Cultural Mycellium\
+Co-programmer and speaker: Building a Global Cultural Mycellium\
 \
 **Engagement:** *Towards an Alternative Vision of Creative and Cultural Third-Places* (2022)\
 [Université de Sourbonne Nouvelle](http://www.univ-paris3.fr/) et al. \
