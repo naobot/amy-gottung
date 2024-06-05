@@ -9,6 +9,12 @@ images:
   - image: /assets/uploads/120114149_2876588355776008_7925218672823700763_o.jpg
   - image: /assets/uploads/capitalism-updated.png
 ---
+**Engagement:** [Arts of Survival](https://www.teh.net/events/teh-conference-97-in-tartu/) - Trans Europe Halles (2024) [](https://www.mtl2424.ca/en/)\
+M﻿oderator: Alternative cultural spaces under crisis: resilience, renewal, and challenges
+
+**Engagement:** Arts of Survival - Trans Europe Halles (2024) [Mtl2424](https://www.mtl2424.ca/en/)(2023)\
+C﻿o-Programmer with Izolyatsia (Ukraine), La Station-Gare des Mines (France), Lab-Ex (France) - panel series
+
 **Engagement:** Sommet de la Nuit - [Mtl2424](https://www.mtl2424.ca/en/)(2023)\
 Panelist: DIY Spaces
 
@@ -50,7 +56,7 @@ Guest lecturer: PR and publicity in the non-profit sector\
 Round table on spatial precarity, gentrification, and the arts\
 \
 **Engagement:** [Third Spaces conference - École nationale supérieure d'architecture de Paris-La Villette (ENSA Paris-La Villette)](https://adair3p.hypotheses.org/133)\
-Speaker and collaborative think tank participant at international cross-sector research conference on creative and cultural third spaces, run by ADAIR (Art and Design Actions for Inclusive Renewal).\
+Speaker and collaborative think tank participant at international cross-sector research conference on creative and cultural third spaces, run by ADAIR (Art and Design Actions for Inclusive Renewal)\
  \
 **Engagement:** [University of Toronto](https://www.utoronto.ca/)\
 Panelist and speaker for University of Toronto’s Lives in Music and Music and Entrepreneurship courses
