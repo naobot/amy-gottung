@@ -1,6 +1,6 @@
 ---
 layout: work-item
-title: Interview with Fan Wu and Julian Hou
+title: Interview - Fan Wu, Julian Hou
 link: https://reissue.pub/articles/to-touch-the-ten-thousand-things-without-dependency-interlocking-wounds-and-intuitions-with-fan-wu-and-julian-hou
 client: "Reissue "
 role: Producer / interviewer
