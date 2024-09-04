@@ -1,7 +1,9 @@
 ---
 layout: work-item
 title: Nuville
+link: https://nuville.net/
 client: KRAK XR
+client_link: ""
 role: Project development, funding
 when: "2021"
 where: T﻿oronto, Canada
