@@ -1,6 +1,6 @@
 ---
 layout: work-item
-title: Halocline Trance
+title: Business Development
 link: ""
 client: Halocline Trance
 client_link: https://haloclinetrance.bandcamp.com/
