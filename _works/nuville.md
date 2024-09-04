@@ -2,7 +2,7 @@
 layout: work-item
 title: Nuville
 client: KRAK XR
-role: Project Development
+role: Project development, funding
 when: "2021"
 where: T﻿oronto, Canada
 team: K﻿aren Vanderborght and team
