@@ -3,7 +3,7 @@ layout: work-item
 title: Never Grow Up / Ne Grandis Pas
 client: KRAK XR, Le Labo
 client_link: https://www.krakxr.co/
-role: Project and team development
+role: Project, team development, funding
 when: "2021"
 where: T﻿oronto, ON
 team: Karen Vanderborght, Gillian Bleckenhorst, Maxwell Lander, Omar David
