@@ -1,10 +1,10 @@
 ---
 layout: work-item
-title: Business Development
+title: Halocline Trance
 link: ""
 client: Halocline Trance
 client_link: https://haloclinetrance.bandcamp.com/
-role: Consultant
+role: Consultant, Business Development
 when: 2022-present
 date: 2023-05-14T20:49:03.851Z
 categories: consulting
