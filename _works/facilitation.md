@@ -12,13 +12,13 @@ thumbnail: /assets/uploads/spkng327023965_10155914191798260_410529859374318782_o
 images:
   - image: /assets/uploads/danielsscreen-shot-2021-05-04-at-8.14.05-am.png
 ---
-Workshop designer, facilitator 
+Workshop designer, facilitator
 
 Recent projects include:
 
-V﻿ibelab - Lead Facilitator - 2023 public consultations to inform the City of Toronto's night economy strategy
+Vibelab - Lead Facilitator - 2023 public consultations to inform the City of Toronto's night economy strategy
 
-VIVA Singers -Assistant Conductor -music education and performance program for youth and young adults with disabilities 
+VIVA Singers -Assistant Conductor -music education and performance program for youth and young adults with disabilities
 
 Artscape Daniels Launchpad: workshop facilitator (workshops for professional creatives)
 

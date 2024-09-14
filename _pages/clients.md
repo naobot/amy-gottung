@@ -136,3 +136,5 @@ Leslie Ting / *[Speculation](https://www.speculationproduction.com/)*
 [Andréa Tyniec](https://www.andreatyniec.ca/)
 
 [VIVA Youth Singers of Toronto](https://www.vivayouthsingers.com/)
+
+[LabEx (Sorbonne Nouvelle)](https://www.univ-spn.fr/portfolio/icca/)
