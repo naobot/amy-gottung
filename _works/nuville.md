@@ -8,8 +8,8 @@ role: Project funding & development
 when: "2021"
 where: T﻿oronto, Canada
 team: K﻿aren Vanderborght and team
-partners: Mammalian Diving Collective, Mandy Lam, Workman Arts, Cara Spooner,
-  Tangled Art + Disability, et al.
+partners: Myseum of Toronto, Mammalian Diving Collective, Mandy Lam, Workman
+  Arts, Cara Spooner, Tangled Art + Disability, et al.
 date: 2023-05-10T17:38:18.267Z
 categories: creative
 tags:
@@ -17,7 +17,7 @@ tags:
   - project_development
 thumbnail: /assets/uploads/screenshot-2023-05-10-at-10.42.07-am.png
 ---
-H﻿elped generate funding and build an inter-disciplinary team for this experimental new media XR adventure.
+Generated funding (CMF, Canada Council), exhibitions (Myseum of Toronto) and helped build an inter-disciplinary team for the first phase of this experimental new media adventure.  
 
 Nuville is a real world augmented audio game that turns your urban walk into a sci-fi adventure. Guided by audio instructions, players perform whimsical urban interventions which they record and share via accessible social media platforms. Nuville’s story and AR experience are a continuous collaboration between humans and AI technology.\
 \
