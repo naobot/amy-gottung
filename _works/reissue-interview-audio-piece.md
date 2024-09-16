@@ -1,6 +1,6 @@
 ---
 layout: work-item
-title: Reissue - interview, audio piece
+title: ReIssue - interview, audio piece
 link: https://reissue.pub/articles/to-touch-the-ten-thousand-things-without-dependency-interlocking-wounds-and-intuitions-with-fan-wu-and-julian-hou/
 role: Producer, interviewer
 when: "2023"
