@@ -18,7 +18,7 @@ tags:
   - AR
 thumbnail: /assets/uploads/screenshot-2024-06-26-at-10.48.19-am.png
 ---
-P﻿roject, team, funding and pitch development for this collaborative, ambitious AR / AI -based experimental media project, by KRAK XR Director Karen Vanderborght.
+In partnership with Creative Director Karen Vanderborght, generated funding (Canada Media Fund, Canada Council), exhibitions (Myseum of Toronto) and helped build an inter-disciplinary team for the first phase of this ambitious new media adventure.  
 
 Nuville is an augmented walking game, co-created by humans and machines (AI) in a series of hackathons, and realized through walking tours at different urban locations.
 
