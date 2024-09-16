@@ -17,7 +17,7 @@ tags:
   - project_development
 thumbnail: /assets/uploads/screenshot-2023-05-10-at-10.42.07-am.png
 ---
-Generated funding (Canada Media Fund, Canada Council), exhibitions (Myseum of Toronto) and helped build an inter-disciplinary team for the first phase of this experimental new media adventure.  
+In partnership with Creative Director Karen Vanderborght, generated funding (Canada Media Fund, Canada Council), exhibitions (Myseum of Toronto) and built an interdisciplinary team for the first phase of this experimental new media adventure.  
 
 Nuville is a real world augmented audio game that turns your urban walk into a sci-fi adventure. Guided by audio instructions, players perform whimsical urban interventions which they record and share via accessible social media platforms. Nuville’s story and AR experience are a continuous collaboration between humans and AI technology.\
 \
