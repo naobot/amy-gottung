@@ -1,6 +1,6 @@
 ---
 layout: work-item
-title: Speaking Engagements
+title: Speaking
 client: Various
 date: 2023-05-14T21:07:40.175Z
 categories: speaking
@@ -9,10 +9,11 @@ images:
   - image: /assets/uploads/120114149_2876588355776008_7925218672823700763_o.jpg
   - image: /assets/uploads/capitalism-updated.png
 ---
-**Engagement:** [Arts of Survival](https://www.teh.net/events/teh-conference-97-in-tartu/) - Trans Europe Halles (2024) [](https://www.mtl2424.ca/en/)\
-M﻿oderator: Alternative cultural spaces under crisis: resilience, renewal, and challenges
+**Engagement:** [Alter-Places](https://alterplaces.com/) workshop - Malmö, Sweden - [Hypnos Theatre](https://hypnostheatre.com/)[](https://www.teh.net/events/teh-conference-97-in-tartu/)[](https://www.mtl2424.ca/en/)\
+M﻿oderator: Engagement panel
 
-**Engagement:** Arts of Survival - Trans Europe Halles (2024) [Mtl2424](https://www.mtl2424.ca/en/)(2023)\
+**Engagement:** [Arts of Survival](https://www.teh.net/events/teh-conference-97-in-tartu/) - Trans Europe Halles (2024) [](https://www.mtl2424.ca/en/)\
+M﻿oderator: Alternative cultural spaces under crisis: resilience, renewal, and challenges\
 C﻿o-Programmer with Izolyatsia (Ukraine), La Station-Gare des Mines (France), Lab-Ex (France) - panel series
 
 **Engagement:** Sommet de la Nuit - [Mtl2424](https://www.mtl2424.ca/en/)(2023)\
