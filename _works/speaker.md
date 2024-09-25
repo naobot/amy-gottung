@@ -11,6 +11,7 @@ images:
   - image: /assets/uploads/amyspking.jpeg
   - image: /assets/uploads/120114149_2876588355776008_7925218672823700763_o.jpg
   - image: /assets/uploads/capitalism-updated.png
+  - image: /assets/uploads/dsc08570.jpg
 ---
 **Engagement:** [Alter-Places](https://alterplaces.com/) workshop - Malmö, Sweden - [Hypnos Theatre](https://hypnostheatre.com/)[](https://www.teh.net/events/teh-conference-97-in-tartu/)[](https://www.mtl2424.ca/en/)\
 M﻿oderator: Engagement panel
