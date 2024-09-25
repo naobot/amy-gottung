@@ -4,6 +4,8 @@ title: Speaking engagements
 client: Various
 date: 2023-05-14T21:07:40.175Z
 categories: speaking
+tags:
+  - speaking
 thumbnail: /assets/uploads/dsc08544.jpg
 images:
   - image: /assets/uploads/amyspking.jpeg
