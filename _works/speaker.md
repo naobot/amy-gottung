@@ -6,9 +6,9 @@ date: 2023-05-14T21:07:40.175Z
 categories: speaking
 tags:
   - speaking
-thumbnail: /assets/uploads/dsc08544.jpg
+thumbnail: /assets/uploads/amyspking.jpeg
 images:
-  - image: /assets/uploads/amyspking.jpeg
+  - image: /assets/uploads/dsc08544.jpg
   - image: /assets/uploads/120114149_2876588355776008_7925218672823700763_o.jpg
   - image: /assets/uploads/capitalism-updated.png
   - image: /assets/uploads/dsc08570.jpg
