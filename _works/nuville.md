@@ -4,7 +4,7 @@ title: Nuville
 link: https://nuville.net/
 client: KRAK XR
 client_link: ""
-role: Project funding & development
+role: Project development, funding
 when: "2021"
 where: T﻿oronto, Canada
 team: K﻿aren Vanderborght and team
