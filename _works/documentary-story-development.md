@@ -2,7 +2,7 @@
 layout: work-item
 title: Documentary story development
 client: Florentine Films
-client_link: https://www.florentinefilms.com/
+client_link: ""
 role: Editorial Assistant
 when: "2008"
 where: N﻿ew York, New York
