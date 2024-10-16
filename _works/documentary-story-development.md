@@ -14,4 +14,4 @@ tags:
   - research
 thumbnail: /assets/uploads/screenshot-2024-10-16-at-4.10.14-pm.png
 ---
-Helped co-director/producer team shape early narrative for a project-in-development about increasing danger for war correspondents, centered on photojournalist Yannis Behrakis.
+Helped co-director/producer team shape an early narrative for a project-in-development about increasing danger for war correspondents, centered on photojournalist Yannis Behrakis.
