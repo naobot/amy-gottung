@@ -11,3 +11,7 @@ tags:
 thumbnail: /assets/uploads/wuwuw.jpg
 ---
 I﻿nterview with poet Fan Wu and artist Julian Hou
+
+
+
+https://reissue.pub/articles/to-touch-the-ten-thousand-things-without-dependency-interlocking-wounds-and-intuitions-with-fan-wu-and-julian-hou/
