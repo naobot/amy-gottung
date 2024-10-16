@@ -1,7 +1,7 @@
 ---
 layout: work-item
 title: Mini-documentaries - A More Beautiful Journey
-role: Producer
+role: Creative Producer
 when: "2023"
 team: A﻿dam Seward  (DOP / Editor) [T﻿omorrow Night
   Films](https://www.tomorrownightfilms.com/)
