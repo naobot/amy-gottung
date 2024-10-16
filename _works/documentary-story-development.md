@@ -1,6 +1,6 @@
 ---
 layout: work-item
-title: Documentary story development
+title: Documentary development
 client: Florentine Films
 client_link: ""
 role: Editorial Assistant
