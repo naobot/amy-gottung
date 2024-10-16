@@ -9,6 +9,9 @@ team: National Film Board of Canada, P﻿FR (Parastoo Anoushahpour, Faraz
   Anoushahpour and Ryan Ferko)
 date: 2023-11-11T16:19:20.873Z
 categories: creative
+tags:
+  - documentary
+  - media
 thumbnail: /assets/uploads/screenshot-2023-11-11-at-10.24.01-am.png
 ---
 P﻿roduction management for 360 video shoots for the National Film Board and MoCCA's co-presentation of this interactive media art project.
