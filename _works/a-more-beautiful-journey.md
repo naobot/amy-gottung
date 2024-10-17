@@ -95,4 +95,40 @@ An historic XR (extended reality) audio installation to transform Toronto public
 
 Through a web-based mobile app, riders experience an eclectic mix of site-specific ambient songs, soundscapes, and scores for over 25 discrete stretches of TTC line -- written by musicians from, and for, neighbourhoods spanning the breadth of the public transit grid. These sounds can be experienced through a web-based mobile app.  Musical excerpts unfold generatively for listeners travelling across streetcar or bus routes. AMBJ offers new modes of encounter with our urban geography: simultaneously public and private, intimate and communal, and accessible to millions of daily riders across the TTC.
 
+A﻿RTISTS included:
+
+Absolutely Free 
+
+birthday boy
+
+Brodie WestCasey MQ
+
+Chelsea Stewart
+
+chiquitamagic
+
+Debashis Sinha
+
+Emissive 
+
+Felipe Sena
+
+Jahmal Padmore
+
+Korea Town Acid
+
+Kind Mind
+
+Nick Storring
+
+OBUXUM
+
+Prince Josh
+
+Red Bear Singers
+
+Stefana Fratila
+
++﻿ more
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_mnJavvnby8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
