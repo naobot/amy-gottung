@@ -14,4 +14,4 @@ tags:
   - research
 thumbnail: /assets/uploads/screenshot-2024-10-16-at-4.10.14-pm.png
 ---
-Assisted co-director/producer team i﻿n o﻿rganizing footage and shaping an early narrative for a project-in-development about photojournalist Yannis Behrakis in the a﻿ftermath of the death of h﻿is R﻿euters colleague Kurt Shork and AP cameraman Miguel Gil Moreno in a 2000 ambush in Sierra Leone, and r﻿ising threats to unembedded war correspondents. \[Unreleased]
+Assisted co-director/producer team i﻿n o﻿rganizing footage and shaping an early narrative for a project-in-development about c﻿hanging conditions and r﻿ising threats to unembedded war correspondents. T﻿he project follows photojournalist Yannis Behrakis in the a﻿ftermath of the death of h﻿is R﻿euters colleague Kurt Shork and AP cameraman Miguel Gil Moreno in a 2000 ambush in Sierra Leone. \[Unreleased]
