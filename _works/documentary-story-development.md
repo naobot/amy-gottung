@@ -14,4 +14,4 @@ tags:
   - research
 thumbnail: /assets/uploads/screenshot-2024-10-16-at-4.10.14-pm.png
 ---
-Helped co-director/producer team shape an early narrative for a project-in-development about increasing danger for war correspondents, centered on photojournalist Yannis Behrakis. \[Unreleased]
+Assisted co-director/producer team i﻿n o﻿rganizing footage and shaping an early narrative for a project-in-development about the death of Reuters' correspondent Kurt Shork and AP cameraman Miguel Gil Moreno in a 2000 ambush in Sierra Leone, and r﻿ising threats to unembedded warA correspondents. \[Unreleased]
