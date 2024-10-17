@@ -1,7 +1,7 @@
 ---
 layout: work-item
-title: Documentary development
-client: Florentine Films
+title: Florentine Films
+client: ""
 client_link: ""
 role: Editorial Assistant
 when: "2008"
