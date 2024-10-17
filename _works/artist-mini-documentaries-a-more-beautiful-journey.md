@@ -1,6 +1,6 @@
 ---
 layout: work-item
-title: Mini-documentaries - A More Beautiful Journey
+title: Mini-docs - A More Beautiful Journey
 role: Creative Producer
 when: "2023"
 team: A﻿dam Seward  (DOP / Editor) [T﻿omorrow Night
@@ -13,10 +13,16 @@ tags:
   - documentary
 thumbnail: /assets/uploads/screenshot-2023-05-31-at-10.54.54-am.png
 ---
-P﻿roduced and "scripted" three micro-documentaries on Toronto artists and neighbourhoods featured in a 2023 sound and neighbourhood-based public art project in Toronto, Canada. 
+P﻿roduced and "scripted" three micro-features on Toronto artists and neighbourhoods of the 2023 AR sound project for public transit.
+
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cz69-R6TfkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/95oK81ROgTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7esyXxOFydQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
