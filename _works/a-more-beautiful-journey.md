@@ -7,74 +7,93 @@ client_link: "http://www.amorebeautifuljourney.ca "
 role: Co-creator, Creative Producer
 when: 2022-2023
 where: Toronto, Canada
-team: |-
+team: >-
   CREATIVE TEAM
 
-  Amy Gottung (creative producer) + Joseph Shabason + Dan Werb (co-creators) 
+
+  Amy Gottung (co-creator, creative producer) + Joseph Shabason + Dan Werb (co-creators) 
+
 
   Sanjeet Takhar + David Dacks (project design + development - Music Gallery)
 
+
   Soundways (geolocated XR audio software)
 
+
   Karen Vanderborght (creative technologist)
+
 
   Intersection Festival (presenter)
 
 
-
   CURATOR PARTNERS 
+
 
   Arts Etobicoke 
 
+
   Regent Park School of Music
+
 
   Council Fire Native Cultural Centre
 
+
   SKETCH 
+
 
   RISE 
 
+
   Long Winter 
 
+
   The Remix Project
+
 
   Canadian Music Centre
 
 
-
   REGENT PARK NEIGHBOURHOOD SPONSOR
+
 
   The Daniels Corporation
 
 
-
   TECH PARTNERS
 
+
   Ableton
+
 
   Splice
 
 
-
   PRESENTING AND PROMOTIONAL PARTNERS
+
 
   City of Toronto 
 
+
   ArtworksxTO
+
 
   TTC
 
 
-
   JURY
+
 
   Hugh Marsh
 
+
   tUkU Mathews
+
 
   Cadence Weapon
 
+
   Alison Cameron
+
 
   Mario Anzola
 partners: TTC, ArtworksxTO The Music Gallery, Regent Park School of Music,
