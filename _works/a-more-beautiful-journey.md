@@ -66,11 +66,7 @@ team: |-
 
 
 
-  J﻿URY
-
-  H﻿ugh Marsh
-
-  MJURYUSIC 
+  JURY
 
   Hugh Marsh
 
