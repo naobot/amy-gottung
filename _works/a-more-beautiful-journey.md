@@ -10,11 +10,9 @@ where: Toronto, Canada
 team: |-
   CREATIVE TEAM
 
-  Amy Gottung +Joseph Shabason + Dan Werb (co-creators)
+  Amy Gottung (creative producer) + Joseph Shabason + Dan Werb (co-creators) 
 
-  Amy Gottung (creative producer)
-
-  Sanjeet Takhar + David Dacks (project design + development / Music Gallery)
+  Sanjeet Takhar + David Dacks (project design + development - Music Gallery)
 
   Soundways (geolocated XR audio software)
 
