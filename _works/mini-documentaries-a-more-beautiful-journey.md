@@ -2,7 +2,7 @@
 layout: work-item
 title: Mini-documentaries - A More Beautiful Journey
 client: Intersection Festival
-role: Writer/Producer
+role: Producer, writer
 team: "DOP/Editor: Adam Seward | Tomorrow Night Films; PA/1st AC- Callum Kelley
   @vhsdeath8; AMBJ Marketing/Comms: Kat Cooper; Artist: Felipe Sena
   @felipe7sena"
