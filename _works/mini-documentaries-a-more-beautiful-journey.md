@@ -17,15 +17,21 @@ thumbnail: /assets/uploads/screenshot-2023-06-20-at-1.27.41-pm.png
 images:
   - image: /assets/uploads/screenshot-2023-05-31-at-10.54.54-am.png
 ---
-Conceived, produced, conducted interviews and prepared scripts for these micro-documentaries featuring Toronto artists and neighbourhoods featured in the More Beautiful Journey augmented reality sound / music project for Toronto public transport.
+Produced and "scripted" these micro-documentaries featuring Toronto artists and neighbourhoods featured in the More Beautiful Journey augmented reality sound / music project for Toronto public transport. 
+
+
 
 O﻿BUXUM / Jane & Finch
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cz69-R6TfkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
+
 R﻿ED BEAR SINGERS / Regent Park
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/95oK81ROgTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 
 F﻿ELIPE SENA / Dufferin & Geary
 
