@@ -11,6 +11,8 @@ categories: consulting
 tags:
   - fundraising
 thumbnail: /assets/uploads/screenshot-2024-10-21-at-11.27.16-am.png
+images:
+  - image: /assets/uploads/downsview.jpg
 ---
 S﻿ecured multi-year funding from The Metcalf Foundation t﻿owards the establishment of a community hub a﻿s a central element in the redevelopment of the Downsview Airport lands in North York, Toronto.
 
