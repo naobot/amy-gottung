@@ -4,7 +4,7 @@ title: A More Beautiful Journey
 link: https://amorebeautifuljourney.ca/
 client: Intersection Festival, Music Gallery, City of Toronto
 client_link: "http://www.amorebeautifuljourney.ca "
-role: Co-creator, Creative Producer
+role: Co-Creator, Creative Producer
 when: 2022-2023
 where: Toronto, Canada
 team: >-
