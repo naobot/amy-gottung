@@ -2,7 +2,7 @@
 layout: work-item
 title: Long Winter Paris
 client: Long Winter (Toronto, Can), La Station Gare des Mines (Paris, Fr)
-role: Creative Producer
+role: Creative Producer / Director
 when: September 2019
 where: P﻿aris, France
 team: Long Winter, La Stations - Gare des Mines, Collectif MU
