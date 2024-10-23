@@ -2,7 +2,7 @@
 layout: work-item
 title: Together Apart
 link: https://toronto.paris/
-role: Creative Producer
+role: Creative Producer / Director
 when: September - November 2021
 where: T﻿oronto, Canada; Paris, France
 partners: "[Collectif MU](https://lastation.paris/), [Collectif
