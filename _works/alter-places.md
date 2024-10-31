@@ -14,9 +14,10 @@ tags:
   - cultural_space
   - research
   - programming
-thumbnail: /assets/uploads/whatsapp-image-2024-09-07-à-10.21.35_cecb52bf.jpg
+thumbnail: /assets/uploads/screenshot-2024-10-31-at-10.35.53-am.png
 images:
   - image: /assets/uploads/img_7394.jpg
+  - image: /assets/uploads/whatsapp-image-2024-09-07-à-10.21.35_cecb52bf.jpg
   - image: /assets/uploads/img_1494.jpg
   - image: /assets/uploads/whatsapp-image-2024-09-05-à-19.46.20_32008ca7.jpg
 ---
