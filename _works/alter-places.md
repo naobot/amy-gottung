@@ -7,6 +7,7 @@ role: Core partner, curator, researcher
 when: 2023-2024
 where: E﻿urope
 team: N﻿atalia Bobadilla, Olivier LeGal, Gaspard Bourgeois, et al.
+partners: E﻿uropean Union
 date: 2024-10-31T17:05:48.283Z
 categories: creative
 tags:
