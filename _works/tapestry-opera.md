@@ -19,4 +19,4 @@ images:
   - image: /assets/uploads/screenshot-2024-10-31-at-9.46.47-am.png
   - image: /assets/uploads/screenshot-2024-10-31-at-9.47.15-am.png
 ---
-L﻿ed fundraising strategy for foundations (public and private), corporate giving and sponsorship, communications for Canada's largest contemporary opera company
+L﻿ed fundraising strategy for foundations (public and private), corporate giving and sponsorship, marketing and communications for Canada's largest contemporary opera company
