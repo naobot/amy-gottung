@@ -15,7 +15,7 @@ tags:
   - television
 thumbnail: /assets/uploads/ddscreen-shot-2021-03-09-at-9.16.16-am.png
 ---
-News, documentary, lifestyle, and behind-the-scenes video content for a range of broadcast, editorial and commercial clients.
+Director/camera/editor for news, documentary, lifestyle, and behind-the-scenes video for broadcast, editorial and commercial clients.   
 
 P﻿rojects include:
 
