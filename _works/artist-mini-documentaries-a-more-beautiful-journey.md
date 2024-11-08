@@ -17,6 +17,12 @@ P﻿roduced and co-directed three features on Toronto artists and their site-spe
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cz69-R6TfkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+O﻿BUXUM - Jane & Finch
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/95oK81ROgTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+R﻿ed Bear Singers - Regent Park
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7esyXxOFydQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+F﻿elipe Sena - Dufferin
