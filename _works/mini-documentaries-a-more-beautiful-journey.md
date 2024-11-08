@@ -17,7 +17,7 @@ thumbnail: /assets/uploads/screenshot-2023-06-20-at-1.27.41-pm.png
 images:
   - image: /assets/uploads/screenshot-2023-05-31-at-10.54.54-am.png
 ---
-Produced and co-directed these spotlights of site-specific work for A MORE BEAUTIFUL JOURNEY: spatialized music for Toronto public transit.
+Produced and co-directed these spotlights of site-specific work for A MORE BEAUTIFUL JOURNEY: spatialized music for Toronto public transit.  
 
 O﻿BUXUM / Jane & Finch
 
