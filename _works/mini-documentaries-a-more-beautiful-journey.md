@@ -2,7 +2,7 @@
 layout: work-item
 title: Mini-documentaries - A More Beautiful Journey
 client: Intersection Festival
-role: Producer, writer
+role: Producer, concept
 team: "DOP/Editor: Adam Seward | Tomorrow Night Films; PA/1st AC- Callum Kelley
   @vhsdeath8; AMBJ Marketing/Comms: Kat Cooper; Artist: Felipe Sena
   @felipe7sena"
@@ -17,21 +17,15 @@ thumbnail: /assets/uploads/screenshot-2023-06-20-at-1.27.41-pm.png
 images:
   - image: /assets/uploads/screenshot-2023-05-31-at-10.54.54-am.png
 ---
-Produced and "scripted" these micro-documentaries featuring Toronto artists and neighbourhoods featured in the More Beautiful Journey augmented reality sound / music project for Toronto public transport. 
-
-
+Produced and co-directed these spotlights of site-specific work for A MORE BEAUTIFUL JOURNEY: spatialized music for Toronto public transit.
 
 O﻿BUXUM / Jane & Finch
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cz69-R6TfkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-
-
 R﻿ED BEAR SINGERS / Regent Park
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/95oK81ROgTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
 
 F﻿ELIPE SENA / Dufferin & Geary
 
