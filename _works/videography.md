@@ -31,25 +31,21 @@ P﻿rojects include:
 
 F﻿ucked Up Opera (BTS for Tapestry Opera)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Je3tqL-c2zg?si=A-uFwMkqlO8R9hgC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-\#﻿operavirgins promo series for Tapestry Opera
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bEkLURMr6Wg?si=nR9Tn7baWX9kY7qy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-"﻿Joseph" pre-opera
+\#operavirgins series for Tapestry Opera
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wG52prsv0Wk?si=3IfjGvM385-_Dmkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-"﻿Joseph" post-opera
+"﻿Joseph" post-opera - #operavirgins series for Tapestry Opera
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Sj5_z6Sz50U?si=HzkWf5dr2VnSlkht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-"﻿Andrew" pre-opera
+"﻿Andrew" pre-opera - #operavirgins series for Tapestry Opera
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wfSm4za9YpA?si=dQzzTTOMaekHHf1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-"﻿Andrew" post-opera
+"﻿Andrew" post-opera - #operavirgins series for Tapestry Opera
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/35856152?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Behind the Scenes at the Cover Shoot"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
