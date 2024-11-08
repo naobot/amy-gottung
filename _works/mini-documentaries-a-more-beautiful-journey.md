@@ -1,6 +1,6 @@
 ---
 layout: work-item
-title: Mini-documentaries - A More Beautiful Journey
+title: "Mini-docs - artist spotlights: A More Beautiful Journey"
 client: Intersection Festival
 role: Producer, concept
 team: "DOP/Editor: Adam Seward | Tomorrow Night Films; PA/1st AC- Callum Kelley
