@@ -19,14 +19,13 @@ News, documentary, lifestyle, and behind-the-scenes video content for a range of
 
 P﻿rojects include:
 
-* B﻿ehind-the-scenes documentary videos - The Kit Magazine
-* M﻿ake-up and beauty tutorials - The Kit Magazine
-* E﻿xercise videos - The Kit Magazine
-* I﻿nterviews and documentaries - Glenn Gould Festival
-* C﻿ooking segments (documentary-style) - Sweet Potato Chronicles
-* B﻿ehind-the-music documentaries (web content) - Tapestry Opera
-* \#﻿operavirgins series - Tapestry Opera
-* P﻿lum TV - lifestyle and news segments for this regional broadcast network 
+**T﻿he Kit Magazine:** BTS videos, make-up tutorials, exercise videos  
+
+**S﻿weet Potato Chronicles:** cooking videos 
+
+**T﻿apestry Opera:** social media video series, BTS docs
+
+**P﻿lum TV:** talk shows, news segments, lifestyle shows, long-form interview series
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Je3tqL-c2zg?si=A-uFwMkqlO8R9hgC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
