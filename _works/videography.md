@@ -27,6 +27,10 @@ P﻿rojects include:
 
 **P﻿lum TV:** talk shows, news segments, lifestyle shows, long-form interview series
 
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/248982564?h=b5e637784f" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+
+P﻿ilot to series "People Drinking Hot Things," made for no real reason. Produced with Alex Haythorne (camera)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Je3tqL-c2zg?si=A-uFwMkqlO8R9hgC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 F﻿ucked Up Opera (BTS for Tapestry Opera)
@@ -50,10 +54,6 @@ F﻿ucked Up Opera (BTS for Tapestry Opera)
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/35856152?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Behind the Scenes at the Cover Shoot"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 T﻿he Kit Magazine - BTS
-
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/248982564?h=b5e637784f" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
-
-P﻿ilot to series "People Drinking Hot Things," made for no real reason. Produced with Alex Haythorne (camera)
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/106990259?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Dr. Jordan B. Peterson, The Glenn Gould Symposium"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
