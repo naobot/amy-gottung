@@ -3,9 +3,8 @@ layout: work-item
 title: "Mini-docs - neighbourhood spotlights: A More Beautiful Journey"
 role: Producer, concept
 when: "2023"
-team: "DOP/Editor: Adam Seward | Tomorrow Night Films; PA/1st AC- Callum Kelley
-  @vhsdeath8; AMBJ Marketing/Comms: Kat Cooper; Artist: Felipe Sena
-  @felipe7sena"
+team: "DOP/Editor: Adam Seward | Tomorrow Night Films; PA/1st AC: Callum Kelley
+  @vhsdeath8; AMBJ Marketing/Comms: Kat Cooper"
 partners: K﻿at Cooper (communications)
 date: 2023-05-31T14:50:44.281Z
 categories: creative
