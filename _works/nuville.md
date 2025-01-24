@@ -8,7 +8,7 @@ role: Project development, funding
 when: "2021"
 where: T﻿oronto, Canada
 team: K﻿aren Vanderborght and team
-partners: Myseum of Toronto, Mammalian Diving Collective, Mandy Lam, Workman
+partners: Museum of Toronto, Mammalian Diving Collective, Mandy Lam, Workman
   Arts, Cara Spooner, Tangled Art + Disability, et al.
 date: 2023-05-10T17:38:18.267Z
 categories: creative
