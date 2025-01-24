@@ -3,7 +3,7 @@ layout: work-item
 title: Tapestry Opera
 link: https://tapestryopera.com/
 client: Tapestry New Opera
-role: "Fundraising (foundations, corporate, public) and Marketing "
+role: "Management role - fundraising (foundations, corporate, public) and marketing "
 when: 2014-2016
 where: T﻿oronto
 team: M﻿ichael Mori, Katie Pounder, et al.
