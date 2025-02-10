@@ -5,6 +5,8 @@ permalink: /clients
 ---
 [VibeLab](https://vibe-lab.org/)
 
+[2﻿21A](https://221a.ca/)
+
 [The Laneway Project](https://www.thelanewayproject.ca/)
 
 [Daily Bread](https://www.dailybread.ca/)
@@ -15,19 +17,19 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [Trans Europe Halles](https://teh.net/)
 
-[Space of Urgency](https://spaceofurgency.org/)
-
 [Collectif MU](http://www.mu.asso.fr/) / [La Station](https://lastation.paris/) (Fr)  
 
 [The Stop Community Food Centre](http://thestop.org/)
 
-[S﻿econd Spring](https://secondspring.online/)
+[National Film Board](https://www.nfb.ca/)
 
-[KRAK XR](https://www.krakxr.co/)
+[Space of Urgency](https://spaceofurgency.org/)
+
+[S﻿econd Spring](https://secondspring.online/)
 
 [Art Gallery of Ontario](https://ago.ca/)
 
-[National Film Board](https://www.nfb.ca/)
+[KRAK XR](https://www.krakxr.co/)
 
 [Le Labo](http://lelabo.ca/en/)
 
