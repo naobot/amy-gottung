@@ -1,7 +1,7 @@
 ---
 layout: work-item
 title: "Mini-docs - neighbourhood spotlights: A More Beautiful Journey"
-role: Creative Producer
+role: Producer, co-director
 when: "2023"
 team: "DOP/Editor: Adam Seward | Tomorrow Night Films; PA/1st AC: Callum Kelley
   @vhsdeath8; AMBJ Marketing/Comms: Kat Cooper"
