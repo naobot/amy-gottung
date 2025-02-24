@@ -15,7 +15,7 @@ tags:
   - television
 thumbnail: /assets/uploads/ddscreen-shot-2021-03-09-at-9.16.16-am.png
 ---
-Director/camera/editor for news, documentary, lifestyle, and behind-the-scenes video for broadcast, editorial and commercial clients.   
+Producer/camera/editor for news, documentary, lifestyle, and behind-the-scenes video for broadcast, editorial and commercial clients.  
 
 Clients include: **T﻿he Kit Magazine,** **S﻿weet Potato Chronicles,T﻿apestry Opera, Glenn Gould Symposium, P﻿lum TV**
 
