@@ -17,7 +17,7 @@ thumbnail: /assets/uploads/ddscreen-shot-2021-03-09-at-9.16.16-am.png
 ---
 Producer/camera/editor for news, documentary, lifestyle, and behind-the-scenes video for broadcast, editorial and commercial clients.  
 
-Clients include: **T﻿he Kit Magazine,** **S﻿weet Potato Chronicles,T﻿apestry Opera, Glenn Gould Symposium, P﻿lum TV**
+Clients include: **Plum TV,﻿ The Kit Magazine,** **S﻿weet Potato Chronicles, T﻿apestry Opera, Glenn Gould Symposium**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Sj5_z6Sz50U?si=HzkWf5dr2VnSlkht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
