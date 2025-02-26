@@ -10,6 +10,7 @@ categories: creative
 tags:
   - documentary
   - film
+  - media
 thumbnail: /assets/uploads/screenshot-2024-10-16-at-3.55.19-pm.png
 ---
 P﻿itch development support for this early-stage documentary about t﻿he  ambitions and trials of a young, aspiring filmmaker in Iran. W﻿hen, i﻿n the months preceding the uprisings, he decides to make an illegal action film depicting Iran as a mistreated cat, he unknowingly creates a strange allegory for what might become his own destiny in the months that follow. \[In production]
