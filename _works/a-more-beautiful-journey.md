@@ -153,3 +153,5 @@ Stefana Fratila
 +﻿ more
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_mnJavvnby8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<https://www.cbc.ca/arts/ttc-music-app-a-more-beautiful-journey-1.6575859>
