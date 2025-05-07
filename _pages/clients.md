@@ -47,6 +47,8 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [Artscape Daniels Launchpad](http://www.artscapedanielslaunchpad.ca/)
 
+[B﻿arking Sphinx Performance Society](https://www.instagram.com/barkingsphinx/)
+
 [Harbourfront Centre](http://www.harbourfrontcentre.com/)
 
 [D﻿uplex](https://www.instagram.com/duplexartistsociety/)
