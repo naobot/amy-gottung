@@ -3,6 +3,8 @@ layout: columns
 title: Client Roster
 permalink: /clients
 ---
+[K﻿eychange](https://www.keychange.eu/)
+
 [VibeLab](https://vibe-lab.org/)
 
 [2﻿21A](https://221a.ca/)
