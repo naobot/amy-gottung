@@ -1,0 +1,141 @@
+site_url: https://amy-gottung.netlify.app
+display_url: https://amy-gottung.netlify.app
+backend:
+  name: git-gateway
+  # repo: naobot/amy-gottung
+  branch: main # Branch to update (optional; defaults to master)
+  # api_root: https://gitlab.com/api/v4
+  # base_url: https://gitlab.com
+media_folder: 'assets/uploads'
+collections:
+  - name: 'general'
+    label: 'General'
+    editor:
+      preview: false
+    files:
+      - label: 'General Settings (personal info, etc.)'
+        name: 'site_config'
+        file: '_data/site_config.yml'
+        fields:
+          - label: 'Personal Info'
+            name: 'info'
+            widget: object
+            fields:
+              - { label: 'Site Title', widget: 'string', name: 'title' }
+              - { label: 'Short Bio', hint: 'This appears on the home page.', widget: 'markdown', name: 'short_bio' }
+              - { label: 'Email', widget: 'string', name: 'email' }
+      - label: 'Navigation Settings (page visibility, etc.)'
+        name: 'nav_config'
+        file: '_data/navigation.yml'
+        fields:
+          - label: 'Navigation Items'
+            name: 'items'
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Link, name: link, widget: string }
+              - { label: Visibility, name: visibility, widget: boolean }
+      # - label: 'Featured Works'
+      #   name: 'featured'
+      #   file: '_data/featured.yml'
+      #   fields:
+      #     - label: 'Currently Featured Works'
+      #       name: 'items'
+      #       widget: 'list'
+      #       fields:
+      #         - { label: Work, name: work_title, widget: 'relation', collection: 'works', search_fields: ['title'], value_field: 'title', display_fields: ['title'] }
+  - name: 'pages'
+    label: 'Pages'
+    create: true
+    slug: '{{slug}}'
+    preview_path: '{{slug}}'
+    folder: '_pages/'
+    fields:
+      - {label: 'Layout', name: 'layout', widget: hidden, default: 'page'}
+      - {label: 'Title', name: 'title', widget: string}
+      - {label: 'URL', name: 'permalink', widget: string, pattern: ['[/\w\d\-]+', 'Must only consist of alphanumeric characters.'], hint: 'This is the URL to the page that appears after amygottung.com/'}
+      - {label: 'Page Content', name: 'body', widget: markdown}
+    editor:
+      preview: false
+  - name: 'about'
+    label: 'About'
+    editor:
+      preview: false
+    files:
+      - label: 'About Page Content'
+        name: 'about_content'
+        file: '_data/about.yml'
+        fields:
+          - label: 'Photo'
+            name: 'photo'
+            widget: image
+          - label: 'Top Left Box'
+            name: 'top_left'
+            widget: markdown
+          - label: 'Top Right Box'
+            name: 'top_right'
+            widget: markdown
+          - label: 'Main Content'
+            name: 'main'
+            widget: markdown
+  - name: 'blog'
+    label: 'Blog'
+    folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'works'
+    label: 'All Work Items'
+    folder: '_works/'
+    create: true
+    slug: '{{slug}}'
+    preview_path: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'work-item' }
+      - { label: 'Title', name: 'title', widget: 'string', hint: 'Please ensure this is unique' }
+      - { label: 'External Project Link', name: 'link', widget: 'string', required: false, pattern: ['https?:\/\/[\w\d]+\.[\w\d]+\.?[\w\d]*\/?.*', 'Must be a valid URL (begins with http://)'] }
+      - { label: 'Client', name: 'client', widget: 'string', required: false }
+      - { label: 'Client Link', name: 'client_link', widget: 'string', required: false, pattern: ['https?:\/\/[\w\d]+\.[\w\d]+\.?[\w\d]*\/?.*', 'Must be a valid URL (begins with http://)'] }
+      - { label: 'Role', name: 'role', widget: 'string', required: false }
+      - { label: 'When', name: 'when', widget: 'string', required: false }
+      - { label: 'Where', name: 'where', widget: 'markdown', minimal: true, buttons: ['bold', 'italic', 'link'], editor_components: [], required: false }
+      - { label: 'Team', name: 'team', widget: 'markdown', minimal: true, buttons: ['bold', 'italic', 'link'], editor_components: [], required: false }
+      - { label: 'Partners', name: 'partners', widget: 'markdown', minimal: true, buttons: ['bold', 'italic', 'link'], editor_components: [], required: false }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      # - { label: 'Short Description', name: 'description', widget: 'markdown', hint: 'Shows up in previews', required: false, minimal: true }
+      - { label: 'Description', name: 'body', widget: 'markdown' }
+      - { label: "Category", name: "categories", widget: "select", options: ["creative", "consulting", "speaking", "writing"] }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Main Image", name: "thumbnail", widget: "image", choose_url: false, allow_multiple: false }
+      - label: "Additional Images"
+        name: "images"
+        widget: "list"
+        required: false
+        fields:
+          - { name: image, label: Image, widget: image }
+  - name: 'work_settings'
+    label: 'Active Work Settings'
+    files:
+      - name: workOrder
+        label: Active Works in Order
+        file: '_data/workOrder.yml'
+        fields:
+          - label: Active Works
+            name: work_order
+            widget: list
+            fields:
+              - label: Work
+                name: work
+                widget: relation
+                collection: works
+                optionsLength: 80
+                searchFields: [title]
+                valueField: title
