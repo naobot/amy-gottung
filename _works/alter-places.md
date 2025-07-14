@@ -4,7 +4,7 @@ title: Alter-Places
 link: https://alterplaces.com/
 client: Creative Europe, Sorbonne Nouvelle, La Station-Gare des Mines
 role: Core partner, curator, researcher
-when: 2023-2024
+when: 2023-2025
 where: E﻿urope
 team: N﻿atalia Bobadilla, Olivier LeGal, Gaspard Bourgeois, et al.
 partners: E﻿uropean Union
