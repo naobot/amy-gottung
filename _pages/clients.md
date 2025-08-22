@@ -27,8 +27,6 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [Space of Urgency](https://spaceofurgency.org/)
 
-[S﻿econd Spring](https://secondspring.online/)
-
 [R﻿oyal Canadian Institute of Science](https://www.rciscience.ca/)
 
 *[My Friend Harry](https://myfriendharryfilm.com/)*
@@ -45,11 +43,11 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [Toronto Transit Commission](https://www.ttc.ca/)
 
-[Music Gallery](https://musicgallery.org/)
-
 [Level Justice](https://leveljustice.org/)
 
 [Pride Toronto](https://www.pridetoronto.com/)
+
+[S﻿econd Spring](https://secondspring.online/)
 
 [Artscape Daniels Launchpad](http://www.artscapedanielslaunchpad.ca/)
 
