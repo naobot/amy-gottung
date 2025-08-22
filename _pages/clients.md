@@ -31,7 +31,7 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [R﻿oyal Canadian Institute of Science](https://www.rciscience.ca/)
 
-*[My Friend Harry ](https://myfriendharryfilm.com/)*
+*[My Friend Harry](https://myfriendharryfilm.com/)*
 
 [Art Gallery of Ontario](https://ago.ca/)
 
