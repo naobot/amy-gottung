@@ -19,4 +19,4 @@ tags:
 thumbnail: /assets/uploads/brussels_â©diana-vos.jpg
 images: []
 ---
-Supported this nimble, fast-growing international network and movement for equity in the music industry with organizational and fundraising development through a pivotal period of transition and expansion.
+Supported this nimble, fast-growing international network and movement for equity in the music industry with organizational and fundraising development through a pivotal transitional period.
