@@ -9,6 +9,8 @@ permalink: /clients
 
 [2﻿21A](https://221a.ca/)
 
+[M﻿usic Gallery](https://musicgallery.org/)
+
 [The Laneway Project](https://www.thelanewayproject.ca/)
 
 [Daily Bread](https://www.dailybread.ca/)
