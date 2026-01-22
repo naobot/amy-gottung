@@ -13,7 +13,7 @@ tags:
   - culture
 thumbnail: /assets/uploads/screenshot-2026-01-22-at-11.02.55-am.png
 ---
-S﻿upported Canada's celebrated Iranian-Canadian Orchestra with fund development for multiple large-scale projects: performances, national tours, and professional recordings, securing pivotal large grants.
+S﻿upported Canada's celebrated Iranian-Canadian Orchestra with fund development for multiple large-scale projects: performances, national tours, and professional recordings, securing foundational grants.
 
 For several decades during the mid-twentieth century, Radio Tehran’s Golha Program brought a new style of Iranian music to listeners across the country. Employing its now-iconic Golha Radio Orchestra, composers such as Rouhollah Khaleghi developed a new musical language that masterfully integrated the modal and melodic aspects of Iranian Dastgah music with Western classical music’s harmony and orchestration, and featured traditional Iranian instruments such as tar and tonbak alongside orchestral strings and woodwinds. Due to various sociopolitical events, chief among them the 1979 revolution, the music of the Golha orchestra fell out of practice. 
 
