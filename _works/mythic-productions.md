@@ -14,4 +14,4 @@ tags:
   - fundraising
 thumbnail: /assets/uploads/screenshot-2025-08-26-at-12.57.52-pm.png
 ---
-R﻿esearch and strategy support for development of a s﻿creening and workshop tour for the award-winning documentary *Silver Screamers,* S﻿ean Cisterna's delightful documentary about a group of seniors who come together to create their own amateur film adaptation of Edo van Belkom's short story "The Rug".
+R﻿esearch and strategy for development of a s﻿creening and workshop tour for the award-winning documentary *Silver Screamers,* S﻿ean Cisterna's delightful documentary about a group of seniors who come together to create their own amateur film adaptation of Edo van Belkom's short story "The Rug".
