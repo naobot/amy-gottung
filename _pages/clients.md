@@ -55,6 +55,8 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [Pride Toronto](https://www.pridetoronto.com/)
 
+[U﻿NIT/PITT](https://www.unitpitt.ca/)
+
 [S﻿econd Spring](https://secondspring.online/)
 
 [Artscape Daniels Launchpad](http://www.artscapedanielslaunchpad.ca/)
