@@ -19,4 +19,4 @@ tags:
 thumbnail: /assets/uploads/brussels_â©diana-vos.jpg
 images: []
 ---
-Supported this celebrated, ambitious international network and movement for equity in the music industry with organizational and fundraising development through a pivotal period of transition and growth.
+Supported this celebrated international network and movement for equity in the music industry with organizational and fundraising development through a pivotal period of transition and growth. Developed custom corporate and industry sponsorship and partnership opportunities and pitch packages to support a season of the initiative's prestigious Talent Leadership Program.
