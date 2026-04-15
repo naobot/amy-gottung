@@ -11,6 +11,8 @@ permalink: /clients
 
 [M﻿usic Gallery](https://musicgallery.org/)
 
+[M﻿ythic Productions](https://mythicproductions.ca/)
+
 [The Laneway Project](https://www.thelanewayproject.ca/)
 
 [Daily Bread](https://www.dailybread.ca/)
@@ -20,6 +22,8 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 [Halocline Trance](https://haloclinetrance.bandcamp.com/)
 
 [Trans Europe Halles](https://teh.net/)
+
+[C﻿anadian Golha Orchestra](https://canadiangolhaorchestra.com/)
 
 [Collectif MU](http://www.mu.asso.fr/) / [La Station](https://lastation.paris/) (Fr)  
 
@@ -34,6 +38,8 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 *[My Friend Harry](https://myfriendharryfilm.com/)*
 
 [Art Gallery of Ontario](https://ago.ca/)
+
+[S﻿tory Money Impact](https://www.storymoneyimpact.com/)
 
 [KRAK XR](https://www.krakxr.co/)
 
@@ -62,6 +68,8 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 [S﻿arah Ruba](http://www.sarahruba.com/)
 
 [City of Toronto](https://www.toronto.ca/)
+
+[N﻿oam Lemish](https://www.noamlemish.com/)
 
 [Jessy Lanza](https://jessylanza.com/)
 
@@ -132,6 +140,8 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 [Florentine Films](http://www.florentinefilms.com/) (NY)
 
 [Sara Elgamal](https://sarathecamel.com/)
+
+[S﻿arah Ruba](https://www.instagram.com/sarahruba_/reels/?__d=11)
 
 [Thin Edge New Music Collective](https://www.thethinedgenewmusiccollective.com/)
 
