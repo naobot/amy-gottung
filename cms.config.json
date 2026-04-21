@@ -19,7 +19,7 @@
         { "name": "team", "label": "Team", "type": "textarea", "required": false },
         { "name": "partners", "label": "Partners", "type": "textarea", "required": false },
         { "name": "categories", "label": "Category", "type": "multiselect", "options": ["creative", "consulting", "speaking", "writing"], "required": false },
-        { "name": "tags", "label": "Tags", "type": "list", "required": false },
+        { "name": "tags", "label": "Tags", "type": "multiselect", "data_file": "_data/tags.json", "required": false }
         { "name": "thumbnail", "label": "Main Image", "type": "image", "required": false },
         { "name": "images", "label": "Additional Images", "type": "image-list", "required": false }
       ]
@@ -47,6 +47,16 @@
   ],
   "data_files": [
     {
+      "path": "_data/about.yml",
+      "label": "About",
+      "fields": [
+        { "name": "photo", "label": "Photo", "type": "image", "required": false },
+        { "name": "top_left", "label": "Top Left Box", "type": "textarea", "required": false },
+        { "name": "top_right", "label": "Top Right Box", "type": "textarea", "required": false },
+        { "name": "main", "label": "Main Content", "type": "textarea", "required": false }
+      ]
+    },
+    {
       "path": "_data/navigation.yml",
       "label": "Navigation",
       "fields": [
@@ -61,15 +71,6 @@
         }
       ]
     },
-    {
-      "path": "_data/about.yml",
-      "label": "About",
-      "fields": [
-        { "name": "photo", "label": "Photo", "type": "image", "required": false },
-        { "name": "top_left", "label": "Top Left Box", "type": "textarea", "required": false },
-        { "name": "top_right", "label": "Top Right Box", "type": "textarea", "required": false },
-        { "name": "main", "label": "Main Content", "type": "textarea", "required": false }
-      ]
-    }
+    { "path": "_data/tags.json", "label": "Tags" }
   ]
 }
