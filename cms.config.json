@@ -27,17 +27,17 @@
   ],
   "singletons": [
     {
-      "name": "clients",
-      "label": "Client Roster",
-      "path": "_pages/clients.md",
+      "name": "index",
+      "label": "Home",
+      "path": "_pages/index.md",
       "fields": [
         { "name": "title", "label": "Title", "type": "text", "required": true }
       ]
     },
     {
-      "name": "index",
-      "label": "Home",
-      "path": "_pages/index.md",
+      "name": "clients",
+      "label": "Client Roster",
+      "path": "_pages/clients.md",
       "fields": [
         { "name": "title", "label": "Title", "type": "text", "required": true }
       ]
