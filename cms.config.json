@@ -31,7 +31,7 @@
       "label": "Client Roster",
       "path": "_pages/clients.md",
       "fields": [
-        { "name": "title", "label": "Title", "type": "text", "required": true },
+        { "name": "title", "label": "Title", "type": "text", "required": true }
       ]
     },
     {
@@ -39,7 +39,7 @@
       "label": "Home",
       "path": "_pages/index.md",
       "fields": [
-        { "name": "title", "label": "Title", "type": "text", "required": true },
+        { "name": "title", "label": "Title", "type": "text", "required": true }
       ]
     }
   ],
