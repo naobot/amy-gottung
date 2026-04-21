@@ -7,7 +7,7 @@
       "label": "Works",
       "path": "_works",
       "orderable": true,
-      "publishable": false,
+      "publishable": true,
       "fields": [
         { "name": "title", "label": "Title", "type": "text", "required": true },
         { "name": "link", "label": "External Project Link", "type": "text", "required": false },
