@@ -32,7 +32,6 @@
       "path": "_pages/clients.md",
       "fields": [
         { "name": "title", "label": "Title", "type": "text", "required": true },
-        { "name": "body", "label": "Content", "type": "rich-text", "required": false }
       ]
     },
     {
@@ -41,7 +40,6 @@
       "path": "_pages/index.md",
       "fields": [
         { "name": "title", "label": "Title", "type": "text", "required": true },
-        { "name": "body", "label": "Content", "type": "rich-text", "required": false }
       ]
     }
   ],
