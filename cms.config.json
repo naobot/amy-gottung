@@ -19,7 +19,7 @@
         { "name": "team", "label": "Team", "type": "textarea", "required": false },
         { "name": "partners", "label": "Partners", "type": "textarea", "required": false },
         { "name": "categories", "label": "Category", "type": "multiselect", "options": ["creative", "consulting", "speaking", "writing"], "required": false },
-        { "name": "tags", "label": "Tags", "type": "multiselect", "data_file": "_data/tags.json", "required": false }
+        { "name": "tags", "label": "Tags", "type": "multiselect", "data_file": "_data/tags.json", "required": false },
         { "name": "thumbnail", "label": "Main Image", "type": "image", "required": false },
         { "name": "images", "label": "Additional Images", "type": "image-list", "required": false }
       ]
