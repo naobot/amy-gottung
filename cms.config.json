@@ -1,0 +1,93 @@
+{
+  "assets_path": "assets/uploads",
+  "data_path": "_data",
+  "collections": [
+    {
+      "name": "works",
+      "label": "Works",
+      "path": "_works",
+      "orderable": true,
+      "publishable": false,
+      "fields": [
+        { "name": "title", "label": "Title", "type": "text", "required": true },
+        { "name": "link", "label": "External Project Link", "type": "text", "required": false },
+        { "name": "client", "label": "Client", "type": "text", "required": false },
+        { "name": "client_link", "label": "Client Link", "type": "text", "required": false },
+        { "name": "role", "label": "Role", "type": "text", "required": false },
+        { "name": "when", "label": "When", "type": "text", "required": false },
+        { "name": "where", "label": "Where", "type": "textarea", "required": false },
+        { "name": "team", "label": "Team", "type": "textarea", "required": false },
+        { "name": "partners", "label": "Partners", "type": "textarea", "required": false },
+        { "name": "categories", "label": "Category", "type": "multiselect", "options": ["creative", "consulting", "speaking", "writing"], "required": false },
+        { "name": "tags", "label": "Tags", "type": "list", "required": false },
+        { "name": "thumbnail", "label": "Main Image", "type": "image", "required": false },
+        { "name": "images", "label": "Additional Images", "type": "image-list", "required": false }
+      ]
+    }
+  ],
+  "singletons": [
+    {
+      "name": "consulting",
+      "label": "Consulting",
+      "path": "_pages/consulting.md",
+      "fields": [
+        { "name": "title", "label": "Title", "type": "text", "required": true },
+        { "name": "body", "label": "Content", "type": "rich-text", "required": false }
+      ]
+    },
+    {
+      "name": "creative",
+      "label": "Creative",
+      "path": "_pages/creative.md",
+      "fields": [
+        { "name": "title", "label": "Title", "type": "text", "required": true },
+        { "name": "body", "label": "Content", "type": "rich-text", "required": false }
+      ]
+    },
+    {
+      "name": "speaking",
+      "label": "Speaking",
+      "path": "_pages/speaking.md",
+      "fields": [
+        { "name": "title", "label": "Title", "type": "text", "required": true },
+        { "name": "body", "label": "Content", "type": "rich-text", "required": false }
+      ]
+    },
+    {
+      "name": "writing",
+      "label": "Writing",
+      "path": "_pages/writing.md",
+      "fields": [
+        { "name": "title", "label": "Title", "type": "text", "required": true },
+        { "name": "body", "label": "Content", "type": "rich-text", "required": false }
+      ]
+    }
+  ],
+  "data_files": [
+    {
+      "path": "_data/navigation.yml",
+      "label": "Navigation",
+      "fields": [
+        {
+          "name": "items",
+          "label": "Navigation Items",
+          "type": "list-of-objects",
+          "fields": [
+            { "name": "name", "label": "Name", "type": "text", "required": true },
+            { "name": "link", "label": "Link", "type": "text", "required": true }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "_data/about.yml",
+      "label": "About",
+      "fields": [
+        { "name": "photo", "label": "Photo", "type": "image", "required": false },
+        { "name": "top_left", "label": "Top Left Box", "type": "textarea", "required": false },
+        { "name": "top_right", "label": "Top Right Box", "type": "textarea", "required": false },
+        { "name": "main", "label": "Main Content", "type": "textarea", "required": false }
+      ]
+    }
+  ]
+}
