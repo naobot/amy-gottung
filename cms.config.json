@@ -27,36 +27,18 @@
   ],
   "singletons": [
     {
-      "name": "consulting",
-      "label": "Consulting",
-      "path": "_pages/consulting.md",
+      "name": "clients",
+      "label": "Client Roster",
+      "path": "_pages/clients.md",
       "fields": [
         { "name": "title", "label": "Title", "type": "text", "required": true },
         { "name": "body", "label": "Content", "type": "rich-text", "required": false }
       ]
     },
     {
-      "name": "creative",
-      "label": "Creative",
-      "path": "_pages/creative.md",
-      "fields": [
-        { "name": "title", "label": "Title", "type": "text", "required": true },
-        { "name": "body", "label": "Content", "type": "rich-text", "required": false }
-      ]
-    },
-    {
-      "name": "speaking",
-      "label": "Speaking",
-      "path": "_pages/speaking.md",
-      "fields": [
-        { "name": "title", "label": "Title", "type": "text", "required": true },
-        { "name": "body", "label": "Content", "type": "rich-text", "required": false }
-      ]
-    },
-    {
-      "name": "writing",
-      "label": "Writing",
-      "path": "_pages/writing.md",
+      "name": "index",
+      "label": "Home",
+      "path": "_pages/index.md",
       "fields": [
         { "name": "title", "label": "Title", "type": "text", "required": true },
         { "name": "body", "label": "Content", "type": "rich-text", "required": false }
