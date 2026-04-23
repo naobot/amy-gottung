@@ -3,15 +3,15 @@ layout: columns
 title: Client Roster
 permalink: /clients
 ---
-[K﻿eychange](https://www.keychange.eu/)
+[Keychange](https://www.keychange.eu/)
 
 [VibeLab](https://vibe-lab.org/)
 
-[2﻿21A](https://221a.ca/)
+[221A](https://221a.ca/)
 
-[M﻿usic Gallery](https://musicgallery.org/)
+[Music Gallery](https://musicgallery.org/)
 
-[M﻿ythic Productions](https://mythicproductions.ca/)
+[Mythic Productions](https://mythicproductions.ca/)
 
 [The Laneway Project](https://www.thelanewayproject.ca/)
 
@@ -23,7 +23,9 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [Trans Europe Halles](https://teh.net/)
 
-[C﻿anadian Golha Orchestra](https://canadiangolhaorchestra.com/)
+[Gallery Gachet](https://gachet.org/)
+
+[Canadian Golha Orchestra](https://canadiangolhaorchestra.com/)
 
 [Collectif MU](http://www.mu.asso.fr/) / [La Station](https://lastation.paris/) (Fr)  
 
@@ -33,13 +35,13 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [Space of Urgency](https://spaceofurgency.org/)
 
-[R﻿oyal Canadian Institute of Science](https://www.rciscience.ca/)
+[Royal Canadian Institute of Science](https://www.rciscience.ca/)
 
 *[My Friend Harry](https://myfriendharryfilm.com/)*
 
 [Art Gallery of Ontario](https://ago.ca/)
 
-[S﻿tory Money Impact](https://www.storymoneyimpact.com/)
+[Story Money Impact](https://www.storymoneyimpact.com/)
 
 [KRAK XR](https://www.krakxr.co/)
 
@@ -55,27 +57,27 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [Pride Toronto](https://www.pridetoronto.com/)
 
-[U﻿NIT/PITT](https://www.unitpitt.ca/)
+[UNIT/PITT](https://www.unitpitt.ca/)
 
-[S﻿econd Spring](https://secondspring.online/)
+[Second Spring](https://secondspring.online/)
 
 [Artscape Daniels Launchpad](http://www.artscapedanielslaunchpad.ca/)
 
-[B﻿arking Sphinx Performance Society](https://www.instagram.com/barkingsphinx/)
+[Barking Sphinx Performance Society](https://www.instagram.com/barkingsphinx/)
 
 [Harbourfront Centre](http://www.harbourfrontcentre.com/)
 
-[D﻿uplex](https://www.instagram.com/duplexartistsociety/)
+[Duplex](https://www.instagram.com/duplexartistsociety/)
 
-[S﻿arah Ruba](http://www.sarahruba.com/)
+[Sarah Ruba](http://www.sarahruba.com/)
 
 [City of Toronto](https://www.toronto.ca/)
 
-[N﻿oam Lemish](https://www.noamlemish.com/)
+[Noam Lemish](https://www.noamlemish.com/)
 
 [Jessy Lanza](https://jessylanza.com/)
 
-[S﻿ylvain Sailly](http://www.zszsvzszs.com/)
+[Sylvain Sailly](http://www.zszsvzszs.com/)
 
 [Radha Chaddah](https://www.radhachaddah.com/)
 
@@ -83,7 +85,7 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [Sony Centre for the Performing Arts](http://www.sonycentre.ca/)
 
-[L﻿il Sis](https://www.instagram.com/lilsis.ca/)
+[Lil Sis](https://www.instagram.com/lilsis.ca/)
 
 [D﻿ancing with Parkinson's](https://www.dancingwithparkinsons.com/)
 
