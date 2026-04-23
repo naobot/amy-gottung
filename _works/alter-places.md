@@ -17,13 +17,13 @@ tags:
 thumbnail: /assets/uploads/screenshot-2024-10-31-at-10.35.53-am.png
 images:
   - image: /assets/uploads/img_7394.jpg
-  - image: /assets/uploads/whatsapp-image-2024-09-07-à-10.21.35_cecb52bf.jpg
+  - image: /assets/uploads/whatsapp-image-2024-09-07-to-10.21.35_cecb52bf.jpg
   - image: /assets/uploads/img_1494.jpg
-  - image: /assets/uploads/whatsapp-image-2024-09-05-à-19.46.20_32008ca7.jpg
+  - image: /assets/uploads/whatsapp-image-2024-09-05-to-19.46.20_32008ca7.jpg
 ---
-A﻿ collaborative initiative by a network of cultural spaces, researchers, and networks across Europe and Canada, and funded by a grant from the European Union, Alter-Places is a cooperative project about sustainable practices, exploring the value and contribution of sustainable practices implemented by Alternative Cultural Places in the development of green, fair, diverse urban ecosystems through collaborative work. 
+A﻿ collaborative initiative by a network of cultural spaces, researchers, and networks across Europe and Canada, and funded by a grant from the European Union, Alter-Places is a cooperative project about sustainable practices, exploring the value and contribution of sustainable practices implemented by Alternative Cultural Places in the development of green, fair, diverse urban ecosystems through collaborative work.
 
-The project extends over 2024-2025 and brings together 5 European alternative cultural places, the Canadian expert DIY Space Project (a project I founded in 2021), the European network Trans Europe Halles and the interdisciplinary research laboratory LabEx ICCA. 
+The project extends over 2024-2025 and brings together 5 European alternative cultural places, the Canadian expert DIY Space Project (a project I founded in 2021), the European network Trans Europe Halles and the interdisciplinary research laboratory LabEx ICCA.
 
 Over the last 20 years, Alternative Cultural Places (ACPs) have emerged across Europe through the actions of creative workers. The covid-19 crisis highlighted the role of ACPs in our local ecosystems as laboratories of sustainable practices. However, the unique value of these places remains unclear.
 
