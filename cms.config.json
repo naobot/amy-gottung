@@ -80,9 +80,9 @@
       "label": "About",
       "fields": [
         { "name": "photo", "label": "Photo", "type": "image", "required": false },
-        { "name": "top_left", "label": "Top Left Box", "type": "textarea", "required": false },
-        { "name": "top_right", "label": "Top Right Box", "type": "textarea", "required": false },
-        { "name": "main", "label": "Main Content", "type": "textarea", "required": false }
+        { "name": "top_left", "label": "Top Left Box", "type": "rich-text", "required": false },
+        { "name": "top_right", "label": "Top Right Box", "type": "rich-text", "required": false },
+        { "name": "main", "label": "Main Content", "type": "rich-text", "required": false }
       ]
     },
     {
