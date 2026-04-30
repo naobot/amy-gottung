@@ -25,12 +25,12 @@ title: Amy Gottung
 #   Google search results) and in your feed.xml site description.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-permalink: /:categories/:title
+permalink: /:categories/:title/
 
 collections:
   works:
     output: true
-    permalink: /:title
+    permalink: /:title/
   pages:
     output: true
     permalink: /:permalink

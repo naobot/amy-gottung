@@ -1,7 +1,7 @@
 ---
 layout: columns
 title: Client Roster
-permalink: /clients
+permalink: /clients/
 ---
 [Keychange](https://www.keychange.eu/)
 
