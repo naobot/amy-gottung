@@ -37,7 +37,7 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [Royal Canadian Institute of Science](https://www.rciscience.ca/)
 
-*[My Friend Harry](https://myfriendharryfilm.com/)*
+[_My Friend Harry_](https://myfriendharryfilm.com/)
 
 [Art Gallery of Ontario](https://ago.ca/)
 
@@ -64,6 +64,8 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 [Artscape Daniels Launchpad](http://www.artscapedanielslaunchpad.ca/)
 
 [Barking Sphinx Performance Society](https://www.instagram.com/barkingsphinx/)
+
+[K.A. Colorado](https://www.kacoloradoart.com/)
 
 [Harbourfront Centre](http://www.harbourfrontcentre.com/)
 
@@ -153,7 +155,7 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [Edwin Huizinga](http://www.edwinhuizinga.com/)
 
-Leslie Ting / *[Speculation](https://www.speculationproduction.com/)*
+Leslie Ting / [_Speculation_](https://www.speculationproduction.com/)
 
 [Chelsey Bennett](https://www.chelseybennett.com/)
 
