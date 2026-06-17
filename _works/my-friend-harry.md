@@ -11,7 +11,7 @@ team: >-
 categories:
   - consulting
 role: 'Associate Producer, Consultant'
-images:
-  - image: /assets/uploads/mfhshot.jpg
+images: []
+thumbnail: /assets/uploads/mfh2.jpg
 ---
 Support with the development of a funding and investment strategy for Liz Cairns' feature documentary (in production), My Friend Harry. Prospect research and engagement strategies; grant application and pitch deck development; cultivation and solicitation coaching and consulting.
