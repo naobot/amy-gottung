@@ -13,8 +13,8 @@ tags:
   - fundraising
   - communications
   - organizational_development
-images:
-  - image: /assets/uploads/righttofoodteam.jpg
+images: []
+thumbnail: /assets/uploads/righttofoodteam2.jpg
 ---
 Reporting to the Chief Development and Communications Officer, provided strategic and operational support to the national organization's department of development through a key transition. Contributions included capital campaign reports, prospect research, a digital communications strategic review, fundraising comparative analysis, and long-form communications materials.  
   
