@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: My Friend Harry
 link: 'https://myfriendharryfilm.com/'
 client: Innis Duin Studios / Liz Cairns
