@@ -34,16 +34,11 @@ export interface AboutData {
   main?: string;
 }
 
-export interface WorkOrderEntry {
-  work: string;
-}
-
-export interface WorkOrder {
-  work_order: WorkOrderEntry[];
-}
-
 export const siteConfig = loadYaml<SiteConfig>('site_config.yml');
 export const navigation = loadYaml<Navigation>('navigation.yml');
 export const about = loadYaml<AboutData>('about.yml');
-export const workOrder = loadYaml<WorkOrder>('workOrder.yml');
 export const tags = loadJson<string[]>('tags.json');
+
+export const workOrder: string[] = JSON.parse(
+  readFileSync(join(process.cwd(), 'src/content/works/_order.json'), 'utf8')
+);

@@ -10,9 +10,9 @@ interface Props {
 
 const { works, showCategory = false } = Astro.props;
 
-const workMap = new Map(works.map((w) => [w.data.title, w]));
-const orderedWorks = workOrder.work_order
-  .map((entry) => workMap.get(entry.work))
+const workMap = new Map(works.map((w) => [w.slug, w]));
+const orderedWorks = workOrder
+  .map((slug) => workMap.get(slug))
   .filter((w): w is CollectionEntry<'works'> => w !== undefined);
 ---
 

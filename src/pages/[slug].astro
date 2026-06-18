@@ -21,16 +21,16 @@ const category = work.data.categories ?? '';
 
 // Related works: other works sharing at least one tag, filtered to those in workOrder
 const allWorks = await getCollection('works');
-const workOrderTitles = new Set(workOrder.work_order.map((e) => e.work));
+const workOrderSlugs = new Set(workOrder);
 const related = allWorks.filter(
   (w) =>
     w.slug !== work.slug &&
-    workOrderTitles.has(w.data.title) &&
+    workOrderSlugs.has(w.slug) &&
     (w.data.tags ?? []).some((t) => tags.includes(t))
 );
 // Sort related by workOrder position
-const orderIndex = new Map(workOrder.work_order.map((e, i) => [e.work, i]));
-related.sort((a, b) => (orderIndex.get(a.data.title) ?? 999) - (orderIndex.get(b.data.title) ?? 999));
+const orderIndex = new Map(workOrder.map((slug, i) => [slug, i]));
+related.sort((a, b) => (orderIndex.get(a.slug) ?? 999) - (orderIndex.get(b.slug) ?? 999));
 ---
 
 <Layout title={work.data.title}>
