@@ -1,0 +1,160 @@
+---
+import { marked } from 'marked';
+import type { CollectionEntry } from 'astro:content';
+import { workOrder } from '../data/index.ts';
+
+interface Props {
+  works: CollectionEntry<'works'>[];
+  showCategory?: boolean;
+}
+
+const { works, showCategory = false } = Astro.props;
+
+const workMap = new Map(works.map((w) => [w.data.title, w]));
+const orderedWorks = workOrder.work_order
+  .map((entry) => workMap.get(entry.work))
+  .filter((w): w is CollectionEntry<'works'> => w !== undefined);
+---
+
+<section class="main">
+  <div>
+    {orderedWorks.map((work) => {
+      const tags = work.data.tags ?? [];
+      const tagClasses = tags.join(' ');
+      return (
+        <div class="work-item-container">
+          <div class={`work-item is-flex is-flex-direction-row is-align-items-stretch ${tagClasses}`}>
+            <div class="image">
+              <div>
+                <a href={`/${work.slug}/`}>
+                  {work.data.thumbnail
+                    ? <img src={work.data.thumbnail} alt={work.data.title} class="lazyload" />
+                    : <img src="https://placehold.co/1024x768" alt="" />
+                  }
+                </a>
+              </div>
+            </div>
+            <div class="mr-4 credits fade-out">
+              <div class="tags-list">
+                {tags.map((tag) => (
+                  <span>
+                    <a href={`#${tag}`} onClick={`filterTag('${tag}')`} class="is-tag">
+                      #{tag}
+                    </a>
+                  </span>
+                ))}
+              </div>
+              {showCategory && work.data.categories && (
+                <h5>
+                  <a href={`/${work.data.categories}/`} class="category-title">
+                    {work.data.categories.charAt(0).toUpperCase() + work.data.categories.slice(1)}
+                  </a>
+                </h5>
+              )}
+              <h4>
+                <a href={`/${work.slug}/`}>{work.data.title}</a>
+                {work.data.link && (
+                  <a href={work.data.link.trim()} class="external-arrow" target="_blank">↗</a>
+                )}
+              </h4>
+
+              {work.data.client && work.data.client !== work.data.title && (
+                <h6>
+                  {work.data.client}
+                  {work.data.client_link && (
+                    <a href={work.data.client_link.trim()} class="external-arrow" target="_blank">↗</a>
+                  )}
+                  {(work.data.when || work.data.where) && (
+                    <span>
+                      {' '}- {work.data.where && <span>{work.data.where} </span>}
+                      {work.data.when && <span>({work.data.when})</span>}
+                    </span>
+                  )}
+                </h6>
+              )}
+              {(!work.data.client || work.data.client === work.data.title) && (work.data.when || work.data.where) && (
+                <h6>
+                  {work.data.where && <span>{work.data.where} </span>}
+                  {work.data.when && <span>({work.data.when})</span>}
+                </h6>
+              )}
+
+              {work.data.role && (
+                <div class="detail my-2 has-text-weight-semibold">
+                  Role: {work.data.role}
+                </div>
+              )}
+              {work.data.team && (
+                <div class="detail is-size-6">
+                  <span class="has-text-weight-semibold">Team:</span>{' '}
+                  <span set:html={marked.parse(work.data.team)} />
+                </div>
+              )}
+              {work.data.partners && (
+                <div class="detail is-size-6">
+                  <span class="has-text-weight-semibold">Partners:</span>{' '}
+                  <span set:html={marked.parse(work.data.partners)} />
+                </div>
+              )}
+            </div>
+
+            <div class="mx-1 description">
+              <div class="mb-2 mr-2">&nbsp;</div>
+              <div class="summary fade-out has-text-justified">
+                <span class="convert-md" data-md={work.body}></span>
+                <p class="has-text-right mt-2">
+                  <a href={`/${work.slug}/`}>Read more →</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+    })}
+  </div>
+
+  <div class="no-works-msg is-hidden">
+    Currently no work to display for this tag.
+  </div>
+</section>
+
+<script>
+  function filterTag(tag: string) {
+    const allWorkItems = document.getElementsByClassName('work-item');
+    const visibleWorkItems = tag
+      ? document.getElementsByClassName(`work-item ${tag}`)
+      : allWorkItems;
+    const noWorksMsg = document.getElementsByClassName('no-works-msg')[0] as HTMLElement;
+    noWorksMsg.classList.remove('is-flex');
+    noWorksMsg.classList.add('is-hidden');
+
+    if (allWorkItems.length !== visibleWorkItems.length) {
+      for (const elem of Array.from(allWorkItems)) {
+        const container = elem.closest('.work-item-container') as HTMLElement;
+        container.classList.add('is-hidden');
+        container.classList.remove('is-visible');
+      }
+      if (visibleWorkItems.length === 0) {
+        noWorksMsg.classList.remove('is-hidden');
+        noWorksMsg.classList.add('is-flex');
+      }
+    }
+    for (const elem of Array.from(visibleWorkItems)) {
+      const container = elem.closest('.work-item-container') as HTMLElement;
+      container.classList.remove('is-hidden');
+      container.classList.add('is-visible');
+    }
+    const highlighted = document.querySelectorAll('.tags-bar .current');
+    for (const elem of Array.from(highlighted)) {
+      elem.classList.remove('current');
+    }
+    if (tag) {
+      const currentTag = document.querySelector(`.tags-bar .${tag}`);
+      currentTag?.classList.add('current');
+    }
+  }
+
+  (window as any).filterTag = filterTag;
+  const hash = window.location.hash.substring(1);
+  filterTag(hash);
+</script>

@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getEntry } from 'astro:content';
+
+const entry = await getEntry('pages', 'clients');
+const { Content } = await entry!.render();
+---
+
+<Layout title={entry!.data.title}>
+  <section class="main">
+    <div class="page-content">
+      <h3>Recent clients</h3>
+      <article class="columns-content">
+        <Content />
+      </article>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .columns-content {
+    column-count: 3;
+    column-gap: 2rem;
+  }
+  @media (max-width: 769px) {
+    .columns-content { column-count: 1; }
+  }
+</style>

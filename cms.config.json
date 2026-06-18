@@ -1,12 +1,12 @@
 {
   "base_url": "https://amygottung.com",
-  "assets_path": "assets/uploads",
+  "assets_path": "public/assets/uploads",
   "data_path": "_data",
   "collections": [
     {
       "name": "works",
       "label": "Works",
-      "path": "_works",
+      "path": "src/content/works",
       "orderable": true,
       "publishable": true,
       "fields": [
@@ -30,7 +30,7 @@
     {
       "name": "index",
       "label": "Home",
-      "path": "_pages/index.md",
+      "path": "src/content/pages/index.md",
       "fields": [
         { "name": "title", "label": "Title", "type": "text", "required": true }
       ]
@@ -38,7 +38,7 @@
     {
       "name": "clients",
       "label": "Client Roster",
-      "path": "_pages/clients.md",
+      "path": "src/content/pages/clients.md",
       "fields": [
         { "name": "title", "label": "Title", "type": "text", "required": true }
       ]

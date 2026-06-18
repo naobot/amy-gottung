@@ -1,0 +1,55 @@
+---
+import { navigation, siteConfig } from '../data/index.ts';
+
+const pathname = Astro.url.pathname;
+const cleanPath = pathname.replace(/\//g, '');
+const isWorkCategory = siteConfig.categories.some(
+  (c) => c.toLowerCase() === cleanPath.toLowerCase()
+);
+---
+
+<div class="nav-items is-flex-grow-3">
+  {navigation.items.filter((item) => item.visibility).map((item) => {
+    const cleanLink = item.link.replace(/\//g, '');
+    const isCurrent = cleanLink === cleanPath;
+
+    if (item.name === 'Work') {
+      const showCategories = isCurrent || isWorkCategory;
+      return (
+        <div class="work-categories-container">
+          <div class="nav-item">
+            <a href={item.link + '/'} class={isCurrent ? 'current' : ''}>{item.name}</a>
+          </div>
+          <div class={`work-categories${showCategories ? '' : ' hidden-nav'}`}>
+            {(item.categories ?? []).filter((c) => c.visibility).map((ctgy) => {
+              const cleanCtgyLink = ctgy.link.replace(/\//g, '');
+              const isCtgyCurrent = cleanCtgyLink === cleanPath;
+              return (
+                <div class="nav-item">
+                  <a href={ctgy.link + '/'} class={isCtgyCurrent ? 'current' : ''}>{ctgy.name}</a>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      );
+    }
+
+    return (
+      <div class="nav-item">
+        <a href={item.link === '/' ? '/' : item.link + '/'} class={isCurrent ? 'current' : ''}>{item.name}</a>
+      </div>
+    );
+  })}
+</div>
+
+<script>
+  window.addEventListener('load', () => {
+    const container = document.querySelector<HTMLElement>('.work-categories-container');
+    const categories = document.querySelector<HTMLElement>('.work-categories');
+    if (container && categories) {
+      container.addEventListener('mouseover', () => categories.classList.remove('hidden-nav'));
+      container.addEventListener('mouseout', () => categories.classList.add('hidden-nav'));
+    }
+  });
+</script>

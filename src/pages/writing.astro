@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import WorkList from '../components/WorkList.astro';
+import { getCollection } from 'astro:content';
+
+const works = await getCollection('works', ({ data }) => data.categories === 'writing');
+---
+
+<Layout title="Writing">
+  <WorkList works={works} />
+</Layout>

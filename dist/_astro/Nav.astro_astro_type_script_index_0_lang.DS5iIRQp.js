@@ -1,0 +1,1 @@
+window.addEventListener("load",()=>{const e=document.querySelector(".work-categories-container"),o=document.querySelector(".work-categories");e&&o&&(e.addEventListener("mouseover",()=>o.classList.remove("hidden-nav")),e.addEventListener("mouseout",()=>o.classList.add("hidden-nav")))});
