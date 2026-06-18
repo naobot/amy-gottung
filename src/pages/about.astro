@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { about } from '../data/index.ts';
+import { marked } from 'marked';
+
+const topLeft = about.top_left ? marked.parse(about.top_left) : '';
+const topRight = about.top_right ? marked.parse(about.top_right) : '';
+const main = about.main ? marked.parse(about.main) : '';
+---
+
+<Layout title="About">
+  <section class="main">
+    <div class="page-content">
+      <div class="columns top-boxes">
+        <div class="column" set:html={topLeft} />
+        <div class="column is-6" set:html={topRight} />
+      </div>
+      <div class="columns divider-line"></div>
+      <div class="columns bio-boxes">
+        <div class="column headshot">
+          {about.photo && (
+            <img src={about.photo} alt="Amy Gottung" class="lazyload" />
+          )}
+        </div>
+        <div class="column bio-text is-three-fifths" set:html={main} />
+      </div>
+    </div>
+  </section>
+</Layout>

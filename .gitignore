@@ -1,5 +1,14 @@
+# Jekyll (legacy)
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# Astro
+dist/
+node_modules/
+.astro/
+
+# OS
+.DS_Store

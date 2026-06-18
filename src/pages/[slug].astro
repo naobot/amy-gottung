@@ -1,0 +1,187 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { marked } from 'marked';
+import { workOrder } from '../data/index.ts';
+
+export async function getStaticPaths() {
+  const works = await getCollection('works');
+  return works.map((work) => ({
+    params: { slug: work.slug },
+    props: { work },
+  }));
+}
+
+const { work } = Astro.props;
+const { Content } = await work.render();
+
+const tags = work.data.tags ?? [];
+const images = work.data.images ?? [];
+const category = work.data.categories ?? '';
+
+// Related works: other works sharing at least one tag, filtered to those in workOrder
+const allWorks = await getCollection('works');
+const workOrderTitles = new Set(workOrder.work_order.map((e) => e.work));
+const related = allWorks.filter(
+  (w) =>
+    w.slug !== work.slug &&
+    workOrderTitles.has(w.data.title) &&
+    (w.data.tags ?? []).some((t) => tags.includes(t))
+);
+// Sort related by workOrder position
+const orderIndex = new Map(workOrder.work_order.map((e, i) => [e.work, i]));
+related.sort((a, b) => (orderIndex.get(a.data.title) ?? 999) - (orderIndex.get(b.data.title) ?? 999));
+---
+
+<Layout title={work.data.title}>
+  <section class="fixed-top">
+    <div class="level">
+      <div class="level-left tags-bar">
+        <div>
+          <h4 class="m-0">
+            {work.data.title}
+            {work.data.link && (
+              <a href={work.data.link.trim()} target="_blank" class="external-arrow">↗</a>
+            )}
+          </h4>
+        </div>
+        {tags.map((tag) => (
+          <div>
+            <h6 class="m-0">
+              <a href={`/${category}/#${tag}`} class={`is-tag ${tag}`}>
+                #{tag}
+              </a>
+            </h6>
+          </div>
+        ))}
+      </div>
+      <div class="level-right">
+        {category && (
+          <a href={`/${category}/`}>more {category} work →</a>
+        )}
+      </div>
+    </div>
+  </section>
+
+  <section class="main">
+    <div class="header">
+      <div class="image-carousel">
+        {work.data.thumbnail && (
+          <div class="image">
+            <img src={work.data.thumbnail} alt={work.data.title} class="lazyload" />
+          </div>
+        )}
+        {images.map((img) => (
+          <div class="image">
+            <img src={img.image} alt="" class="lazyload" />
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <div class="work-item-info">
+      {work.data.client && (
+        <div class="my-2">
+          <span class="has-text-weight-semibold">Client:</span> {work.data.client}
+          {work.data.client_link && (
+            <a href={work.data.client_link.trim()} class="external-arrow" target="_blank">↗</a>
+          )}
+        </div>
+      )}
+      {work.data.role && (
+        <div class="my-2">
+          <span class="has-text-weight-semibold">Role:</span> {work.data.role}
+        </div>
+      )}
+      {work.data.when && (
+        <div class="my-2">
+          <span class="has-text-weight-semibold">When:</span> {work.data.when}
+        </div>
+      )}
+      {work.data.where && (
+        <div class="my-2">
+          <span class="has-text-weight-semibold">Where:</span> {work.data.where}
+        </div>
+      )}
+      {work.data.partners && (
+        <div class="is-size-6">
+          <span class="has-text-weight-semibold">Partners:</span>{' '}
+          <span set:html={marked.parse(work.data.partners)} />
+        </div>
+      )}
+      {work.data.team && (
+        <div class="is-size-6">
+          <span class="has-text-weight-semibold">Team:</span>{' '}
+          <span set:html={marked.parse(work.data.team)} />
+        </div>
+      )}
+
+      <div class="description">
+        <Content />
+      </div>
+
+      {related.length > 0 && (
+        <div class="related">
+          <h5>Related Work</h5>
+          <div class="grid">
+            {related.map((rw) => (
+              <div class="grid-item">
+                <div class="thumbnail">
+                  <div>
+                    <a href={`/${rw.slug}/`}>
+                      {rw.data.thumbnail
+                        ? <img src={rw.data.thumbnail} alt={rw.data.title} />
+                        : <img src="https://placehold.co/1024x768" alt="" />
+                      }
+                    </a>
+                  </div>
+                </div>
+                <div class="preview">
+                  <a href={`/${rw.slug}/`}><h6 class="title">{rw.data.title}</h6></a>
+                  <div class="summary">
+                    {(rw.data.tags ?? []).map((tag) => (
+                      <span class="mr-2">
+                        <a href={`/${rw.data.categories}/#${tag}`} class="is-tag">
+                          #{tag}
+                        </a>
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  </section>
+</Layout>
+
+<script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('.image-carousel').slick({
+      autoplay: true,
+      autoplaySpeed: 6000,
+      pauseOnHover: false,
+      pauseOnFocus: false,
+      cssEase: 'linear',
+      arrows: false,
+      fade: true,
+      dots: false,
+    });
+
+    $('iframe[title="YouTube video player"]').wrap('<div class="youtube-video"></div>');
+  });
+
+  var grid = document.querySelector('.grid');
+  if (grid) {
+    imagesLoaded(grid, function () {
+      new Isotope(grid, {
+        layoutMode: 'fitRows',
+        itemSelector: '.grid-item',
+      });
+    });
+  }
+</script>

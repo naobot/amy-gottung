@@ -1,0 +1,80 @@
+---
+import { getCollection } from 'astro:content';
+import { navigation, siteConfig } from '../data/index.ts';
+
+const pathname = Astro.url.pathname;
+const cleanPath = pathname.replace(/\//g, '');
+const isWorkCategory = siteConfig.categories.some(
+  (c) => c.toLowerCase() === cleanPath.toLowerCase()
+);
+
+// Build a map of category slug → sorted unique tags for works in that category
+const allWorks = await getCollection('works');
+const tagsByCategory: Record<string, string[]> = {};
+for (const work of allWorks) {
+  const cat = work.data.categories;
+  if (!cat) continue;
+  if (!tagsByCategory[cat]) tagsByCategory[cat] = [];
+  for (const tag of work.data.tags ?? []) {
+    if (!tagsByCategory[cat].includes(tag)) tagsByCategory[cat].push(tag);
+  }
+}
+---
+
+<div class="nav-items is-flex-grow-3">
+  {navigation.items.filter((item) => item.visibility).map((item) => {
+    const cleanLink = item.link.replace(/\//g, '');
+    const isCurrent = cleanLink === cleanPath;
+
+    if (item.name === 'Work') {
+      const showCategories = isCurrent || isWorkCategory;
+      return (
+        <div class="work-categories-container" data-hover-only={!showCategories ? '' : undefined}>
+          <div class="nav-item">
+            <a href={item.link + '/'} class={isCurrent ? 'current' : ''}>{item.name}</a>
+          </div>
+          <div class={`work-categories${showCategories ? '' : ' hidden-nav'}`}>
+            {(item.categories ?? []).filter((c) => c.visibility).map((ctgy) => {
+              const cleanCtgyLink = ctgy.link.replace(/\//g, '');
+              const isCtgyCurrent = cleanCtgyLink === cleanPath;
+              const ctgyTags = tagsByCategory[cleanCtgyLink] ?? [];
+              return (
+                <>
+                  <div class="nav-item">
+                    <a href={ctgy.link + '/'} class={isCtgyCurrent ? 'current' : ''}>{ctgy.name}</a>
+                  </div>
+                  {isCtgyCurrent && ctgyTags.length > 0 && (
+                    <div class="ml-2 tags-bar">
+                      {ctgyTags.map((tag) => (
+                        <a href={`#${tag}`} onClick={`filterTag('${tag}')`} class={`is-tag ${tag}`}>
+                          #{tag}
+                        </a>
+                      ))}
+                    </div>
+                  )}
+                </>
+              );
+            })}
+          </div>
+        </div>
+      );
+    }
+
+    return (
+      <div class="nav-item">
+        <a href={item.link === '/' ? '/' : item.link + '/'} class={isCurrent ? 'current' : ''}>{item.name}</a>
+      </div>
+    );
+  })}
+</div>
+
+<script>
+  window.addEventListener('load', () => {
+    const container = document.querySelector<HTMLElement>('.work-categories-container');
+    const categories = document.querySelector<HTMLElement>('.work-categories');
+    if (container && categories && container.hasAttribute('data-hover-only')) {
+      container.addEventListener('mouseover', () => categories.classList.remove('hidden-nav'));
+      container.addEventListener('mouseout', () => categories.classList.add('hidden-nav'));
+    }
+  });
+</script>

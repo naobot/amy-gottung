@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import WorkList from '../components/WorkList.astro';
+import { getCollection } from 'astro:content';
+
+const works = await getCollection('works');
+---
+
+<Layout title="Work">
+  <WorkList works={works} showCategory={true} />
+</Layout>
