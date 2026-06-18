@@ -8,4 +8,14 @@ export default defineConfig({
       [rehypeExternalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] }],
     ],
   },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: 'modern-compiler',
+          silenceDeprecations: ['import', 'global-builtin', 'color-functions', 'if-function'],
+        },
+      },
+    },
+  },
 });
