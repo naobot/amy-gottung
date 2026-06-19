@@ -3,7 +3,7 @@ published: true
 title: My Friend Harry
 link: 'https://myfriendharryfilm.com/'
 client: Innis Duin Studios / Liz Cairns
-when: May 2025 - Oct 2026
+when: 2025-2026
 where: 'Vancouver, BC'
 team: >-
   Liz Cairns, Suzanne Friesen, Ryan Flowers, Ryan Ermacora, Jennifer Chiu, Tony
