@@ -14,7 +14,7 @@ tags:
   - documentary
 thumbnail: /assets/uploads/screenshot-2023-05-31-at-10.54.54-am.png
 images: []
-published: true
+published: false
 ---
 Produced and co-directed these spotlights of site-specific work for A MORE BEAUTIFUL JOURNEY: spatialized music for Toronto public transit.  
 
