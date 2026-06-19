@@ -1,20 +1,20 @@
 ---
-title: "Mini-docs - artist spotlights: A More Beautiful Journey"
+title: 'Mini-docs - artist spotlights: A More Beautiful Journey'
 client: Intersection Festival
 role: Producer / Co-Director
-team: "DOP/Editor: Adam Seward | Tomorrow Night Films; PA/1st AC- Callum Kelley
-  @vhsdeath8; AMBJ Marketing/Comms: Kat Cooper; Artist: Felipe Sena
-  @felipe7sena"
-partners: C﻿ity of Toronto, Music Gallery, et al.
-date: 2023-06-20T20:12:41.663Z
+team: >-
+  DOP/Editor: Adam Seward | Tomorrow Night Films; PA/1st AC- Callum Kelley
+  @vhsdeath8; AMBJ Marketing/Comms: Kat Cooper; Artist: Felipe Sena @felipe7sena
+partners: "C\uFEFFity of Toronto, Music Gallery, et al."
+date: '2023-06-20T20:12:41.663Z'
 categories: creative
 tags:
   - media
   - video
   - documentary
-thumbnail: /assets/uploads/screenshot-2023-06-20-at-1.27.41-pm.png
-images:
-  - image: /assets/uploads/screenshot-2023-05-31-at-10.54.54-am.png
+thumbnail: /assets/uploads/screenshot-2023-05-31-at-10.54.54-am.png
+images: []
+published: true
 ---
 Produced and co-directed these spotlights of site-specific work for A MORE BEAUTIFUL JOURNEY: spatialized music for Toronto public transit.  
 
