@@ -1,11 +1,12 @@
 ---
 title: Artist coaching / consulting
 client: >-
-  Various (incl): Sarah Ruba, K.A. Colorado, Jessy Lanza / Lanza Trio  
+  Various (incl): Sarah Ruba, K.A. Colorado, Jessy Lanza / Lanza Trio
   (documentary film project), Noam Lemish (composer/musician), Sylvain Sailly  
-  (artist) Seyblu (musician), Sara Elmagel (filmmaker), Radha Chaddah
-  (artist),   Edwin Huizinga (musician), Classical / Stereo Live Revolution
-  (independent   producer), Andrea Tyniec (musician)
+  (artist), Eldritch Priest, Karen Kazmer, Seyblu (musician), Sara Elmagel
+  (filmmaker), Eldritch Priest, Karen Radha Chaddah (artist),   Edwin Huizinga
+  (musician), Classical / Stereo Live Revolution (independent   producer),
+  Andrea Tyniec (musician)
 role: Consultant
 date: '2023-05-14T20:34:23.440Z'
 categories: consulting
