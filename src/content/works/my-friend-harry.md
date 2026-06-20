@@ -14,4 +14,4 @@ role: 'Associate Producer, Consultant'
 images: []
 thumbnail: /assets/uploads/mfh2.jpg
 ---
-Support with the development of a funding and investment strategy for Liz Cairns' feature documentary (in production), My Friend Harry. Prospect research and engagement strategies; grant application and pitch deck development; cultivation and solicitation coaching and consulting.
+Fund, investment, and distribution strategy and support for Liz Cairns' (now fully funded) documentary in production, My Friend Harry. Prospect research and cultivation; grant application and pitch deck development; solicitation consulting. Alt distribution strategy in development.
