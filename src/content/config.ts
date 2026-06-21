@@ -22,6 +22,7 @@ const works = defineCollection({
     thumbnail: z.string().optional(),
     images: z.array(z.object({ image: z.string() })).optional().default([]),
     date: z.coerce.date().optional(),
+    published: z.boolean().optional().default(true),
   }),
 });
 

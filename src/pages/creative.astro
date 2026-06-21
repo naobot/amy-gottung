@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import WorkList from '../components/WorkList.astro';
 import { getCollection } from 'astro:content';
 
-const works = await getCollection('works', ({ data }) => data.categories === 'creative');
+const works = await getCollection('works', ({ data }) => data.categories === 'creative' && data.published !== false);
 ---
 
 <Layout title="Creative">

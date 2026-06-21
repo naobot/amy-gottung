@@ -49,7 +49,7 @@ collections:
     create: true
     slug: '{{slug}}'
     preview_path: '{{slug}}'
-    folder: '_pages/'
+    folder: 'src/content/pages'
     fields:
       - {label: 'Layout', name: 'layout', widget: hidden, default: 'page'}
       - {label: 'Title', name: 'title', widget: string}
@@ -92,7 +92,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'works'
     label: 'All Work Items'
-    folder: '_works/'
+    folder: 'src/content/works'
     create: true
     slug: '{{slug}}'
     preview_path: '{{slug}}'

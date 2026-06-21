@@ -1,11 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { marked } from 'marked';
+import { marked } from '../utils/md.ts';
 import { workOrder } from '../data/index.ts';
 
 export async function getStaticPaths() {
-  const works = await getCollection('works');
+  const works = await getCollection('works', ({ data }) => data.published !== false);
   return works.map((work) => ({
     params: { slug: work.slug },
     props: { work },
@@ -20,7 +20,7 @@ const images = work.data.images ?? [];
 const category = work.data.categories ?? '';
 
 // Related works: other works sharing at least one tag, filtered to those in workOrder
-const allWorks = await getCollection('works');
+const allWorks = await getCollection('works', ({ data }) => data.published !== false);
 const workOrderSlugs = new Set(workOrder);
 const related = allWorks.filter(
   (w) =>
