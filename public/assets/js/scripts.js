@@ -8,6 +8,13 @@ window.addEventListener('load', function () {
     var html = converter.makeHtml(md);
     elem.innerHTML = html;
 
+    // remove embedded videos from list-view previews
+    for (const tag of ['iframe', 'video', 'embed', 'object']) {
+      for (const el of Array.from(elem.getElementsByTagName(tag))) {
+        el.remove();
+      }
+    }
+
     // external links open in new tab
     // (jekyll-target-blank does not work on yml data)
     for (const link of elem.getElementsByTagName('a')) {
