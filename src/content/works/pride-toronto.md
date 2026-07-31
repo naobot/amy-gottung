@@ -6,4 +6,4 @@ categories: consulting
 thumbnail: /assets/uploads/960px-pride_toronto_logo_-circa_2024-.png
 published: true
 ---
-Feasibilty research and strategy for a cybersecurity research project on safety for 2SLGBTQI+ communities.
+Funding feasibilty research and strategy for a cybersecurity research project on safety for 2SLGBTQI+ communities.
