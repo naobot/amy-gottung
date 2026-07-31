@@ -1,6 +1,6 @@
 ---
 published: true
-title: Airsa Newcomer Artist Network
+title: AIRSA
 client: Arts in Refugee and Immigrant Society Association (AIRSA)
 role: Consultant
 team: ''
