@@ -16,7 +16,7 @@ window.addEventListener('load', function () {
     }
 
     // external links open in new tab
-    // (jekyll-target-blank does not work on yml data)
+    // (the rehype-external-links build step does not reach client-rendered markdown)
     for (const link of elem.getElementsByTagName('a')) {
       const href = link.host;
       if (!internal.test(href)) {
