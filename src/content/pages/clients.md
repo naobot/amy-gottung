@@ -1,6 +1,8 @@
 ---
 title: Client Roster
 ---
+**CLIENTS & PARTNERS INCLUDE**
+
 [Keychange](https://www.keychange.eu/)
 
 [VibeLab](https://vibe-lab.org/)
