@@ -1,16 +1,18 @@
 ---
-title: "Mini-docs - neighbourhood spotlights: A More Beautiful Journey"
-role: Creative Producer
-when: "2023"
-team: "DOP/Editor: Adam Seward | Tomorrow Night Films; PA/1st AC: Callum Kelley
-  @vhsdeath8; AMBJ Marketing/Comms: Kat Cooper"
-partners: K﻿at Cooper (communications)
-date: 2023-05-31T14:50:44.281Z
+title: 'Mini-docs - neighbourhood spotlights: A More Beautiful Journey'
+role: Producer / Co-Director
+when: '2023'
+team: >-
+  DOP/Editor: Adam Seward | Tomorrow Night Films; PA/1st AC: Callum Kelley
+  @vhsdeath8; AMBJ Marketing/Comms: Kat Cooper
+partners: "K\uFEFFat Cooper (communications)"
+date: '2023-05-31T14:50:44.281Z'
 categories: creative
 tags:
   - media
   - documentary
 thumbnail: /assets/uploads/screenshot-2023-05-31-at-10.54.54-am.png
+published: false
 ---
 Commissioned, p﻿roduced and co-directed three quick digital features on Toronto artists and their site-specific work of the 2023 AR sound project for public transit.
 
