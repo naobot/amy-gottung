@@ -10,4 +10,4 @@ when: '2017'
 where: Toronto
 thumbnail: /assets/uploads/airsa1-.png
 ---
-
+Arts in Refugee and Immigrant Society Association (AIRSA)
