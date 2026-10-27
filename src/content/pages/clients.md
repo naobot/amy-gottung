@@ -83,6 +83,8 @@ MCLP Projects / [Red Sky Performance](https://www.redskyperformance.com/)
 
 [Jessy Lanza](https://jessylanza.com/)
 
+[UNIT/PITT](https://www.unitpitt.ca/)
+
 [Sylvain Sailly](http://www.zszsvzszs.com/)
 
 [Radha Chaddah](https://www.radhachaddah.com/)
