@@ -77,6 +77,8 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [City of Toronto](https://www.toronto.ca/)
 
+MCLP Projects / [Red Sky Performance](https://www.redskyperformance.com/)
+
 [Noam Lemish](https://www.noamlemish.com/)
 
 [Jessy Lanza](https://jessylanza.com/)
