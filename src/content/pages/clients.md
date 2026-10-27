@@ -67,6 +67,8 @@ North York Food Cluster ([North York Community House](https://www.nych.ca/) & fr
 
 [K.A. Colorado](https://www.kacoloradoart.com/)
 
+[Newman Consulting](https://newmanconsulting.ca/) / [Parkland Food Bank](https://parklandfoodbank.org/)
+
 [Harbourfront Centre](http://www.harbourfrontcentre.com/)
 
 [Duplex](https://www.instagram.com/duplexartistsociety/)
