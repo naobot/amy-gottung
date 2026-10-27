@@ -1,13 +1,13 @@
 ---
 title: Alter-Places
-link: https://alterplaces.com/
-client: Creative Europe, Sorbonne Nouvelle, La Station-Gare des Mines
-role: Core partner, curator, researcher
+link: 'https://alterplaces.com/'
+client: 'Creative Europe, Sorbonne Nouvelle, La Station-Gare des Mines'
+role: 'Core partner, curator, researcher'
 when: 2023-2025
-where: E﻿urope
-team: N﻿atalia Bobadilla, Olivier LeGal, Gaspard Bourgeois, et al.
-partners: E﻿uropean Union
-date: 2024-10-31T17:05:48.283Z
+where: "E\uFEFFurope"
+team: "N\uFEFFatalia Bobadilla, Olivier LeGal, Gaspard Bourgeois, et al."
+partners: "E\uFEFFuropean Union"
+date: '2024-10-31T17:05:48.283Z'
 categories: consulting
 tags:
   - cultural_space
@@ -19,7 +19,12 @@ images:
   - image: /assets/uploads/whatsapp-image-2024-09-07-to-10.21.35_cecb52bf.jpg
   - image: /assets/uploads/img_1494.jpg
   - image: /assets/uploads/whatsapp-image-2024-09-05-to-19.46.20_32008ca7.jpg
+published: true
 ---
+One of seven research and programming leads for this﻿ transnational, European Union-funded project about the sustainability of alternative cultural places and ecosystems. Helped secure Creative Europe funding and prepare reports; engaged experts; co-curated and facilitated panels, workshops, and exhibitions for a project that ran in five different countries over 1.5 years. Research led by Dr. Natalia Bobadilla and team from Université Sorbonne Nouvelle (LabEx) in Paris, France.
+
+The project:
+
 A﻿ collaborative initiative by a network of cultural spaces, researchers, and networks across Europe and Canada, and funded by a grant from the European Union, Alter-Places is a cooperative project about sustainable practices, exploring the value and contribution of sustainable practices implemented by Alternative Cultural Places in the development of green, fair, diverse urban ecosystems through collaborative work.
 
 The project extends over 2024-2025 and brings together 5 European alternative cultural places, the Canadian expert DIY Space Project (a project I founded in 2021), the European network Trans Europe Halles and the interdisciplinary research laboratory LabEx ICCA.
