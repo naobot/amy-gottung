@@ -21,7 +21,7 @@ images:
   - image: /assets/uploads/whatsapp-image-2024-09-05-to-19.46.20_32008ca7.jpg
 published: true
 ---
-One of seven research and programming leads for this﻿ transnational, European Union-funded project about the sustainability of alternative cultural places and ecosystems. Helped secure Creative Europe funding and prepare reports; engaged experts; co-curated and facilitated panels, workshops, and exhibitions for a project that ran in five different countries over 1.5 years. Research led by Dr. Natalia Bobadilla and team from Université Sorbonne Nouvelle (LabEx) in Paris, France.
+One of seven research and programming leads for this﻿ transnational, European Union-funded project about the sustainability of alternative cultural places and ecosystems. Helped secure Creative Europe funding and prepare reports; co-curated and facilitated panels, workshops, and exhibitions for a project that ran in five different countries over 1.5 years. Research led by Dr. Natalia Bobadilla and team from Université Sorbonne Nouvelle (LabEx) in Paris, France.
 
 The project:
 
